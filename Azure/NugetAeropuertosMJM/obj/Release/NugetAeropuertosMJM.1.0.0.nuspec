@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NugetAeropuertosMJM</id>
+    <version>1.0.0</version>
+    <title>NugetAeropuertosMJM</title>
+    <authors>Mario Jiménez Marset</authors>
+    <icon>shadow-of-the-tomb-raider.jpg</icon>
+    <description>El nuget de aeropuertos</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\bin\Release\net9.0\NugetAeropuertosMJM.dll" target="lib\net9.0\NugetAeropuertosMJM.dll" />
+    <file src="C:\Users\mvrset\Pictures\Fondos\shadow-of-the-tomb-raider.jpg" target="\shadow-of-the-tomb-raider.jpg" />
+  </files>
+</package>

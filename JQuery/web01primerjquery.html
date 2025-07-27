@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+    <style>
+        .azul {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Para los comentarios CTRL + K + C -->
+    <!-- Para descomentar CTRL + K + U -->
+    <h1>Selectores jQuery</h1>
+    <button id="boton1">Pulsar para algo...</button>
+    <h2 class="azul">Soy un título azul</h2>
+    <button class="azul">Botón azul</button>
+    <p>Aprendiendo jQuery</p>
+    <script>
+        // Aquí el código jQuery
+        // La primera línea será la que realice las acciones
+        // al cargar la página
+        $(document).ready(function () {
+            alert("Mi primera app!!!");
+            // Selector de etiqueta HTML
+            // $("h1").hide();
+            // Selector de ID
+            // $("#boton1").hide();
+            $("p").click(function () {
+                // Imprescindible para el desarrollo front
+                // lanzar mensajes por la consola
+                console.log("Clicaste en el parrafo");
+                // This es una palabra clave que hace referencia
+                // al objeto que ha realizado la llamada al método
+                $(this).hide();
+            });
+            $("#boton1").click(function () {
+                alert("Clicaste en el botón");
+            });
+
+        });
+    </script>
+</body>
+
+</html>

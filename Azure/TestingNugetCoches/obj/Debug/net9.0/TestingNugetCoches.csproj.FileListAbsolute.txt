@@ -1,0 +1,17 @@
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\bin\Debug\net9.0\TestingNugetCoches.exe
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\bin\Debug\net9.0\TestingNugetCoches.deps.json
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\bin\Debug\net9.0\TestingNugetCoches.runtimeconfig.json
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\bin\Debug\net9.0\TestingNugetCoches.dll
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\bin\Debug\net9.0\TestingNugetCoches.pdb
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\bin\Debug\net9.0\NugetCoches.dll
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\TestingNugetCoches.csproj.AssemblyReference.cache
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\TestingNugetCoches.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\TestingNugetCoches.AssemblyInfoInputs.cache
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\TestingNugetCoches.AssemblyInfo.cs
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\TestingNugetCoches.csproj.CoreCompileInputs.cache
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\TestingN.B6C39CD0.Up2Date
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\TestingNugetCoches.dll
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\refint\TestingNugetCoches.dll
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\TestingNugetCoches.pdb
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\TestingNugetCoches.genruntimeconfig.cache
+C:\Users\mvrset\source\repos\marsett\TestingNugetCoches\obj\Debug\net9.0\ref\TestingNugetCoches.dll

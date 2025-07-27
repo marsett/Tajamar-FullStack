@@ -1,0 +1,11 @@
+C:\Users\mvrset\source\repos\marsett\NugetCoches\bin\Release\net9.0\NugetCoches.deps.json
+C:\Users\mvrset\source\repos\marsett\NugetCoches\bin\Release\net9.0\NugetCoches.dll
+C:\Users\mvrset\source\repos\marsett\NugetCoches\bin\Release\net9.0\NugetCoches.pdb
+C:\Users\mvrset\source\repos\marsett\NugetCoches\obj\Release\net9.0\NugetCoches.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvrset\source\repos\marsett\NugetCoches\obj\Release\net9.0\NugetCoches.AssemblyInfoInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetCoches\obj\Release\net9.0\NugetCoches.AssemblyInfo.cs
+C:\Users\mvrset\source\repos\marsett\NugetCoches\obj\Release\net9.0\NugetCoches.csproj.CoreCompileInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetCoches\obj\Release\net9.0\NugetCoches.dll
+C:\Users\mvrset\source\repos\marsett\NugetCoches\obj\Release\net9.0\refint\NugetCoches.dll
+C:\Users\mvrset\source\repos\marsett\NugetCoches\obj\Release\net9.0\NugetCoches.pdb
+C:\Users\mvrset\source\repos\marsett\NugetCoches\obj\Release\net9.0\ref\NugetCoches.dll

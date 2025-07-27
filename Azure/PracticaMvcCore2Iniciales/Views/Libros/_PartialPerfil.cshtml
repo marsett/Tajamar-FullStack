@@ -1,0 +1,11 @@
+﻿<div class="row">
+    <div class="col-3">
+        <img class="w-75" src="~/images/@Context.User.FindFirst("Foto").Value" />
+    </div>
+    <div class="col-6">
+        <h1>Nombre: @Context.User.FindFirst("Nombre").Value</h1>
+        <h3>Apellidos: @Context.User.FindFirst("Apellidos").Value</h3>
+        <h4>Email: @Context.User.Identity.Name</h4>
+        <a class="btn btn-success" asp-controller="Libros" asp-action="Pedidos">Mis Pedidos</a>
+    </div>
+</div>

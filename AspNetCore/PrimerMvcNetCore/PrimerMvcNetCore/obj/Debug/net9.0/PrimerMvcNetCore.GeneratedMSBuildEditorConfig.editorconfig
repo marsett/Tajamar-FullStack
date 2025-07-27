@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PrimerMvcNetCore
+build_property.RootNamespace = PrimerMvcNetCore
+build_property.ProjectDir = C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\PrimerMvcNetCore\PrimerMvcNetCore\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\PrimerMvcNetCore\PrimerMvcNetCore
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Informacion/ControladorVista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYWNpb25cQ29udHJvbGFkb3JWaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Informacion/ControladorVistaModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYWNpb25cQ29udHJvbGFkb3JWaXN0YU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Informacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYWNpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Informacion/VistaControllerGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYWNpb25cVmlzdGFDb250cm9sbGVyR2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Informacion/VistaControllerPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYWNpb25cVmlzdGFDb250cm9sbGVyUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Matematicas/ConjeturaCollatz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljYXNcQ29uamV0dXJhQ29sbGF0ei5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Matematicas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Matematicas/SumarNumerosGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljYXNcU3VtYXJOdW1lcm9zR2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Matematicas/SumarNumerosPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljYXNcU3VtYXJOdW1lcm9zUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Matematicas/TablaMultiplicarModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljYXNcVGFibGFNdWx0aXBsaWNhck1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Matematicas/TablaMultiplicarSimple.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljYXNcVGFibGFNdWx0aXBsaWNhclNpbXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Prueba/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJ1ZWJhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Prueba/PrimeraPagina.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJ1ZWJhXFByaW1lcmFQYWdpbmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/source/repos/marsett/Tajamar-FullStack/aspnetcore/PrimerMvcNetCore/PrimerMvcNetCore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8kop0tckf2

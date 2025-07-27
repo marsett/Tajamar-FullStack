@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "xmDEPURq0FDPLktLIUTwqTT8He1gNRKwC859TEbHtbA=",
+  "Source": "ApiAzureStorageTokens",
+  "BasePath": "_content/ApiAzureStorageTokens",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

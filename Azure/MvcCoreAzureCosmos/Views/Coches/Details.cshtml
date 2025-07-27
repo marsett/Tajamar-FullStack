@@ -1,0 +1,48 @@
+﻿@model MvcCoreAzureCosmos.Models.Coche
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Coche</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Imagen)
+        </dt>
+        @if(Model.Motor != null){
+            <dd class="col-sm-10">
+                <p>Tipo: @Model.Motor.Tipo</p>
+                <p>Cilindrada: @Model.Motor.Cilindrada</p>
+                <p>Caballos: @Model.Motor.Caballos</p>
+            </dd>
+        }
+        <dd class="col-sm-10">
+            <img src="@Model.Imagen" style="width: 120px; height: 120px;" />
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-controller="Coches" asp-action="MisCoches">Back to List</a>
+</div>

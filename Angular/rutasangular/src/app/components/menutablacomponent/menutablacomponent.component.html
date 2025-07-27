@@ -1,0 +1,7 @@
+<div>
+    <ul id="menu">
+        <li *ngFor=" let num of aleatorios">
+            <a [routerLink]="['/tabla', num]">Tabla Multiplicar Routing {{ num }}</a> |
+        </li>
+    </ul>
+</div>

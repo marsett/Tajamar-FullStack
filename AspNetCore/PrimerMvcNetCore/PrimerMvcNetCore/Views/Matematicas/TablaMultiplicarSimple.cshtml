@@ -1,0 +1,22 @@
+﻿@model List<int>
+
+<h2 style="color: blue;">
+    Tabla Multiplicar Simple
+</h2>
+
+<form method="post">
+    <label>Tabla Multiplicar</label>
+    <input type="text" name="numero" class="form-control" />
+    <button class="btn btn-outline-warning">Mostrar tabla</button>
+</form>
+
+@if (Model != null)
+{
+    <h1>Tabla del @ViewData["NUMERO"]</h1>
+    <ul>
+        @foreach (int num in Model)
+        {
+            <li>@num</li>
+        }
+    </ul>
+}

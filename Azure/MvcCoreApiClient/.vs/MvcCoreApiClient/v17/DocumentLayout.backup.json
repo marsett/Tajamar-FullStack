@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\views\\hospitales\\servidor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:views\\hospitales\\servidor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\views\\hospitales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:views\\hospitales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\controllers\\hospitalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:controllers\\hospitalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\services\\servicehospitales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:services\\servicehospitales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\views\\hospitales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:views\\hospitales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreapiclient\\views\\hospitales\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15970B35-2A94-4B5C-8113-54260E2DDF67}|MvcCoreApiClient.csproj|solutionrelative:views\\hospitales\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Hospitales\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hospitales\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Hospitales\\Details.cshtml",
+              "RelativeToolTip": "Views\\Hospitales\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T08:23:56.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T08:11:15.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceHospitales.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Services\\ServiceHospitales.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceHospitales.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Services\\ServiceHospitales.cs",
+              "RelativeToolTip": "Services\\ServiceHospitales.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:54:02.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Hospitales\\Cliente.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hospitales\\Cliente.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Hospitales\\Cliente.cshtml",
+              "RelativeToolTip": "Views\\Hospitales\\Cliente.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T10:46:23.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Servidor.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Hospitales\\Servidor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hospitales\\Servidor.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Hospitales\\Servidor.cshtml",
+              "RelativeToolTip": "Views\\Hospitales\\Servidor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T12:13:16.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Hospitales\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hospitales\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Hospitales\\Index.cshtml",
+              "RelativeToolTip": "Views\\Hospitales\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:35:49.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HospitalesController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Controllers\\HospitalesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HospitalesController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Controllers\\HospitalesController.cs",
+              "RelativeToolTip": "Controllers\\HospitalesController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:44:32.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Hospital.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Models\\Hospital.cs",
+              "RelativeDocumentMoniker": "Models\\Hospital.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Models\\Hospital.cs",
+              "RelativeToolTip": "Models\\Hospital.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:50:21.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:42:01.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreApiClient\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:29:55.55Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

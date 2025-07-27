@@ -1,0 +1,26 @@
+﻿<h1>Listado de Productos</h1>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+    <label>Dirección de envío</label>
+    <input type="text" name="direccion" class="form-control" />
+    <button class="btn btn-info">Realizar pedido</button>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <input type="checkbox" name="producto"
+                value="Tesla 40.000€" /> Tesla 40.000€
+        </li>
+        <li class="list-group-item">
+            <input type="checkbox" name="producto"
+                   value="IPhone 5.000€" /> IPhone 5.000€
+        </li>
+        <li class="list-group-item">
+            <input type="checkbox" name="producto"
+                   value="Ordenador Gaming 2.500€" /> Ordenador Gaming 2.500€
+        </li>
+        <li class="list-group-item">
+            <input type="checkbox" name="producto"
+                   value="Árbitros Negreira 900.000€" /> Árbitros Negreira 900.000€
+        </li>
+    </ul>
+</form>

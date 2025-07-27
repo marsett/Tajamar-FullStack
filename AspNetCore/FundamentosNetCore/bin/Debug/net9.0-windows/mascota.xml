@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mascota xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Nombre>PLUTO</Nombre>
+  <Raza>Amarillo</Raza>
+  <Years>97</Years>
+</Mascota>

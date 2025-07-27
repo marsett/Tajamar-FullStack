@@ -1,0 +1,21 @@
+﻿<h1>Create Departamento</h1>
+
+<p>
+    <a asp-controller="Departamentos"
+       asp-action="Index"
+       class="btn btn-secondary">
+        Volver
+    </a>
+</p>
+
+<form method="post">
+    <label>Id Departamento: </label>
+    <input type="text" name="iddepartamento" class="form-control" />
+    <label>Nombre: </label>
+    <input type="text" name="nombre" class="form-control" />
+    <label>Localidad: </label>
+    <input type="text" name="localidad" class="form-control" />
+    <button class="btn btn-success">
+        Insertar Departamento
+    </button>
+</form>

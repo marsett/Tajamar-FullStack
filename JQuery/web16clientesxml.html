@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+    <style>
+        img {
+            width: 20%;
+            height: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Clientes XML</h1>
+    <div id="contenedor"></div>
+    <div id="contenedorID"></div>
+    <script>
+        // Debemos dibujar un botón por cada Cliente del documento.
+        // Los botones mostrarán el nombre del Cliente.
+        // Al pulsar el botón del Cliente, se mostrarán sus datos.
+        $(document).ready(function () {
+            // URL general: https://apiclientesxml.azurewebsites.net/index.html
+            // Este es /api/Clientes
+            var url = "https://apiclientesxml.azurewebsites.net/api/Clientes";
+            $.get(url, function (data) {
+                console.log("Leyendo el servicio");
+                var numeroElementos = $(data).find("Cliente").length;
+                console.log("Elementos: " + numeroElementos);
+
+                $(data).find("Cliente").each(function () {
+                    var nombre = $(this).find("Nombre").text();
+                    var idCliente = $(this).find("IdCliente").text();
+
+                    var boton = $("<button>", { "text": nombre });
+                    boton.attr("data-id", idCliente);
+
+                    $("#contenedor").append(boton);
+
+                    boton.click(function () {
+                        var clienteId = $(this).attr("data-id");
+
+                        $("#contenedorID").html("");
+
+                        // Buscar el cliente con el ID correspondiente
+                        $(data).find("Cliente").each(function () {
+                            var id = $(this).find("IdCliente").text();
+                            if (id === clienteId) {
+                                var nombre = $(this).find("Nombre").text();
+                                var email = $(this).find("Email").text();
+                                var paginaweb = $(this).find("PaginaWeb").text();
+                                var ruta = $(this).find("Imagen").text();
+
+                                var html = '';
+                                html += "<li>Nombre: " + nombre + "</li>";
+                                html += "<li>Email: " + email + "</li>";
+                                html += "<li>Página Web: " + paginaweb + "</li>";
+
+                                $("#contenedorID").append(html);
+
+                                // Comprobar si la ruta está vacía o no existe
+                                if (ruta && ruta.trim() !== "") {
+                                    var imagen = $("<img>", { "src": ruta, "alt": nombre });
+                                    $("#contenedorID").append(imagen);
+                                } else {
+                                    $("#contenedorID").append("<p>No existe una imagen para este personaje</p>");
+                                }
+                            }
+                        });
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

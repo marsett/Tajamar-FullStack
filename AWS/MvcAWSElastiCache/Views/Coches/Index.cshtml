@@ -1,0 +1,127 @@
+﻿@model List<Coche>
+
+@{
+    ViewData["Title"] = "Listado de Coches";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="mb-4">@ViewData["Title"]</h2>
+        </div>
+    </div>
+
+    <!-- Lista de coches -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h4 class="card-title mb-0">Coches Disponibles</h4>
+                    <span class="badge bg-primary">@(Model?.Count ?? 0) coches</span>
+                </div>
+                <div class="card-body">
+                    @if (Model != null && Model.Any())
+                    {
+                        <div class="row">
+                            @foreach (var coche in Model)
+                            {
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card h-100 shadow-sm">
+                                        <div class="card-img-top-container" style="height: 200px; overflow: hidden;">
+                                            @if (!string.IsNullOrEmpty(coche.Imagen))
+                                            {
+                                                <img src="@coche.Imagen" class="card-img-top h-100 w-100"
+                                                     alt="@coche.Marca @coche.Modelo" style="object-fit: cover;">
+                                            }
+                                            else
+                                            {
+                                                <div class="d-flex align-items-center justify-content-center h-100 bg-light">
+                                                    <i class="fas fa-car fa-3x text-muted"></i>
+                                                </div>
+                                            }
+                                        </div>
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">@coche.Marca</h5>
+                                            <p class="card-text">@coche.Modelo</p>
+                                            <div class="mt-auto">
+                                                <small class="text-muted">ID: @coche.IdCoche</small>
+                                                <div class="d-grid mt-2">
+                                                    <button type="button" class="btn btn-primary"
+                                                            data-bs-toggle="modal" data-bs-target="#detalleModal@(coche.IdCoche)">
+                                                        <i class="fas fa-eye"></i> Ver Detalles
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Modal de detalles -->
+                                <div class="modal fade" id="detalleModal@(coche.IdCoche)" tabindex="-1">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Detalles del Coche</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        @if (!string.IsNullOrEmpty(coche.Imagen))
+                                                        {
+                                                            <img src="@coche.Imagen" class="img-fluid rounded" alt="@coche.Marca @coche.Modelo">
+                                                        }
+                                                        else
+                                                        {
+                                                            <div class="d-flex align-items-center justify-content-center bg-light rounded" style="height: 300px;">
+                                                                <i class="fas fa-car fa-5x text-muted"></i>
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h3 class="mb-3">@coche.Marca @coche.Modelo</h3>
+                                                        <table class="table table-borderless">
+                                                            <tr>
+                                                                <td><strong>ID:</strong></td>
+                                                                <td>@coche.IdCoche</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Marca:</strong></td>
+                                                                <td>@coche.Marca</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Modelo:</strong></td>
+                                                                <td>@coche.Modelo</td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                            <a asp-controller="Coches"
+                                               asp-action="SeleccionarFavorito"
+                                               asp-route-idcoche="@coche.IdCoche"
+                                               class="btn btn-warning">
+                                                Favorito
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-5">
+                            <i class="fas fa-car fa-3x text-muted mb-3"></i>
+                            <h5 class="text-muted">No hay coches disponibles</h5>
+                            <p class="text-muted">Actualmente no hay coches registrados en el sistema.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

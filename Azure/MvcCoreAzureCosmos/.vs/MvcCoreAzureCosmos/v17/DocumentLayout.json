@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\services\\servicecosmosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:services\\servicecosmosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\views\\coches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:views\\coches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\views\\coches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:views\\coches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\controllers\\cochescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:controllers\\cochescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\models\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:models\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\views\\coches\\miscoches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:views\\coches\\miscoches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\views\\coches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:views\\coches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\views\\coches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:views\\coches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoreazurecosmos\\models\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EA0E65-7E6C-4886-8B9C-0DB7DD918D5D}|MvcCoreAzureCosmos.csproj|solutionrelative:models\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coches\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\Details.cshtml",
+              "RelativeToolTip": "Views\\Coches\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T11:07:24.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MisCoches.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\MisCoches.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coches\\MisCoches.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\MisCoches.cshtml",
+              "RelativeToolTip": "Views\\Coches\\MisCoches.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T11:03:05.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CochesController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Controllers\\CochesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CochesController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Controllers\\CochesController.cs",
+              "RelativeToolTip": "Controllers\\CochesController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:51:10.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Motor.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Models\\Motor.cs",
+              "RelativeDocumentMoniker": "Models\\Motor.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Models\\Motor.cs",
+              "RelativeToolTip": "Models\\Motor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:27:16.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceCosmosDb.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Services\\ServiceCosmosDb.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceCosmosDb.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Services\\ServiceCosmosDb.cs",
+              "RelativeToolTip": "Services\\ServiceCosmosDb.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwGAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:37:30.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coches\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\Create.cshtml",
+              "RelativeToolTip": "Views\\Coches\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T11:06:04.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coches\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Coches\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T11:08:32.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coches\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Coches\\Index.cshtml",
+              "RelativeToolTip": "Views\\Coches\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T11:09:06.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:45:23.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-04T10:44:04.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T11:12:41.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Coche.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Models\\Coche.cs",
+              "RelativeDocumentMoniker": "Models\\Coche.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreAzureCosmos\\Models\\Coche.cs",
+              "RelativeToolTip": "Models\\Coche.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:31:38.891Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

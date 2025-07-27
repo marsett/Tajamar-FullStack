@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Documento JSON simple</h1>
+    <button id="botonload">Cargar tareas simples</button>
+    <ul id="tareas"></ul>
+    <script>
+        $(document).ready(function () {
+            $("#botonload").click(function () {
+                $.getJSON("documents/tareas.json", function (data) {
+                    console.log("Leyendo");
+                    // Documento simple devuelve Key/Value
+                    var html = "";
+                    $.each(data, function (key, value) {
+                        html += "<li>Key: " + key + ", Value: " + value + "</li>";
+                    });
+                    $("#tareas").html(html);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

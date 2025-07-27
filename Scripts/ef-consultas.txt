@@ -1,0 +1,57 @@
+ create procedure SP_TODOS_ENFERMOS
+as
+	select * from ENFERMO
+go
+create procedure SP_FIND_ENFERMO
+(@inscripcion nvarchar(50))
+as
+	select * from ENFERMO where INSCRIPCION=@inscripcion
+go
+create procedure SP_DELETE_ENFERMO
+(@inscripcion nvarchar(50))
+as
+	delete from ENFERMO where INSCRIPCION=@inscripcion
+go
+create procedure SP_INSERT_ENFERMO
+(	
+	@apellido nvarchar(50),
+	@direccion nvarchar(50),
+	@fechanacimiento DateTime,
+	@sexo nvarchar(1)
+)
+as
+	declare @maxid int;
+	select @maxid = max(CAST(INSCRIPCION AS INT)) + 1 from ENFERMO
+	declare @nss bigint;
+	set @nss = CAST(RAND() * 1000000000 AS bigint);
+	insert into ENFERMO (INSCRIPCION, APELLIDO, DIRECCION, FECHA_NAC, S, NSS)
+	values (@maxid, @apellido, @direccion, @fechanacimiento, @sexo, @nss)
+go
+create procedure SP_GET_DOCTORES
+as
+	select * from DOCTOR
+go
+
+create procedure SP_UPDATE_SALARIO_DOCTOR
+(@especialidad nvarchar(50), @salario int)
+as
+	begin
+		update DOCTOR
+		set SALARIO = SALARIO + @salario
+		where ESPECIALIDAD = @especialidad;
+	end
+go
+select 
+ROW_NUMBER() over (order by APELLIDO) as ID,
+APELLIDO, OFICIO from EMP
+
+create view V_EMPLEADOS_DEPARTAMENTOS
+as
+	select ISNULL(ROW_NUMBER() over (order by APELLIDO), 0) as ID,
+	EMP.APELLIDO, EMP.OFICIO, EMP.SALARIO,
+	DEPT.DNOMBRE AS DEPARTAMENTO,
+	DEPT.LOC AS LOCALIDAD
+	from EMP
+	inner join DEPT
+	on EMP.DEPT_NO = DEPT.DEPT_NO
+go

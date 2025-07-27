@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcore\\adonetcore\\repositories\\repositoryparametrosout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|solutionrelative:adonetcore\\repositories\\repositoryparametrosout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcore\\adonetcore\\form13parametrossalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|solutionrelative:adonetcore\\form13parametrossalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcore\\adonetcore\\form10updateempleadosoficios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|solutionrelative:adonetcore\\form10updateempleadosoficios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcore\\adonetcore\\form10updateempleadosoficios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|solutionrelative:adonetcore\\form10updateempleadosoficios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcore\\adonetcore\\form12mensajesservidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|solutionrelative:adonetcore\\form12mensajesservidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcore\\adonetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|solutionrelative:adonetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcore\\adonetcore\\helpers\\helperconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|solutionrelative:adonetcore\\helpers\\helperconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcore\\adonetcore\\form14settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|solutionrelative:adonetcore\\form14settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcore\\adonetcore\\form14settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9DE0384-08AA-4AA4-BFD0-97041ED26455}|AdoNetCore\\AdoNetCore.csproj|solutionrelative:adonetcore\\form14settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form10UpdateEmpleadosOficios.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form10UpdateEmpleadosOficios.cs",
+              "RelativeDocumentMoniker": "AdoNetCore\\Form10UpdateEmpleadosOficios.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form10UpdateEmpleadosOficios.cs",
+              "RelativeToolTip": "AdoNetCore\\Form10UpdateEmpleadosOficios.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:41:05.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form10UpdateEmpleadosOficios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form10UpdateEmpleadosOficios.cs",
+              "RelativeDocumentMoniker": "AdoNetCore\\Form10UpdateEmpleadosOficios.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form10UpdateEmpleadosOficios.cs [Design]",
+              "RelativeToolTip": "AdoNetCore\\Form10UpdateEmpleadosOficios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:41:00.793Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form12MensajesServidor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form12MensajesServidor.cs",
+              "RelativeDocumentMoniker": "AdoNetCore\\Form12MensajesServidor.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form12MensajesServidor.cs [Design]",
+              "RelativeToolTip": "AdoNetCore\\Form12MensajesServidor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:40:55.872Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form13ParametrosSalida.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form13ParametrosSalida.cs",
+              "RelativeDocumentMoniker": "AdoNetCore\\Form13ParametrosSalida.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form13ParametrosSalida.cs",
+              "RelativeToolTip": "AdoNetCore\\Form13ParametrosSalida.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:37:12.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryParametrosOut.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Repositories\\RepositoryParametrosOut.cs",
+              "RelativeDocumentMoniker": "AdoNetCore\\Repositories\\RepositoryParametrosOut.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Repositories\\RepositoryParametrosOut.cs",
+              "RelativeToolTip": "AdoNetCore\\Repositories\\RepositoryParametrosOut.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwE8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:41:18.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\appsettings.json",
+              "RelativeDocumentMoniker": "AdoNetCore\\appsettings.json",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\appsettings.json",
+              "RelativeToolTip": "AdoNetCore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-21T12:39:40.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form14Settings.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form14Settings.cs",
+              "RelativeDocumentMoniker": "AdoNetCore\\Form14Settings.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form14Settings.cs",
+              "RelativeToolTip": "AdoNetCore\\Form14Settings.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:23:20.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HelperConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Helpers\\HelperConfiguration.cs",
+              "RelativeDocumentMoniker": "AdoNetCore\\Helpers\\HelperConfiguration.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Helpers\\HelperConfiguration.cs",
+              "RelativeToolTip": "AdoNetCore\\Helpers\\HelperConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:38:25.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form14Settings.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form14Settings.cs",
+              "RelativeDocumentMoniker": "AdoNetCore\\Form14Settings.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCore\\AdoNetCore\\Form14Settings.cs [Design]",
+              "RelativeToolTip": "AdoNetCore\\Form14Settings.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:17:58.823Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

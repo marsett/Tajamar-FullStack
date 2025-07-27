@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\services\\servicedynamodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:services\\servicedynamodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\views\\coches\\buscador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:views\\coches\\buscador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\views\\coches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:views\\coches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\views\\coches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:views\\coches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\controllers\\cochescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:controllers\\cochescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\views\\coches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:views\\coches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\models\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:models\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\models\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:models\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcdynamodbcoches\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D75C0C78-82CC-4478-924B-5B41BFC21293}|MvcDynamoDbCoches.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Coches\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coches\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Coches\\Create.cshtml",
+              "RelativeToolTip": "Views\\Coches\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T07:55:49.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CochesController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Controllers\\CochesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CochesController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Controllers\\CochesController.cs",
+              "RelativeToolTip": "Controllers\\CochesController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:50:07.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceDynamoDb.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Services\\ServiceDynamoDb.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceDynamoDb.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Services\\ServiceDynamoDb.cs",
+              "RelativeToolTip": "Services\\ServiceDynamoDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:35:23.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:02:47.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Coches\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coches\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Coches\\Index.cshtml",
+              "RelativeToolTip": "Views\\Coches\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwDgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T07:59:07.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Coches\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coches\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Coches\\Details.cshtml",
+              "RelativeToolTip": "Views\\Coches\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T07:56:20.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:54:55.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Motor.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Models\\Motor.cs",
+              "RelativeDocumentMoniker": "Models\\Motor.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Models\\Motor.cs",
+              "RelativeToolTip": "Models\\Motor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:26:19.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Buscador.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Coches\\Buscador.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coches\\Buscador.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Views\\Coches\\Buscador.cshtml",
+              "RelativeToolTip": "Views\\Coches\\Buscador.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:56:37.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Coche.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Models\\Coche.cs",
+              "RelativeDocumentMoniker": "Models\\Coche.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\Models\\Coche.cs",
+              "RelativeToolTip": "Models\\Coche.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:30:37.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcDynamoDbCoches\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T08:01:29.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<div>
+    <h1>Mi perfil ({{ perfil.nombre }})</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ perfil.nombre }}</td>
+          <td>{{ perfil.email }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <a routerLink="/compras" class="btn btn-primary">Mostrar compras</a>
+  </div>  

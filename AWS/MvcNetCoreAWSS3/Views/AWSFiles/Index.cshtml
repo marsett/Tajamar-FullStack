@@ -1,0 +1,36 @@
+﻿@model List<string>
+
+@{
+    string bucketUrl = configuration.GetValue<string>("AWS:BucketUrl"); 
+}
+
+<h1>AWS Storage S3</h1>
+
+<p>
+    <a asp-controller="AWSFiles" asp-action="UploadFile">
+        UploadFile AWS
+    </a>
+</p>
+
+@if (Model != null)
+{
+    <ul class="list-group-item">
+        @foreach (string name in Model)
+        {
+            <li class="list-group-item">
+                @name
+                <img src="@bucketUrl@name" style="width: 120px; height: 120px;" />
+                <a asp-controller="AWSFiles"
+                   asp-action="PrivateFile" class="btn btn-warning"
+                   asp-route-filename="@name">
+                    Private File
+                </a>
+                <a asp-controller="AWSFiles"
+                    asp-action="DeleteFile" class="btn btn-danger"
+                    asp-route-filename="@name">
+                    Delete
+                </a>
+            </li>
+        }
+    </ul>
+}

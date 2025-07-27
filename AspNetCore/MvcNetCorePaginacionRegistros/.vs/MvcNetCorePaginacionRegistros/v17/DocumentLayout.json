@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\controllers\\paginacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:controllers\\paginacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\views\\paginacion\\detallesdepartamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:views\\paginacion\\detallesdepartamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\views\\paginacion\\paginargrupoempleados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:views\\paginacion\\paginargrupoempleados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\repositories\\repositoryhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:repositories\\repositoryhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\views\\paginacion\\paginargrupovistadepartamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:views\\paginacion\\paginargrupovistadepartamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\views\\shared\\components\\dropdowndepartamentos\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:views\\shared\\components\\dropdowndepartamentos\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\views\\paginacion\\empleadosoficio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:views\\paginacion\\empleadosoficio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\data\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:data\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorepaginacionregistros\\models\\modelempleadosdepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBEECE4-6C0A-44CB-9997-5C22FDF25D0B}|MvcNetCorePaginacionRegistros.csproj|solutionrelative:models\\modelempleadosdepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaginarGrupoEmpleados.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Paginacion\\PaginarGrupoEmpleados.cshtml",
+              "RelativeDocumentMoniker": "Views\\Paginacion\\PaginarGrupoEmpleados.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Paginacion\\PaginarGrupoEmpleados.cshtml",
+              "RelativeToolTip": "Views\\Paginacion\\PaginarGrupoEmpleados.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T11:54:18.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryHospital.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Repositories\\RepositoryHospital.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryHospital.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Repositories\\RepositoryHospital.cs",
+              "RelativeToolTip": "Repositories\\RepositoryHospital.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T12:12:09.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetallesDepartamento.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Paginacion\\DetallesDepartamento.cshtml",
+              "RelativeDocumentMoniker": "Views\\Paginacion\\DetallesDepartamento.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Paginacion\\DetallesDepartamento.cshtml",
+              "RelativeToolTip": "Views\\Paginacion\\DetallesDepartamento.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:41:08.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaginacionController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Controllers\\PaginacionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaginacionController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Controllers\\PaginacionController.cs",
+              "RelativeToolTip": "Controllers\\PaginacionController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA4wCYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T08:32:46.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:39:42.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaginarGrupoVistaDepartamento.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Paginacion\\PaginarGrupoVistaDepartamento.cshtml",
+              "RelativeDocumentMoniker": "Views\\Paginacion\\PaginarGrupoVistaDepartamento.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Paginacion\\PaginarGrupoVistaDepartamento.cshtml",
+              "RelativeToolTip": "Views\\Paginacion\\PaginarGrupoVistaDepartamento.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T10:33:51.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Shared\\Components\\DropdownDepartamentos\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\DropdownDepartamentos\\Default.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Shared\\Components\\DropdownDepartamentos\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\DropdownDepartamentos\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T10:32:08.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmpleadosOficio.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Paginacion\\EmpleadosOficio.cshtml",
+              "RelativeDocumentMoniker": "Views\\Paginacion\\EmpleadosOficio.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Views\\Paginacion\\EmpleadosOficio.cshtml",
+              "RelativeToolTip": "Views\\Paginacion\\EmpleadosOficio.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T10:32:58.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HospitalContext.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Data\\HospitalContext.cs",
+              "RelativeDocumentMoniker": "Data\\HospitalContext.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Data\\HospitalContext.cs",
+              "RelativeToolTip": "Data\\HospitalContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:22:58.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-07T08:29:16.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModelEmpleadosDepartamento.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Models\\ModelEmpleadosDepartamento.cs",
+              "RelativeDocumentMoniker": "Models\\ModelEmpleadosDepartamento.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCorePaginacionRegistros\\Models\\ModelEmpleadosDepartamento.cs",
+              "RelativeToolTip": "Models\\ModelEmpleadosDepartamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:11:19.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

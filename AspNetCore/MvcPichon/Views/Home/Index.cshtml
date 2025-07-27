@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Página para los incautos</h1>
+    @* Copiamos aquí el formulario de Productos del otro proyecto *@
+    <form method="post" action="https://localhost:7030/Tienda/Productos">
+        <input type="hidden" name="direccion" />
+        <button class="btn btn-danger">Juega conmigo...</button>
+            <input type="hidden" name="producto"
+                       value="Tesla 40.000€" />
+            <input type="hidden" name="producto"
+                       value="IPhone 5.000€" />
+            <input type="hidden" name="producto"
+                       value="Ordenador Gaming 2.500€" />
+            <input type="hidden" name="producto"
+                       value="Árbitros Negreira 900.000€" />
+    </form>
+    <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/PlagueTale2_2560x1440-f5840bd8286204cb20ae573e160c29f3"
+    style="width: 600px; height: 350px;" />
+</div>

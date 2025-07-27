@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Servicio XML Empleados</h1>
+    <button id="botonleer">Leer XML</button>
+    <h1 id="mensaje"></h1>
+    <div id="lista"></div>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#botonleer").click(function() {
+                var url = "https://www.filmaffinity.com/es/main.html";
+                console.log("Antes del servicio");
+                $.get(url, function(data){
+                    console.log("Leyendo servicio");
+                    let pattern = '<img[^>]+src="([^">]+)"';
+                    let flags = "gm";
+                    let regExp = new RegExp(pattern, flags);
+                    let matches = data.match(regExp);
+                    if (matches){
+                        console.log("ready");
+                        console.log(matches.length);
+                        let imagenes = [];
+                        var html = "";
+                        for (var img of matches){
+                            //console.log(img.toString());
+                            if (img.toString().indexOf("data-src") != -1){
+                                var data = img.split('src="');
+                                if (data.indexOf("http")){
+                                    var imagen = data[1].split('"')[0];
+                                    console.log(imagen);
+                                    html += "<img src='" + imagen + "'/><br/>";
+                                }
+                                
+                            }
+                            
+                        }
+                        $("#lista").html(html);
+                    }else{
+                        console.log("Mal vamos");
+                    }
+                })
+                console.log("Después del servicio");
+            })
+        })
+    </script>
+</body>
+</html>

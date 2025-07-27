@@ -1,0 +1,236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\repositories\\repositoryempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:repositories\\repositoryempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\repositories\\repositoryempleadosoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:repositories\\repositoryempleadosoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\repositories\\repositoryempleadosmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:repositories\\repositoryempleadosmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\repositories\\irepositoryempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:repositories\\irepositoryempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\models\\empleadoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:models\\empleadoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\data\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:data\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\views\\empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:views\\empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcoreefmultiplesbbdd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EB55A71-7885-4133-B17C-B419270A40A3}|MvcNetCoreEFMultiplesBBDD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryEmpleadosMySql.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Repositories\\RepositoryEmpleadosMySql.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryEmpleadosMySql.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Repositories\\RepositoryEmpleadosMySql.cs",
+              "RelativeToolTip": "Repositories\\RepositoryEmpleadosMySql.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T18:31:09.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepositoryEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Repositories\\IRepositoryEmpleados.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepositoryEmpleados.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Repositories\\IRepositoryEmpleados.cs",
+              "RelativeToolTip": "Repositories\\IRepositoryEmpleados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T18:31:07.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositoryEmpleadosOracle.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Repositories\\RepositoryEmpleadosOracle.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryEmpleadosOracle.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Repositories\\RepositoryEmpleadosOracle.cs",
+              "RelativeToolTip": "Repositories\\RepositoryEmpleadosOracle.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:29:52.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpleadoView.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Models\\EmpleadoView.cs",
+              "RelativeDocumentMoniker": "Models\\EmpleadoView.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Models\\EmpleadoView.cs",
+              "RelativeToolTip": "Models\\EmpleadoView.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T08:42:15.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Views\\Empleados\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Empleados\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Views\\Empleados\\Details.cshtml",
+              "RelativeToolTip": "Views\\Empleados\\Details.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T12:36:05.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Repositories\\RepositoryEmpleados.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryEmpleados.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Repositories\\RepositoryEmpleados.cs",
+              "RelativeToolTip": "Repositories\\RepositoryEmpleados.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:17:58.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:22:51.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Views\\Empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Views\\Empleados\\Index.cshtml",
+              "RelativeToolTip": "Views\\Empleados\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T12:23:43.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HospitalContext.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Data\\HospitalContext.cs",
+              "RelativeDocumentMoniker": "Data\\HospitalContext.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Data\\HospitalContext.cs",
+              "RelativeToolTip": "Data\\HospitalContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:07:10.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T08:16:03.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-17T11:38:12.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreEFMultiplesBBDD\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:12:28.117Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

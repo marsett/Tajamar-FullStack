@@ -1,0 +1,6 @@
+@ApiPersonajesSeriesMario_HostAddress = http://localhost:5078
+
+GET {{ApiPersonajesSeriesMario_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

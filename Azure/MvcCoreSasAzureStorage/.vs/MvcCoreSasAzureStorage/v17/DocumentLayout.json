@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\helpers\\helperxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:helpers\\helperxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\controllers\\alumnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:controllers\\alumnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\services\\serviceazurealumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:services\\serviceazurealumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\controllers\\migracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:controllers\\migracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\views\\alumnos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:views\\alumnos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\views\\alumnos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:views\\alumnos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvccoresasazurestorage\\views\\migracion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36FAEC67-B49A-439D-9988-A0B88B65A471}|MvcCoreSasAzureStorage.csproj|solutionrelative:views\\migracion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceAzureAlumnos.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Services\\ServiceAzureAlumnos.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceAzureAlumnos.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Services\\ServiceAzureAlumnos.cs",
+              "RelativeToolTip": "Services\\ServiceAzureAlumnos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T09:36:09.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelperXML.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Helpers\\HelperXML.cs",
+              "RelativeDocumentMoniker": "Helpers\\HelperXML.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Helpers\\HelperXML.cs",
+              "RelativeToolTip": "Helpers\\HelperXML.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:54:41.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Models\\Alumno.cs",
+              "RelativeDocumentMoniker": "Models\\Alumno.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Models\\Alumno.cs",
+              "RelativeToolTip": "Models\\Alumno.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwCEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:42:11.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Views\\Alumnos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Alumnos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Views\\Alumnos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Alumnos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T10:39:01.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MigracionController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Controllers\\MigracionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MigracionController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Controllers\\MigracionController.cs",
+              "RelativeToolTip": "Controllers\\MigracionController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwB0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:16:15.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Views\\Alumnos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Alumnos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Views\\Alumnos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Alumnos\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T11:45:02.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlumnosController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Controllers\\AlumnosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlumnosController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Controllers\\AlumnosController.cs",
+              "RelativeToolTip": "Controllers\\AlumnosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:35:38.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:25:50.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:26:23.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T10:32:07.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Views\\Migracion\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Migracion\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcCoreSasAzureStorage\\Views\\Migracion\\Index.cshtml",
+              "RelativeToolTip": "Views\\Migracion\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:22:50.098Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

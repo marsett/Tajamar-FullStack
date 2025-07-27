@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Práctica Evaluar Números</h1>
+    <label>Número 1</label>
+    <input type="text" id="cajanumero1" /><br />
+    <label>Número 2</label>
+    <input type="text" id="cajanumero2" /><br />
+    <label>Número 3</label>
+    <input type="text" id="cajanumero3" /><br /><br />
+    <button id="comparar">Evaluar números</button>
+    <p id="parrafo"></p>
+    <script>
+        // Tendremos tres cajas para escribir tres números
+        // Necesitamos, mediante un botón, mostrar el mayor,
+        // menor e intermedio de los tres números y su suma
+        // Mi código
+        $(document).ready(function () {
+            $("#comparar").click(function () {
+                var numero1 = parseInt($("#cajanumero1").val());
+                var numero2 = parseInt($("#cajanumero2").val());
+                var numero3 = parseInt($("#cajanumero3").val());
+
+                if (isNaN(numero1) || isNaN(numero2) || isNaN(numero3)) {
+                    $("#parrafo").html("Por favor, introduce tres números válidos.");
+                    return;
+                }
+
+                var html = "";
+
+                // Caso donde los tres números son iguales
+                if (numero1 === numero2 && numero1 === numero3) {
+                    html = "Todos los números son iguales.<br/>";
+                }
+                // Caso donde dos números son iguales
+                else if (numero1 === numero2 && numero1 !== numero3) {
+                    if (numero1 > numero3) {
+                        html = "Mayor = " + numero1 + " (Números 1 y 2 son iguales)<br/>";
+                        html += "Menor = " + numero3 + "<br/>";
+                    } else {
+                        html = "Mayor = " + numero3 + "<br/>";
+                        html += "Menor = " + numero1 + " (Números 1 y 2 son iguales)<br/>";
+                    }
+                } else if (numero1 === numero3 && numero1 !== numero2) {
+                    if (numero1 > numero2) {
+                        html = "Mayor = " + numero1 + " (Números 1 y 3 son iguales)<br/>";
+                        html += "Menor = " + numero2 + "<br/>";
+                    } else {
+                        html = "Mayor = " + numero2 + "<br/>";
+                        html += "Menor = " + numero1 + " (Números 1 y 3 son iguales)<br/>";
+                    }
+                } else if (numero2 === numero3 && numero1 !== numero2) {
+                    if (numero2 > numero1) {
+                        html = "Mayor = " + numero2 + " (Números 2 y 3 son iguales)<br/>";
+                        html += "Menor = " + numero1 + "<br/>";
+                    } else {
+                        html = "Mayor = " + numero1 + "<br/>";
+                        html += "Menor = " + numero2 + " (Números 2 y 3 son iguales)<br/>";
+                    }
+                }
+                // Caso donde todos los números son diferentes
+                else {
+                    if (numero1 > numero2 && numero1 > numero3) {
+                        html = "Mayor = " + numero1 + "<br/>";
+                        if (numero2 > numero3) {
+                            html += "Intermedio = " + numero2 + "<br/>";
+                            html += "Menor = " + numero3 + "<br/>";
+                        } else {
+                            html += "Intermedio = " + numero3 + "<br/>";
+                            html += "Menor = " + numero2 + "<br/>";
+                        }
+                    } else if (numero2 > numero1 && numero2 > numero3) {
+                        html = "Mayor = " + numero2 + "<br/>";
+                        if (numero1 > numero3) {
+                            html += "Intermedio = " + numero1 + "<br/>";
+                            html += "Menor = " + numero3 + "<br/>";
+                        } else {
+                            html += "Intermedio = " + numero3 + "<br/>";
+                            html += "Menor = " + numero1 + "<br/>";
+                        }
+                    } else {
+                        html = "Mayor = " + numero3 + "<br/>";
+                        if (numero1 > numero2) {
+                            html += "Intermedio = " + numero1 + "<br/>";
+                            html += "Menor = " + numero2 + "<br/>";
+                        } else {
+                            html += "Intermedio = " + numero2 + "<br/>";
+                            html += "Menor = " + numero1 + "<br/>";
+                        }
+                    }
+                }
+
+                $("#parrafo").html(html);
+            });
+        });
+        // Código Paco
+        /*$(document).ready(function(){
+            $("#comparar").click(function() {
+                var num1 = parseInt($("#cajanumero1").val());
+                var num2 = parseInt($("#cajanumero2").val());
+                var num3 = parseInt($("#cajanumero3").val());
+
+                var mayor, menor, intermedio;
+                
+                if(num1 >= num2 && num1 >= num3){
+                    mayor = num1;
+                }else if(num2 >= num1 && num2 >= num3){
+                    mayor = num2;
+                }else{
+                    mayor = num3;
+                }
+                
+                if(num1 <= num2 && num1 <= num3){
+                    menor = num1;
+                }else if(num2 <= num1 && num2 <= num3){
+                    menor = num2;
+                }else{
+                    menor = num3;
+                }
+
+                var suma = num1 +num2+ num3;
+                intermedio = suma -menor -mayor;
+
+                $("#parrafo").text("Mayor: "+mayor+"\nIntermedio: "+intermedio+"\nMenor: "+menor);
+            });
+        });*/
+    </script>
+</body>
+
+</html>

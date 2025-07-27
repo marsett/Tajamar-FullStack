@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\netcoreseguridadadministrada\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\netcoreseguridadadministrada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\netcoreseguridadadministrada\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\netcoreseguridadadministrada\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\netcoreseguridadadministrada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B04E9DE2-A08B-4D9D-96AE-CCFC11FEFA72}|NetCoreSeguridadAdministrada.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T08:55:49.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T08:55:44.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:55:35.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:55:27.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\NetCoreSeguridadAdministrada\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-07T08:37:24.646Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

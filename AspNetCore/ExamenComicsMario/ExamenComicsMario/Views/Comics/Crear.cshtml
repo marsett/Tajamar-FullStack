@@ -1,0 +1,23 @@
+﻿<h1>Create</h1>
+<h2>Comic</h2>
+<hr />
+<form method="post">
+    <input type="hidden" name="idcomic" class="form-control" />
+    <label>Nombre </label>
+    <input type="text" name="nombre" class="form-control" />
+    <label>Imagen </label>
+    <input type="text" name="imagen" class="form-control" />
+    <label>Descripción </label>
+    <input type="text" name="descripcion" class="form-control" />
+    <button class="btn btn-primary">
+        Create
+    </button>
+</form>
+
+<p>
+    <a asp-controller="Comics"
+       asp-action="Index"
+       class="btn btn-secondary">
+        Back to List
+    </a>
+</p>

@@ -1,0 +1,10 @@
+<div>
+    <h1>Personas Standalone</h1>
+    <ul class="list-group" *ngIf="personas.length > 0">
+        @for (persona of personas; track persona) {
+            <li class="list-group-item">
+                {{ persona.Nombre }}
+            </li>
+        }
+    </ul>
+</div>

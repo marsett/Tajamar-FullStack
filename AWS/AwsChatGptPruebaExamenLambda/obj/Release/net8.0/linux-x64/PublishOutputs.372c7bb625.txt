@@ -1,0 +1,10 @@
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\AwsChatGptPruebaExamenLambda.deps.json
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\AwsChatGptPruebaExamenLambda.runtimeconfig.json
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\AwsChatGptPruebaExamenLambda.pdb
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\Amazon.Lambda.Core.dll
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\AWSSDK.Core.dll
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\AWSSDK.SecretsManager.dll
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\Newtonsoft.Json.dll
+C:\Users\mvrset\source\repos\marsett\AwsChatGptPruebaExamenLambda\bin\Release\net8.0\publish\AwsChatGptPruebaExamenLambda.dll

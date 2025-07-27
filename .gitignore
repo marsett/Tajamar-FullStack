@@ -1,0 +1,2 @@
+# Ignorar todos los archivos que comiencen con FileContentIndex en cualquier ubicación dentro de .vs
+.vs/**/FileContentIndex*

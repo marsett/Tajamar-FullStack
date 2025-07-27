@@ -1,0 +1,16 @@
+﻿@model Persona
+<h1>
+    Información Controller -> View Model
+</h1>
+
+@Html.ActionLink("Texto Link", "Action", "Controller"
+,new {variable1 = "valor1", variable2 = "valor2"});
+
+@if(Model != null){
+    <h2 style="color: blue;">
+        @Model.Nombre, @Model.Email, @Model.Edad
+    </h2>
+}else{
+    <h1 style="color: red;">No tenemos Model</h1>
+}
+

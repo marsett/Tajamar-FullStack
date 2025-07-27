@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\views\\tienda\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:views\\tienda\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\controllers\\tiendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:controllers\\tiendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\views\\managed\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:views\\managed\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\controllers\\managedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:controllers\\managedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\views\\managed\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:views\\managed\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcnetcorecsrf\\views\\tienda\\pedidofinal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{652E2F3F-5F7F-4B39-B3F3-51BEEF92819D}|MvcNetCoreCSRF.csproj|solutionrelative:views\\tienda\\pedidofinal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManagedController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Controllers\\ManagedController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManagedController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Controllers\\ManagedController.cs",
+              "RelativeToolTip": "Controllers\\ManagedController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T10:02:57.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Productos.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Tienda\\Productos.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tienda\\Productos.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Tienda\\Productos.cshtml",
+              "RelativeToolTip": "Views\\Tienda\\Productos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T09:50:04.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Managed\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Managed\\Login.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Managed\\Login.cshtml",
+              "RelativeToolTip": "Views\\Managed\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T09:42:56.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TiendaController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Controllers\\TiendaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TiendaController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Controllers\\TiendaController.cs",
+              "RelativeToolTip": "Controllers\\TiendaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T10:09:50.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T09:39:21.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Denied.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Managed\\Denied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Managed\\Denied.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Managed\\Denied.cshtml",
+              "RelativeToolTip": "Views\\Managed\\Denied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T10:27:53.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T09:02:55.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T09:02:54.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T09:59:53.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PedidoFinal.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Tienda\\PedidoFinal.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tienda\\PedidoFinal.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcNetCoreCSRF\\Views\\Tienda\\PedidoFinal.cshtml",
+              "RelativeToolTip": "Views\\Tienda\\PedidoFinal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T09:55:56.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

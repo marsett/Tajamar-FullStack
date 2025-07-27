@@ -1,0 +1,17 @@
+﻿@model Coche
+
+<div class="card" style="width: 18rem;">
+    <img src="@Model.Imagen" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Marca @Model.Modelo</h5>
+        @if (Model.Motor != null)
+        {
+            <p class="card-text">Tipo: @Model.Motor.Tipo</p>
+            <p class="card-text">Caballos: @Model.Motor.Caballos</p>
+            <p class="card-text">Potencia: @Model.Motor.Potencia</p>
+        }
+        <a asp-controller="Coches"
+           asp-action="Index"
+           class="btn btn-primary">Volver a coches</a>
+    </div>
+</div>

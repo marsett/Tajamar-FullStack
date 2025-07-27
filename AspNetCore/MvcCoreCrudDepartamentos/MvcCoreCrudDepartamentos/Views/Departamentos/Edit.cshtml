@@ -1,0 +1,18 @@
+﻿@model Departamento
+
+<h1>Edit</h1>
+
+<p>
+    <a asp-controller="Departamentos"
+       asp-action="Index">Back to List</a>
+</p>
+
+<form method="post">
+    <input type="hidden" name="iddepartamento" value="@Model.IdDepartamento" />
+    <label>Departamento: </label>
+    <input type="text" name="nombre" value="@Model.Nombre" class="form-control" />
+    <input type="text" name="localidad" value="@Model.Localidad" class="form-control" />
+    <button class="btn btn-warning">
+        Update
+    </button>
+</form>

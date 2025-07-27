@@ -1,0 +1,32 @@
+﻿@model Comic
+
+@{
+    List<string> nombres = (List<string>)ViewData["COMICS"];
+}
+
+<h1 style="color: red;">
+    Detalles Cómic Seleccionado
+</h1>
+
+<form method="post" id="comicForm">
+    <label>Nombre cómic</label>
+    <select name="comic" class="form-control" id="comicForm" onchange="document.getElementById('comicForm').submit();">
+        @foreach(string com in nombres){
+            <option value="@com">@com</option>
+        }
+    </select>
+    @* <button class="btn btn-info">Buscar detalle cómic</button> *@
+</form>
+
+@if(Model != null){
+    <div class="col-md-4">
+        <div class="card mb-3" style="width: 18rem;">
+            <img src="@Model.Imagen" class="card-img-top" alt="@Model.Nombre">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Nombre</h5>
+                <h6 class="card-subtitle">@Model.IdComic</h6>
+                <p class="card-text">@Model.Descripcion</p>
+            </div>
+        </div>
+    </div>
+}

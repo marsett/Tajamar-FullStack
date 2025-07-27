@@ -1,0 +1,32 @@
+<div>
+    <h1>Directivas Angular</h1>
+    <ul>
+        <!-- <li *ngFor="let num of numeros" [style.color]="num % 2 == 0 ? 'green': 'red'"> -->
+        <!-- <li *ngFor="let num of numeros" [class.par]="num % 2 == 0" [class.impar]="num % 2 == 1"> -->
+        <li *ngFor="let num of numeros" [ngClass]="{
+            par: num % 2 == 0,
+            impar: num % 2 == 1
+        }">
+            {{ num }}
+        </li>
+    </ul>
+    <h2>Número de deportes {{ sports.length }}</h2>
+    <!-- Directiva If -->
+    <div *ngIf="sports.length < 6; then condiciontrue; else condicionelse"></div>
+    <ng-template #condiciontrue>
+        <p style="color: red">
+            Tienes menos de 6 deportes
+        </p>
+    </ng-template>
+    <ng-template #condicionelse>
+        <p style="color: blue">
+            Tenemos más de 6 deportes!!!
+        </p>
+    </ng-template>
+    <p>El primer deporte es: {{ sports[0] }}</p>
+    <ul>
+        <li *ngFor="let deporte of sports; let i = index">
+            Index: {{ i }}, Deporte: {{ deporte }}
+        </li>
+    </ul>
+</div>

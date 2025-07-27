@@ -1,0 +1,35 @@
+﻿@model List<Libro>
+
+<h1>Carrito Libros</h1>
+@if (Model != null)
+{
+    <a asp-controller="Libros" asp-action="FinalCompra" class="btn btn-primary">
+        Finalizar Compra
+    </a>
+    <div class="row">
+        @foreach (Libro libro in Model)
+        {
+            List<int> carrito = Context.Session.GetObject<List<int>>("CARRITO");
+            @* int numLibros = carrito.Where(id => id == libro.IdLibro).Count(); *@
+            <div class="col-4">
+                <div class="card">
+                    <img class="card-img-top" src="~/images/@libro.Portada" />
+                    <div class="card-body">
+                        <a asp-controller="Libros" asp-action="Detalles" asp-route-idlibro="@libro.IdLibro">
+                            <h3>@libro.Titulo</h3>
+                        </a>
+                        @* <p>Número libros: @numLibros</p> *@
+                        <a class="btn btn-danger" asp-controller="Libros" asp-action="Eliminar" asp-route-idlibro="@libro.IdLibro">
+                            Eliminar del CARRO
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h2>No hay libros en tu CARRO</h2>
+}

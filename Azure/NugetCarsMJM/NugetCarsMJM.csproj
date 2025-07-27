@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Nuget Linq to XML Coches</Title>
+    <Authors>Mario Jiménez Marset</Authors>
+    <Description>Esto es la prueba de Assembly y Cars XML</Description>
+    <PackageIcon>21.jpg</PackageIcon>
+    <PackageTags>lluvia, lunes, coches, linq</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="coches.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="coches.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\Fondos\21.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+    <style>
+        img {
+            width: 20%;
+            height: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Coches XML</h1>
+    <div id="contenedor"></div>
+    <div id="contenedorID"></div>
+    <script>
+        $(document).ready(function () {
+            // URL general: https://apiclientesxml.azurewebsites.net/index.html
+            // Este es /api/Clientes/GetCochesXML
+            var url = "https://apiclientesxml.azurewebsites.net/api/Clientes/GetCochesXML";
+            $.get(url, function (data) {
+                console.log("Leyendo el servicio");
+                var numeroElementos = $(data).find("Coche").length;
+                console.log("Elementos: " + numeroElementos);
+
+                $(data).find("Coche").each(function () {
+                    var idCoche = $(this).attr("idcoche");
+                    var modelo = $(this).find("modelo").text();
+
+                    var boton = $("<button>", { "text": modelo });
+                    boton.attr("data-id", idCoche);
+
+                    $("#contenedor").append(boton);
+
+                    boton.click(function () {
+                        var cocheId = $(this).attr("data-id");
+
+                        $("#contenedorID").html("");
+
+                        // Buscar el coche con el ID correspondiente
+                        $(data).find("coche").each(function () {
+                            var id = $(this).attr("idcoche");
+                            if (id === cocheId) {
+                                var marca = $(this).find("marca").text();
+                                var modelo = $(this).find("modelo").text();
+                                var ruta = $(this).find("imagen").text();
+
+                                var html = '';
+                                html += "<li>Marca: " + marca + "</li>";
+                                html += "<li>Modelo: " + modelo + "</li>";
+
+                                $("#contenedorID").append(html);
+
+                                // Comprobar si la ruta está vacía o no existe
+                                if (ruta && ruta.trim() !== "") {
+                                    var imagen = $("<img>", { "src": ruta, "alt": modelo });
+                                    $("#contenedorID").append(imagen);
+                                } else {
+                                    $("#contenedorID").append("<p>No existe una imagen para este personaje.</p>");
+                                }
+                            }
+                        });
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

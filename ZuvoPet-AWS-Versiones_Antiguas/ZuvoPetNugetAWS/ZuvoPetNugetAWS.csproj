@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>ZuvoPetNugetAWS</Title>
+    <Authors>Mario Jiménez Marset</Authors>
+    <Description>Nuget con los modelos de la aplicación 'ZuvoPet' para AWS.</Description>
+    <PackageIcon>a-plague-tale-requiem.jpg</PackageIcon>
+    <PackageTags>zuvopet</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\Fondos\a-plague-tale-requiem.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.16" />
+  </ItemGroup>
+
+</Project>

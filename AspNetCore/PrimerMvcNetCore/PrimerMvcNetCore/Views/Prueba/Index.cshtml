@@ -1,0 +1,26 @@
+﻿@*
+    Comentarios en Razor
+*@
+
+Declaración de variables a nivel de página y dibujar variables
+@{
+    // Esto es código C#
+    int valor = 14;
+    string texto = "Hoy es Lunes";
+    valor += 1;
+    texto += " y mañana Martes";
+}
+
+<h2 style="color: red;">
+    Texto: @texto, Número: @valor
+</h2>
+
+Código lógico con html
+@if(valor > 0){
+    // Código C#
+    texto = "Positivo";
+    <h3 style="color: green;">@texto</h3>
+}else{
+    texto = "Negativo";
+    <h3 style="color: red;">@texto</h3>
+}

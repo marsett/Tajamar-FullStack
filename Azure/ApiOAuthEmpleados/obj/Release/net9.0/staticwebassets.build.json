@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "48jZOXmr096bEQe2lK6xsoVzuFxrWI97HTdAHzBbZr0=",
+  "Source": "ApiOAuthEmpleados",
+  "BasePath": "_content/ApiOAuthEmpleados",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

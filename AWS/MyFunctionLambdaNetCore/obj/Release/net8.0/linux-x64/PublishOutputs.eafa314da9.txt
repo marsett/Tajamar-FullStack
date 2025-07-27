@@ -1,0 +1,7 @@
+C:\Users\mvrset\source\repos\marsett\MyFunctionLambdaNetCore\bin\Release\net8.0\publish\MyFunctionLambdaNetCore.deps.json
+C:\Users\mvrset\source\repos\marsett\MyFunctionLambdaNetCore\bin\Release\net8.0\publish\MyFunctionLambdaNetCore.runtimeconfig.json
+C:\Users\mvrset\source\repos\marsett\MyFunctionLambdaNetCore\bin\Release\net8.0\publish\MyFunctionLambdaNetCore.pdb
+C:\Users\mvrset\source\repos\marsett\MyFunctionLambdaNetCore\bin\Release\net8.0\publish\Amazon.Lambda.Core.dll
+C:\Users\mvrset\source\repos\marsett\MyFunctionLambdaNetCore\bin\Release\net8.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\mvrset\source\repos\marsett\MyFunctionLambdaNetCore\bin\Release\net8.0\publish\Newtonsoft.Json.dll
+C:\Users\mvrset\source\repos\marsett\MyFunctionLambdaNetCore\bin\Release\net8.0\publish\MyFunctionLambdaNetCore.dll

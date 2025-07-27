@@ -1,0 +1,26 @@
+﻿@model PracticaCubos.Models.Cubo
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editar Cubo</h1>
+<hr />
+
+<form method="post" enctype="multipart/form-data">
+    <input asp-for="IdCubo" type="hidden" name="idcubo" class="form-control" />
+    <label>Nombre: </label>
+    <input asp-for="Nombre" type="text" name="nombre" class="form-control" />
+    <label>Modelo: </label>
+    <input asp-for="Modelo" type="text" name="modelo" class="form-control" />
+    <label>Marca: </label>
+    <input asp-for="Marca" type="text" name="marca" class="form-control" />
+    <label>Selecciona una imagen: </label>
+    <input type="file" name="imagen" class="form-control" />
+    <label>Precio: </label>
+    <input asp-for="Precio" type="text" name="precio" class="form-control" />
+    <button class="btn btn-warning">
+        Editar Cubo
+    </button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>

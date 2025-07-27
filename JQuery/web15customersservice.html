@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Customers XML Service</h1>
+    <button id="botoncargarcustomers">Cargar Customers</button>
+    <select id="selectcustomers"></select>
+    <button id="botoncargardepartamentos">Cargar departamentos</button>
+    <h1 id="mensaje" style="color:fuchsia"></h1>
+    <script src="js/jquery-3.7.1.js"></script>
+
+    <script>
+        // Cargar todos los clientes (nombre) en un desplegable al iniciar la aplicación.
+        // Al seleccionar un cliente, mostrar sus datos.
+        $(document).ready(function () {
+            $("#botoncargarcustomers").click(function () {
+                var url = "https://northwind.netcore.io/customers.xml";
+                $.get(url, function (data) {
+                    console.log("Leyendo servicio");
+                    var numeroElementos = $(data).find("d2p1\\:Customer").length;
+                    $("#mensaje").text("Elementos: " + numeroElementos);
+                    // Recorremos los Customers
+                    $(data).find("d2p1\\:Customer").each(function () {
+                        var contactName = $(this).find("d2p1\\:ContactName").text();
+                        var idCustomer = $(this).find("d2p1\\:Id").text();
+                        var option = $("<option>", { "text": contactName, "value": idCustomer });
+                        $("#selectcustomers").append(option);
+                    });
+                });
+                console.log("Despues servicio");
+            });
+            $("#selectcustomers").change(function () {
+                var idCliente = $("#selectcustomers").val();
+                var url = "https://northwind.netcore.io/customers/" + idCliente + ".xml";
+                $.get(url, function (data) {
+                    var companyName = $(data).find("d2p1\\:CompanyName").first().text();
+                    $("#mensaje").text(companyName);
+                });
+            });
+
+            $("#botoncargardepartamentos").click(function () {
+                var url = "https://apicruddepartamentosxml.azurewebsites.net/api/Departamentos";
+                $.get(url, function (data) {
+                    console.log("Leyendo servicio");
+                    var numeroElementos = $(data).find("Departamento").length;
+                    $("#mensaje").text("Elementos: " + numeroElementos);
+                });
+                console.log("Después servicio");
+            });
+        });
+    </script>
+</body>
+
+</html>

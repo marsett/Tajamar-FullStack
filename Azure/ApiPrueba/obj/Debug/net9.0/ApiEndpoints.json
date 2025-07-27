@@ -1,0 +1,153 @@
+[
+  {
+    "ContainingType": "ApiPrueba.Controllers.MusicaController",
+    "Method": "GetArtistas",
+    "RelativePath": "api/Musica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ApiPrueba.Models.Artista, ApiPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiPrueba.Controllers.MusicaController",
+    "Method": "InsertArtista",
+    "RelativePath": "api/Musica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artista",
+        "Type": "ApiPrueba.Models.Artista",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPrueba.Controllers.MusicaController",
+    "Method": "UpdateArtista",
+    "RelativePath": "api/Musica",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artista",
+        "Type": "ApiPrueba.Models.Artista",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPrueba.Controllers.MusicaController",
+    "Method": "FindArtista",
+    "RelativePath": "api/Musica/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiPrueba.Models.Artista",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiPrueba.Controllers.MusicaController",
+    "Method": "DeleteArtista",
+    "RelativePath": "api/Musica/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPrueba.Controllers.MusicaController",
+    "Method": "PostDepartamento",
+    "RelativePath": "api/Musica/PostDepartamento/{id}/{nombre}/{cancion}/{edad}/{pais}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "cancion",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "edad",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pais",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPrueba.Controllers.MusicaController",
+    "Method": "PutDepartamento",
+    "RelativePath": "api/Musica/PutDepartamento/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "artista",
+        "Type": "ApiPrueba.Models.Artista",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

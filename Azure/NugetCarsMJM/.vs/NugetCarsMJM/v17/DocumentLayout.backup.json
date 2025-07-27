@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetCarsMJM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D939F00-1609-4E15-9C5D-1EA2CD43B5E2}|NugetCarsMJM.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\nugetcarsmjm\\nugetcarsmjm.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2D939F00-1609-4E15-9C5D-1EA2CD43B5E2}|NugetCarsMJM.csproj|solutionrelative:nugetcarsmjm.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D939F00-1609-4E15-9C5D-1EA2CD43B5E2}|NugetCarsMJM.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\nugetcarsmjm\\repositories\\repositorycoches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D939F00-1609-4E15-9C5D-1EA2CD43B5E2}|NugetCarsMJM.csproj|solutionrelative:repositories\\repositorycoches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D939F00-1609-4E15-9C5D-1EA2CD43B5E2}|NugetCarsMJM.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\nugetcarsmjm\\models\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D939F00-1609-4E15-9C5D-1EA2CD43B5E2}|NugetCarsMJM.csproj|solutionrelative:models\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NugetCarsMJM",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetCarsMJM\\NugetCarsMJM.csproj",
+              "RelativeDocumentMoniker": "NugetCarsMJM.csproj",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetCarsMJM\\NugetCarsMJM.csproj",
+              "RelativeToolTip": "NugetCarsMJM.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-17T12:47:50.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositoryCoches.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetCarsMJM\\Repositories\\RepositoryCoches.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryCoches.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetCarsMJM\\Repositories\\RepositoryCoches.cs",
+              "RelativeToolTip": "Repositories\\RepositoryCoches.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:37:15.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Coche.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetCarsMJM\\Models\\Coche.cs",
+              "RelativeDocumentMoniker": "Models\\Coche.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetCarsMJM\\Models\\Coche.cs",
+              "RelativeToolTip": "Models\\Coche.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:35:14.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

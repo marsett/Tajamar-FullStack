@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcorepractica\\adonetcorepractica\\repositories\\repositorydepartamentosempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|solutionrelative:adonetcorepractica\\repositories\\repositorydepartamentosempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcorepractica\\adonetcorepractica\\formpracticafinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|solutionrelative:adonetcorepractica\\formpracticafinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcorepractica\\adonetcorepractica\\models\\datosdepartamentosempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|solutionrelative:adonetcorepractica\\models\\datosdepartamentosempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcorepractica\\adonetcorepractica\\models\\datosempleadoshospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|solutionrelative:adonetcorepractica\\models\\datosempleadoshospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcorepractica\\adonetcorepractica\\helpers\\helperconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|solutionrelative:adonetcorepractica\\helpers\\helperconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcorepractica\\adonetcorepractica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|solutionrelative:adonetcorepractica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcorepractica\\adonetcorepractica\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|solutionrelative:adonetcorepractica\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\adonetcorepractica\\adonetcorepractica\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F390AB-94CE-40B9-AAC3-27288C678C1F}|AdoNetCorePractica\\AdoNetCorePractica.csproj|solutionrelative:adonetcorepractica\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatosEmpleadosHospital.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Models\\DatosEmpleadosHospital.cs",
+              "RelativeDocumentMoniker": "AdoNetCorePractica\\Models\\DatosEmpleadosHospital.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Models\\DatosEmpleadosHospital.cs",
+              "RelativeToolTip": "AdoNetCorePractica\\Models\\DatosEmpleadosHospital.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T12:07:24.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatosDepartamentosEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Models\\DatosDepartamentosEmpleados.cs",
+              "RelativeDocumentMoniker": "AdoNetCorePractica\\Models\\DatosDepartamentosEmpleados.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Models\\DatosDepartamentosEmpleados.cs",
+              "RelativeToolTip": "AdoNetCorePractica\\Models\\DatosDepartamentosEmpleados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T17:29:25.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryDepartamentosEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Repositories\\RepositoryDepartamentosEmpleados.cs",
+              "RelativeDocumentMoniker": "AdoNetCorePractica\\Repositories\\RepositoryDepartamentosEmpleados.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Repositories\\RepositoryDepartamentosEmpleados.cs",
+              "RelativeToolTip": "AdoNetCorePractica\\Repositories\\RepositoryDepartamentosEmpleados.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAgwI0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:26:26.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPracticaFinal.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\FormPracticaFinal.cs",
+              "RelativeDocumentMoniker": "AdoNetCorePractica\\FormPracticaFinal.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\FormPracticaFinal.cs",
+              "RelativeToolTip": "AdoNetCorePractica\\FormPracticaFinal.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T16:15:50.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HelperConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Helpers\\HelperConfiguration.cs",
+              "RelativeDocumentMoniker": "AdoNetCorePractica\\Helpers\\HelperConfiguration.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Helpers\\HelperConfiguration.cs",
+              "RelativeToolTip": "AdoNetCorePractica\\Helpers\\HelperConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:42:09.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Models\\Departamento.cs",
+              "RelativeDocumentMoniker": "AdoNetCorePractica\\Models\\Departamento.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Models\\Departamento.cs",
+              "RelativeToolTip": "AdoNetCorePractica\\Models\\Departamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T17:29:28.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\appsettings.json",
+              "RelativeDocumentMoniker": "AdoNetCorePractica\\appsettings.json",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\appsettings.json",
+              "RelativeToolTip": "AdoNetCorePractica\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T11:36:25.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "AdoNetCorePractica\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\AdoNetCorePractica\\AdoNetCorePractica\\Models\\Empleado.cs",
+              "RelativeToolTip": "AdoNetCorePractica\\Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T17:29:30.057Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

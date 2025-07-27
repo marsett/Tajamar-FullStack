@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "49l5VIHGzzA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetCustomersMJM\\NugetCustomersMJM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mvrset\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

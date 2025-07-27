@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NugetAeropuertosMJM" Version="1.0.0" />
+    <PackageReference Include="NugetCarsMJM" Version="1.0.0" />
+    <PackageReference Include="NugetCustomersMJM" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>

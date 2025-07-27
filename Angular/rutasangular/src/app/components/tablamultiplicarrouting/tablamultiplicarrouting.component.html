@@ -1,0 +1,19 @@
+<div>
+    <h1>Tabla Multiplicar Routing {{ numero }}</h1>
+    <div *ngIf="numero">
+        <table border="1" *ngIf="tabla.length > 0">
+            <thead>
+                <tr>
+                    <th>Operación</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let fila of tabla; let i = index">
+                    <td>{{ numero }} * {{ i }}</td>
+                    <td>{{ fila }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

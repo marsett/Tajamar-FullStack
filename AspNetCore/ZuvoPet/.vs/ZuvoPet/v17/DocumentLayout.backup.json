@@ -1,0 +1,518 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\repositories\\repositoryzuvopet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:repositories\\repositoryzuvopet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\adoptante\\crearhistoriaexito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\adoptante\\crearhistoriaexito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\controllers\\managedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:controllers\\managedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\refugio\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\refugio\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\refugio\\editarmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\refugio\\editarmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\refugio\\detallesmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\refugio\\detallesmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\controllers\\refugiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:controllers\\refugiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\models\\vistaperfilrefugio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:models\\vistaperfilrefugio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\models\\vistaperfiladoptante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:models\\vistaperfiladoptante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\models\\adoptante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:models\\adoptante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\controllers\\adoptantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:controllers\\adoptantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\data\\zuvopetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:data\\zuvopetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\models\\refugio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:models\\refugio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\refugio\\notificaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\refugio\\notificaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\refugio\\crearmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\refugio\\crearmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\adoptante\\detallesrefugio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\adoptante\\detallesrefugio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\managed\\formulariorefugio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\managed\\formulariorefugio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\managed\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\managed\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\repositories\\irepositoryzuvopet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:repositories\\irepositoryzuvopet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\filters\\authorizezuvopetattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:filters\\authorizezuvopetattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\managed\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\managed\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\adoptante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\adoptante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\models\\perfilusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:models\\perfilusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\models\\refugiocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:models\\refugiocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\views\\adoptante\\refugios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:views\\adoptante\\refugios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\zuvopet\\models\\comentariohistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27649B61-3C9F-4D06-9C3E-749B9546A15C}|ZuvoPet.csproj|solutionrelative:models\\comentariohistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrearHistoriaExito.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Adoptante\\CrearHistoriaExito.cshtml",
+              "RelativeDocumentMoniker": "Views\\Adoptante\\CrearHistoriaExito.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Adoptante\\CrearHistoriaExito.cshtml",
+              "RelativeToolTip": "Views\\Adoptante\\CrearHistoriaExito.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAWwEAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T20:39:20.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Adoptante.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\Adoptante.cs",
+              "RelativeDocumentMoniker": "Models\\Adoptante.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\Adoptante.cs",
+              "RelativeToolTip": "Models\\Adoptante.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:07:55.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ZuvoPetContext.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Data\\ZuvoPetContext.cs",
+              "RelativeDocumentMoniker": "Data\\ZuvoPetContext.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Data\\ZuvoPetContext.cs",
+              "RelativeToolTip": "Data\\ZuvoPetContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:05:13.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Refugio.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\Refugio.cs",
+              "RelativeDocumentMoniker": "Models\\Refugio.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\Refugio.cs",
+              "RelativeToolTip": "Models\\Refugio.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvx4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:57:26.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Perfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\Perfil.cshtml",
+              "RelativeDocumentMoniker": "Views\\Refugio\\Perfil.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\Perfil.cshtml",
+              "RelativeToolTip": "Views\\Refugio\\Perfil.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAawJkAAACpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T18:54:53.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdoptanteController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Controllers\\AdoptanteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdoptanteController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Controllers\\AdoptanteController.cs",
+              "RelativeToolTip": "Controllers\\AdoptanteController.cs",
+              "ViewState": "AgIAADEBAAAAAAAAAAD4v+EAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:28:06.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RefugioController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Controllers\\RefugioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RefugioController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Controllers\\RefugioController.cs",
+              "RelativeToolTip": "Controllers\\RefugioController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAApwIMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:05:30.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryZuvoPet.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Repositories\\RepositoryZuvoPet.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryZuvoPet.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Repositories\\RepositoryZuvoPet.cs",
+              "RelativeToolTip": "Repositories\\RepositoryZuvoPet.cs",
+              "ViewState": "AgIAAMcBAAAAAAAAAAAQwOABAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:12:50.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManagedController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Controllers\\ManagedController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManagedController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Controllers\\ManagedController.cs",
+              "RelativeToolTip": "Controllers\\ManagedController.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAkwCgBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:08:14.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetallesMascota.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\DetallesMascota.cshtml",
+              "RelativeDocumentMoniker": "Views\\Refugio\\DetallesMascota.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\DetallesMascota.cshtml",
+              "RelativeToolTip": "Views\\Refugio\\DetallesMascota.cshtml",
+              "ViewState": "AgIAAAwEAAAAAAAAAAAAACEEAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:46:07.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditarMascota.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\EditarMascota.cshtml",
+              "RelativeDocumentMoniker": "Views\\Refugio\\EditarMascota.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\EditarMascota.cshtml",
+              "RelativeToolTip": "Views\\Refugio\\EditarMascota.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:53:04.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VistaPerfilRefugio.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\VistaPerfilRefugio.cs",
+              "RelativeDocumentMoniker": "Models\\VistaPerfilRefugio.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\VistaPerfilRefugio.cs",
+              "RelativeToolTip": "Models\\VistaPerfilRefugio.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA6wCsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:08:10.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VistaPerfilAdoptante.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\VistaPerfilAdoptante.cs",
+              "RelativeDocumentMoniker": "Models\\VistaPerfilAdoptante.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\VistaPerfilAdoptante.cs",
+              "RelativeToolTip": "Models\\VistaPerfilAdoptante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:08:05.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBEBAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T12:16:17.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CrearMascota.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\CrearMascota.cshtml",
+              "RelativeDocumentMoniker": "Views\\Refugio\\CrearMascota.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\CrearMascota.cshtml",
+              "RelativeToolTip": "Views\\Refugio\\CrearMascota.cshtml",
+              "ViewState": "AgIAABECAAAAAAAAAAAqwDMCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T18:17:18.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Notificaciones.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\Notificaciones.cshtml",
+              "RelativeDocumentMoniker": "Views\\Refugio\\Notificaciones.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Refugio\\Notificaciones.cshtml",
+              "RelativeToolTip": "Views\\Refugio\\Notificaciones.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAANoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T18:29:05.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DetallesRefugio.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Adoptante\\DetallesRefugio.cshtml",
+              "RelativeDocumentMoniker": "Views\\Adoptante\\DetallesRefugio.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Adoptante\\DetallesRefugio.cshtml",
+              "RelativeToolTip": "Views\\Adoptante\\DetallesRefugio.cshtml",
+              "ViewState": "AgIAALwBAAAAAAAAAAAAANUBAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T18:05:24.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IRepositoryZuvoPet.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Repositories\\IRepositoryZuvoPet.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepositoryZuvoPet.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Repositories\\IRepositoryZuvoPet.cs",
+              "RelativeToolTip": "Repositories\\IRepositoryZuvoPet.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:55:26.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Managed\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Managed\\Register.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Managed\\Register.cshtml",
+              "RelativeToolTip": "Views\\Managed\\Register.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAQwIUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T15:34:06.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormularioRefugio.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Managed\\FormularioRefugio.cshtml",
+              "RelativeDocumentMoniker": "Views\\Managed\\FormularioRefugio.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Managed\\FormularioRefugio.cshtml",
+              "RelativeToolTip": "Views\\Managed\\FormularioRefugio.cshtml",
+              "ViewState": "AgIAACgBAAAAAAAAAAAqwD0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T17:32:37.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthorizeZuvoPetAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Filters\\AuthorizeZuvoPetAttribute.cs",
+              "RelativeDocumentMoniker": "Filters\\AuthorizeZuvoPetAttribute.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Filters\\AuthorizeZuvoPetAttribute.cs",
+              "RelativeToolTip": "Filters\\AuthorizeZuvoPetAttribute.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:10:13.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwEsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:23:41.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Denied.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Managed\\Denied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Managed\\Denied.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Managed\\Denied.cshtml",
+              "RelativeToolTip": "Views\\Managed\\Denied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T15:40:19.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Adoptante\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Adoptante\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Adoptante\\Index.cshtml",
+              "RelativeToolTip": "Views\\Adoptante\\Index.cshtml",
+              "ViewState": "AgIAAAcDAAAAAAAAAAAAABEDAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T13:10:13.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RefugioCard.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\RefugioCard.cs",
+              "RelativeDocumentMoniker": "Models\\RefugioCard.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\RefugioCard.cs",
+              "RelativeToolTip": "Models\\RefugioCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:23:57.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Refugios.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Adoptante\\Refugios.cshtml",
+              "RelativeDocumentMoniker": "Views\\Adoptante\\Refugios.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Views\\Adoptante\\Refugios.cshtml",
+              "RelativeToolTip": "Views\\Adoptante\\Refugios.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAArwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T17:23:03.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PerfilUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\PerfilUsuario.cs",
+              "RelativeDocumentMoniker": "Models\\PerfilUsuario.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\PerfilUsuario.cs",
+              "RelativeToolTip": "Models\\PerfilUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:13:19.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ComentarioHistoria.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\ComentarioHistoria.cs",
+              "RelativeDocumentMoniker": "Models\\ComentarioHistoria.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\ZuvoPet\\Models\\ComentarioHistoria.cs",
+              "RelativeToolTip": "Models\\ComentarioHistoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:10:33.922Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

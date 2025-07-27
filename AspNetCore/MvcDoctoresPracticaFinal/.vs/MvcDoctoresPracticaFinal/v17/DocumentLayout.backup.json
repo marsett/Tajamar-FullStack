@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcdoctorespracticafinal\\mvcdoctorespracticafinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|solutionrelative:mvcdoctorespracticafinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcdoctorespracticafinal\\mvcdoctorespracticafinal\\views\\doctores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|solutionrelative:mvcdoctorespracticafinal\\views\\doctores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcdoctorespracticafinal\\mvcdoctorespracticafinal\\views\\doctores\\buscardoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|solutionrelative:mvcdoctorespracticafinal\\views\\doctores\\buscardoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcdoctorespracticafinal\\mvcdoctorespracticafinal\\repositories\\repositorydoctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|solutionrelative:mvcdoctorespracticafinal\\repositories\\repositorydoctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcdoctorespracticafinal\\mvcdoctorespracticafinal\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|solutionrelative:mvcdoctorespracticafinal\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcdoctorespracticafinal\\mvcdoctorespracticafinal\\views\\doctores\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|solutionrelative:mvcdoctorespracticafinal\\views\\doctores\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvcdoctorespracticafinal\\mvcdoctorespracticafinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3DED4C-F35F-4E7A-979D-5217744C6FB8}|MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal.csproj|solutionrelative:mvcdoctorespracticafinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcDoctoresPracticaFinal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcDoctoresPracticaFinal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T12:40:22.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoctoresController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Controllers\\DoctoresController.cs",
+              "RelativeDocumentMoniker": "MvcDoctoresPracticaFinal\\Controllers\\DoctoresController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Controllers\\DoctoresController.cs",
+              "RelativeToolTip": "MvcDoctoresPracticaFinal\\Controllers\\DoctoresController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T09:47:59.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Views\\Doctores\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcDoctoresPracticaFinal\\Views\\Doctores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Views\\Doctores\\Index.cshtml",
+              "RelativeToolTip": "MvcDoctoresPracticaFinal\\Views\\Doctores\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T09:55:00.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryDoctores.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Repositories\\RepositoryDoctores.cs",
+              "RelativeDocumentMoniker": "MvcDoctoresPracticaFinal\\Repositories\\RepositoryDoctores.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Repositories\\RepositoryDoctores.cs",
+              "RelativeToolTip": "MvcDoctoresPracticaFinal\\Repositories\\RepositoryDoctores.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwFAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T09:49:46.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Detalles.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Views\\Doctores\\Detalles.cshtml",
+              "RelativeDocumentMoniker": "MvcDoctoresPracticaFinal\\Views\\Doctores\\Detalles.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Views\\Doctores\\Detalles.cshtml",
+              "RelativeToolTip": "MvcDoctoresPracticaFinal\\Views\\Doctores\\Detalles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T11:52:39.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BuscarDoctor.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Views\\Doctores\\BuscarDoctor.cshtml",
+              "RelativeDocumentMoniker": "MvcDoctoresPracticaFinal\\Views\\Doctores\\BuscarDoctor.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Views\\Doctores\\BuscarDoctor.cshtml",
+              "RelativeToolTip": "MvcDoctoresPracticaFinal\\Views\\Doctores\\BuscarDoctor.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T10:11:34.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Program.cs",
+              "RelativeDocumentMoniker": "MvcDoctoresPracticaFinal\\Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcDoctoresPracticaFinal\\MvcDoctoresPracticaFinal\\Program.cs",
+              "RelativeToolTip": "MvcDoctoresPracticaFinal\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T09:57:41.655Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

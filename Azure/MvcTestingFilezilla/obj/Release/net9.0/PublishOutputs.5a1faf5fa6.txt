@@ -1,0 +1,7 @@
+C:\Users\mvrset\source\repos\marsett\MvcTestingFilezilla\obj\Release\net9.0\PubTmp\Out\MvcTestingFilezilla.exe
+C:\Users\mvrset\source\repos\marsett\MvcTestingFilezilla\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+C:\Users\mvrset\source\repos\marsett\MvcTestingFilezilla\obj\Release\net9.0\PubTmp\Out\appsettings.json
+C:\Users\mvrset\source\repos\marsett\MvcTestingFilezilla\obj\Release\net9.0\PubTmp\Out\MvcTestingFilezilla.dll
+C:\Users\mvrset\source\repos\marsett\MvcTestingFilezilla\obj\Release\net9.0\PubTmp\Out\MvcTestingFilezilla.deps.json
+C:\Users\mvrset\source\repos\marsett\MvcTestingFilezilla\obj\Release\net9.0\PubTmp\Out\MvcTestingFilezilla.runtimeconfig.json
+C:\Users\mvrset\source\repos\marsett\MvcTestingFilezilla\obj\Release\net9.0\PubTmp\Out\MvcTestingFilezilla.pdb

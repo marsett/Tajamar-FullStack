@@ -1,0 +1,12 @@
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\bin\Release\net9.0\NugetCustomersMJM.deps.json
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\bin\Release\net9.0\NugetCustomersMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\bin\Release\net9.0\NugetCustomersMJM.pdb
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\obj\Release\net9.0\NugetCustomersMJM.csproj.AssemblyReference.cache
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\obj\Release\net9.0\NugetCustomersMJM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\obj\Release\net9.0\NugetCustomersMJM.AssemblyInfoInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\obj\Release\net9.0\NugetCustomersMJM.AssemblyInfo.cs
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\obj\Release\net9.0\NugetCustomersMJM.csproj.CoreCompileInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\obj\Release\net9.0\NugetCustomersMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\obj\Release\net9.0\refint\NugetCustomersMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\obj\Release\net9.0\NugetCustomersMJM.pdb
+C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\obj\Release\net9.0\ref\NugetCustomersMJM.dll

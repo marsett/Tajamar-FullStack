@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net9.0",
+    "self-contained" : false,
+    "application"    : "MvcAWSSeriesELB",
+    "environment"    : "MvcAWSSeriesELB-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-00f64895c95009ff5\";\"aws:ec2:vpc,Subnets\"=\"subnet-020c882599e15fec2\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.10.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "mvcawsserieselb-dev-mjm",
+    "instance-type"        : "t3a.micro",
+    "key-pair"             : "keys-linux-tajamar",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}

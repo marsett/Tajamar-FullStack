@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Series</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/customstyles.css" rel="stylesheet">
+    <link href="css/navbar-fixed.css" rel="stylesheet">
+    <link href="css/sweetalert2.min.css" rel="stylesheet">
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <style>
+        .bg-custom {
+            background-color: rgba(13, 110, 253, 1) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+        <div class="container-fluid">
+            <img src="https://appseries.azurewebsites.net/static/media/logo1.1408c71b2c87ca1fb473.png"
+                style="width: 80px;" />
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars text-light"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link active" aria-current="page" href="/">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="create.html">
+                            Nuevo personaje
+                        </a>
+                    </li>
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="update.html">
+                            Modificar personaje
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown text-center mx-2 mx-lg-1">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Series
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown" id="listaSeries">
+                            <!-- Aquí se cargan las series dinámicamente -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="contenido"></div>
+
+    <script>
+        
+        $(document).ready(function () {
+            let urlParams = new URLSearchParams(window.location.search);
+            let idSerie = urlParams.get('idSerie');
+            console.log("ID: "+idSerie)
+
+            if (idSerie) {
+                cargarDetallesSerie(idSerie);
+            }
+        })
+        function cargarDetallesSerie(idSerie) {
+            let urlApi = "https://apiseriespersonajes.azurewebsites.net/";
+            var request = "api/Series/";
+            var html = "";
+            $.ajax({
+                url: urlApi + request + idSerie,
+                type: "GET",
+                contentType: "application/json",
+                success: function (data) {
+                    
+                    html += '<img src="' + data.imagen + '" width="250" height="250" alt="' + data.nombre + '" />';
+                    html += '<h1>' + data.nombre + '</h1>';
+                    html += '<p>Puntuación: ' + data.puntuacion + '</p>';
+                    html += '<a href="personajes.html?idSerie=' + idSerie + '" class="btn btn-primary">Personajes</a>';
+                
+                    $('#contenido').html(html);
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

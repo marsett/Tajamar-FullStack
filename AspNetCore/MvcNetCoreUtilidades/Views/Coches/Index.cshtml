@@ -1,0 +1,38 @@
+﻿@section Scripts {
+    <script>
+        $("#botonloadcoches").click(function(){
+            $("#containercoches").load("/Coches/_CochesPartial");
+        });
+        $("#botonbuscarcoche").click(function(){
+            // Para enviar parámetros, si nuestro parámetro
+            // se llama id (en el program el pattern), simplemente
+            // ponemos una barra y el valor del parámetro en la
+            // llamada controller/action/id
+            // Si el parámetro se llama de forma diferente
+            // debemos hacerlo con las llamadas típicas de html get
+            // controller/action?param1=valor
+            // Si existe más de un parámetor en la petición
+            // controller/action?param1=valor&param2=valor2
+            var id = $("#cajaidcoche").val();
+            console.log(id);
+            var request = "/Coches/_CochesPost?idcoche=" + id;
+            $("#detallescoche").load(request);
+        });
+    </script>
+}
+
+<h1>Index de AJAX COCHES</h1>
+
+<label>Id coche a buscar</label>
+<input type="text" id="cajaidcoche" class="form-control" />
+<button id="botonbuscarcoche" class="btn btn-danger">
+    Buscar coche
+</button>
+
+<div id="detallescoche" style="background-color: darkolivegreen;"></div>
+
+<button id="botonloadcoches" class="btn btn-warning">
+    Load Coches Ajax
+</button>
+
+<div id="containercoches" style="background-color: lightgreen;"></div>

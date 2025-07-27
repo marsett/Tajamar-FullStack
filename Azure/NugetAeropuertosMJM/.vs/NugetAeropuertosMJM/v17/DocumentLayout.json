@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetAeropuertosMJM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E34EF07D-74AC-405C-BA2E-414E59BDA24F}|NugetAeropuertosMJM.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\nugetaeropuertosmjm\\services\\serviceaeropuertos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34EF07D-74AC-405C-BA2E-414E59BDA24F}|NugetAeropuertosMJM.csproj|solutionrelative:services\\serviceaeropuertos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34EF07D-74AC-405C-BA2E-414E59BDA24F}|NugetAeropuertosMJM.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\nugetaeropuertosmjm\\models\\aeropuerto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34EF07D-74AC-405C-BA2E-414E59BDA24F}|NugetAeropuertosMJM.csproj|solutionrelative:models\\aeropuerto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34EF07D-74AC-405C-BA2E-414E59BDA24F}|NugetAeropuertosMJM.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\nugetaeropuertosmjm\\nugetaeropuertosmjm.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E34EF07D-74AC-405C-BA2E-414E59BDA24F}|NugetAeropuertosMJM.csproj|solutionrelative:nugetaeropuertosmjm.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34EF07D-74AC-405C-BA2E-414E59BDA24F}|NugetAeropuertosMJM.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\nugetaeropuertosmjm\\aeropuertoslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34EF07D-74AC-405C-BA2E-414E59BDA24F}|NugetAeropuertosMJM.csproj|solutionrelative:aeropuertoslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NugetAeropuertosMJM",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetAeropuertosMJM\\NugetAeropuertosMJM.csproj",
+              "RelativeDocumentMoniker": "NugetAeropuertosMJM.csproj",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetAeropuertosMJM\\NugetAeropuertosMJM.csproj",
+              "RelativeToolTip": "NugetAeropuertosMJM.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-19T08:45:58.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AeropuertosList.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetAeropuertosMJM\\AeropuertosList.cs",
+              "RelativeDocumentMoniker": "AeropuertosList.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetAeropuertosMJM\\AeropuertosList.cs",
+              "RelativeToolTip": "AeropuertosList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:43:19.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Aeropuerto.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetAeropuertosMJM\\Models\\Aeropuerto.cs",
+              "RelativeDocumentMoniker": "Models\\Aeropuerto.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetAeropuertosMJM\\Models\\Aeropuerto.cs",
+              "RelativeToolTip": "Models\\Aeropuerto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:32:09.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceAeropuertos.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetAeropuertosMJM\\Services\\ServiceAeropuertos.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceAeropuertos.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\NugetAeropuertosMJM\\Services\\ServiceAeropuertos.cs",
+              "RelativeToolTip": "Services\\ServiceAeropuertos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:31:56.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

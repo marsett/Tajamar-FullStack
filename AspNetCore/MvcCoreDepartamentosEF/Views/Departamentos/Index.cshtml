@@ -1,0 +1,38 @@
+﻿@model List<Departamento>
+
+<h1>Departamentos EF</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id Departamento</th>
+            <th>Nombre</th>
+            <th>Localidad</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Departamento departamento in Model)
+        {
+            <tr>
+                <td>@departamento.IdDepartamento</td>
+                <td>@departamento.Nombre</td>
+                <td>@departamento.Localidad</td>
+                <td>
+                    <a asp-controller="Departamentos"
+                       asp-action="Details"
+                       asp-route-idDepartamento="@departamento.IdDepartamento"
+                       class="btn btn-warning">Detalles</a>
+                    <a asp-controller="Departamentos"
+                       asp-action="Delete"
+                       asp-route-idDepartamento="@departamento.IdDepartamento"
+                       class="btn btn-danger">Eliminar</a>
+                    <a asp-controller="Departamentos"
+                       asp-action="Edit"
+                       asp-route-idDepartamento="@departamento.IdDepartamento"
+                       class="btn btn-info">Actualizar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

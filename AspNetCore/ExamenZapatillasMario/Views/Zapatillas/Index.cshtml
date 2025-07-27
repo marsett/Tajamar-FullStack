@@ -1,0 +1,21 @@
+﻿@model List<ZapasPractica>
+
+<h1>Zapatillas</h1>
+
+<table class="table table-hover border">
+    <tbody>
+        @foreach (ZapasPractica item in Model)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-success"
+                    asp-controller="Zapatillas"
+                    asp-action="Details"
+                    asp-route-idproducto="@item.IdProducto">
+                        @item.Nombre
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

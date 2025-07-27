@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Z7RhKNjmAJlsSPmeHL+GgoLDlr4VrLJTpWbnqxUDWMY=",
+  "Source": "ApiPersonas",
+  "BasePath": "_content/ApiPersonas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MvcNetCoreSessionEmpleados
+build_property.RootNamespace = MvcNetCoreSessionEmpleados
+build_property.ProjectDir = C:\Users\mvrset\source\repos\marsett\Tajamar-FullStack\aspnetcore\MvcNetCoreSessionEmpleados\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mvrset\source\repos\marsett\Tajamar-FullStack\aspnetcore\MvcNetCoreSessionEmpleados
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/EmpleadosAlmacenados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVtcGxlYWRvc0FsbWFjZW5hZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/EmpleadosAlmacenadosOK.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVtcGxlYWRvc0FsbWFjZW5hZG9zT0suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/EmpleadosAlmacenadosV4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVtcGxlYWRvc0FsbWFjZW5hZG9zVjQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/EmpleadosAlmacenadosV5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVtcGxlYWRvc0FsbWFjZW5hZG9zVjUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/EmpleadosFavoritos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVtcGxlYWRvc0Zhdm9yaXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/SessionEmpleados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXFNlc3Npb25FbXBsZWFkb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/SessionEmpleadosOK.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXFNlc3Npb25FbXBsZWFkb3NPSy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/SessionEmpleadosV4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXFNlc3Npb25FbXBsZWFkb3NWNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/SessionEmpleadosV5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXFNlc3Npb25FbXBsZWFkb3NWNS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/SessionSalarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXFNlc3Npb25TYWxhcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Empleados/SumaSalarial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXFN1bWFTYWxhcmlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/MvcNetCoreSessionEmpleados/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6whl8kl799

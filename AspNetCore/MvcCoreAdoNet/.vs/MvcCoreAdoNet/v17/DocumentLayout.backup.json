@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccoreadonet\\mvccoreadonet\\repositories\\repositorydoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|solutionrelative:mvccoreadonet\\repositories\\repositorydoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccoreadonet\\mvccoreadonet\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|solutionrelative:mvccoreadonet\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccoreadonet\\mvccoreadonet\\views\\doctores\\doctoresespecialidad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|solutionrelative:mvccoreadonet\\views\\doctores\\doctoresespecialidad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccoreadonet\\mvccoreadonet\\views\\hospitales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|solutionrelative:mvccoreadonet\\views\\hospitales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccoreadonet\\mvccoreadonet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|solutionrelative:mvccoreadonet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccoreadonet\\mvccoreadonet\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|solutionrelative:mvccoreadonet\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccoreadonet\\mvccoreadonet\\views\\hospitales\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|solutionrelative:mvccoreadonet\\views\\hospitales\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccoreadonet\\mvccoreadonet\\views\\hospitales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C51E846A-234D-4060-9FFF-038B3C964935}|MvcCoreAdoNet\\MvcCoreAdoNet.csproj|solutionrelative:mvccoreadonet\\views\\hospitales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryDoctor.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Repositories\\RepositoryDoctor.cs",
+              "RelativeDocumentMoniker": "MvcCoreAdoNet\\Repositories\\RepositoryDoctor.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Repositories\\RepositoryDoctor.cs",
+              "RelativeToolTip": "MvcCoreAdoNet\\Repositories\\RepositoryDoctor.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:14:43.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctoresEspecialidad.cshtml",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Doctores\\DoctoresEspecialidad.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreAdoNet\\Views\\Doctores\\DoctoresEspecialidad.cshtml",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Doctores\\DoctoresEspecialidad.cshtml",
+              "RelativeToolTip": "MvcCoreAdoNet\\Views\\Doctores\\DoctoresEspecialidad.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T08:32:26.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctoresController.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Controllers\\DoctoresController.cs",
+              "RelativeDocumentMoniker": "MvcCoreAdoNet\\Controllers\\DoctoresController.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Controllers\\DoctoresController.cs",
+              "RelativeToolTip": "MvcCoreAdoNet\\Controllers\\DoctoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:30:00.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreAdoNet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcCoreAdoNet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T10:40:39.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Hospitales\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreAdoNet\\Views\\Hospitales\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Hospitales\\Index.cshtml",
+              "RelativeToolTip": "MvcCoreAdoNet\\Views\\Hospitales\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T11:49:19.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "MvcCoreAdoNet\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Models\\Doctor.cs",
+              "RelativeToolTip": "MvcCoreAdoNet\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:12:35.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Hospitales\\Update.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreAdoNet\\Views\\Hospitales\\Update.cshtml",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Hospitales\\Update.cshtml",
+              "RelativeToolTip": "MvcCoreAdoNet\\Views\\Hospitales\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T11:43:50.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Hospitales\\Details.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreAdoNet\\Views\\Hospitales\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreAdoNet\\MvcCoreAdoNet\\Views\\Hospitales\\Details.cshtml",
+              "RelativeToolTip": "MvcCoreAdoNet\\Views\\Hospitales\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T12:09:58.789Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\FundamentosNetCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{940160F5-9EC2-4A49-B6F1-9D93FF7DB837}|FundamentosNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\fundamentosnetcore\\form25coleccionmascotasjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{940160F5-9EC2-4A49-B6F1-9D93FF7DB837}|FundamentosNetCore.csproj|solutionrelative:form25coleccionmascotasjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{940160F5-9EC2-4A49-B6F1-9D93FF7DB837}|FundamentosNetCore.csproj|c:\\users\\jimen\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\fundamentosnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{940160F5-9EC2-4A49-B6F1-9D93FF7DB837}|FundamentosNetCore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\FundamentosNetCore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\FundamentosNetCore\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T10:05:03.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form25ColeccionMascotasJSON.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\FundamentosNetCore\\Form25ColeccionMascotasJSON.cs",
+              "RelativeDocumentMoniker": "Form25ColeccionMascotasJSON.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\FundamentosNetCore\\Form25ColeccionMascotasJSON.cs",
+              "RelativeToolTip": "Form25ColeccionMascotasJSON.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T09:49:03.476Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

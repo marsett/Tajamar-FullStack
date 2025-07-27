@@ -1,0 +1,32 @@
+﻿@model Doctor
+
+<h1>Detalles Doctor</h1>
+
+<p>
+    <a asp-controller="Doctores"
+       asp-action="Index"
+       class="btn btn-secondary">
+        Volver
+    </a>
+</p>
+
+<table class="table table-danger">
+    <thead>
+        <tr>
+            <th>Hospital_Cod</th>
+            <th>Doctor_No</th>
+            <th>Apellido</th>
+            <th>Especialidad</th>
+            <th>Salario</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Hospital_Cod</td>
+            <td>@Model.Doctor_No</td>
+            <td>@Model.Apellido</td>
+            <td>@Model.Especialidad</td>
+            <td>@Model.Salario</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EjemploCubosUltimoDia
+build_property.RootNamespace = EjemploCubosUltimoDia
+build_property.ProjectDir = C:\Users\mvrset\source\repos\marsett\Tajamar-FullStack\aspnetcore\EjemploCubosUltimoDia\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mvrset\source\repos\marsett\Tajamar-FullStack\aspnetcore\EjemploCubosUltimoDia
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Cubos/Carrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vib3NcQ2Fycml0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Cubos/ComprasUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vib3NcQ29tcHJhc1VzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Cubos/Cubos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vib3NcQ3Vib3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Cubos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vib3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Cubos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vib3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Cubos/_Perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vib3NcX1BlcmZpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Managed/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlZFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Shared/Components/MenuMarcas/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudU1hcmNhc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Shared/_MenuUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51VXN1YXJpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Shared/_NumeroCubos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OdW1lcm9DdWJvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvrset/source/repos/marsett/Tajamar-FullStack/aspnetcore/EjemploCubosUltimoDia/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-aenvnf44tv

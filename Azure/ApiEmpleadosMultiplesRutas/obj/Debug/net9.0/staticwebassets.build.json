@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ckwAsioCX04zjBDLDbXcqdMqet8xxbFWPV9xEy0LavY=",
+  "Source": "ApiEmpleadosMultiplesRutas",
+  "BasePath": "_content/ApiEmpleadosMultiplesRutas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

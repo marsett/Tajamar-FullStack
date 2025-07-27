@@ -1,0 +1,114 @@
+﻿@model List<PracticaCubos.Models.Cubo>
+
+
+@if (Context.Session.GetString("IDSCUBOS") == null)
+{
+    <h2 style="color: red;">
+        No existen cubos almacenados en el carrito
+    </h2>
+}
+
+<h1>Carrito</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div class="row">
+        @foreach (Cubo cubo in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="~/cubos/@cubo.Imagen" class="card-img-top" alt="@cubo.Nombre" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@cubo.Nombre</h5>
+                        <p>Precio unitario: <strong>@cubo.Precio €</strong></p>
+                        <p>Precio total: <strong class="precio-total">@(cubo.Precio * cubo.Cantidad) €</strong></p>
+
+                        <div>
+                            <button class="btn btn-info cambiar-cantidad" data-id="@cubo.IdCubo" data-accion="-">-</button>
+                            <input type="number" class="cantidad" value="@cubo.Cantidad" data-id="@cubo.IdCubo" min="1" style="width: 50px; text-align: center;">
+                            <button class="btn btn-info cambiar-cantidad" data-id="@cubo.IdCubo" data-accion="+">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <h1 style="color: red;">
+        Precio total: <span id="precioTotal">0</span> €
+    </h1>
+
+    <form asp-action="FinalizarCompra" method="post">
+        <button type="submit" class="btn btn-success">Finalizar Compra</button>
+    </form>
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            actualizarPrecioTotal();
+
+            $(".cambiar-cantidad").click(function () {
+                var idCubo = $(this).data("id");
+                var accion = $(this).data("accion");
+                var inputCantidad = $("input.cantidad[data-id='" + idCubo + "']");
+                var nuevaCantidad = parseInt(inputCantidad.val());
+
+                if (accion === "+") {
+                    nuevaCantidad++;
+                } else if (accion === "-" && nuevaCantidad > 1) {
+                    nuevaCantidad--;
+                }
+
+                inputCantidad.val(nuevaCantidad);
+                actualizarPrecioUnitario(idCubo, nuevaCantidad);
+                enviarCantidadServidor(idCubo, nuevaCantidad);
+            });
+
+            $(".cantidad").change(function () {
+                var idCubo = $(this).data("id");
+                var nuevaCantidad = parseInt($(this).val());
+
+                if (nuevaCantidad < 1) {
+                    $(this).val(1);
+                    nuevaCantidad = 1;
+                }
+
+                actualizarPrecioUnitario(idCubo, nuevaCantidad);
+                enviarCantidadServidor(idCubo, nuevaCantidad);
+            });
+
+            function actualizarPrecioUnitario(idCubo, cantidad) {
+                var precioUnitario = parseFloat($("button[data-id='" + idCubo + "']").closest(".card-body").find("p strong").first().text().replace(" €", ""));
+                var nuevoPrecio = precioUnitario * cantidad;
+                $("button[data-id='" + idCubo + "']").closest(".card-body").find(".precio-total").text(nuevoPrecio.toFixed(2) + " €");
+                actualizarPrecioTotal();
+            }
+
+            function actualizarPrecioTotal() {
+                var total = 0;
+                $(".precio-total").each(function () {
+                    total += parseFloat($(this).text().replace(" €", ""));
+                });
+                $("#precioTotal").text(total.toFixed(2));
+            }
+
+            function enviarCantidadServidor(idCubo, cantidad) {
+                $.ajax({
+                    url: "/Cubos/ActualizarCantidad",
+                    type: "POST",
+                    data: { idCubo: idCubo, cantidad: cantidad },
+                    success: function () {
+                        console.log("Cantidad actualizada correctamente.");
+                    },
+                    error: function () {
+                        console.log("Error al actualizar la cantidad.");
+                    }
+                });
+            }
+        });
+    </script>
+}
+
+

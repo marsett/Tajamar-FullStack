@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NugetApiModelsMJM</id>
+    <version>1.0.0</version>
+    <title>Nuget con Modelos para Apis</title>
+    <authors>Mario Jiménez Marset</authors>
+    <icon>IMG_20221117_094458.jpg</icon>
+    <description>Nuget con los modelos de las apis</description>
+    <tags>lunes, sol</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="9.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\bin\Debug\net9.0\NugetApiModelsMJM.dll" target="lib\net9.0\NugetApiModelsMJM.dll" />
+    <file src="C:\Users\mvrset\Pictures\Álbum de cámara\Atleti\IMG_20221117_094458.jpg" target="\IMG_20221117_094458.jpg" />
+  </files>
+</package>

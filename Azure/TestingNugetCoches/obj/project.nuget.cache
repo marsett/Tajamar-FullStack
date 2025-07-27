@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XPePLxlTXF4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mvrset\\source\\repos\\marsett\\TestingNugetCoches\\TestingNugetCoches.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mvrset\\.nuget\\packages\\nugetcocheslunesmjm\\1.0.0\\nugetcocheslunesmjm.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

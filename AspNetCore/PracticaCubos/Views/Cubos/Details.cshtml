@@ -1,0 +1,30 @@
+﻿@model PracticaCubos.Models.Cubo
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>@Model.Nombre</h1>
+
+<div class="card mb-3" style="max-width: 800px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="~/cubos/@Model.Imagen" class="img-fluid rounded-start" alt="@Model.Nombre" style="height: 300px; object-fit: cover;">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <p class="card-text">
+                    <strong>Id: </strong> @Model.IdCubo <br>
+                    <strong>Modelo:</strong> @Model.Modelo <br>
+                    <strong>Marca:</strong> @Model.Marca <br>
+                    <strong>Precio:</strong> @Model.Precio €
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdCubo" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

@@ -1,0 +1,41 @@
+﻿@model List<Coche>
+
+@{
+    ViewData["Title"] = "_CochesPartial";
+}
+
+<h1>Coches con AJAX</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                IdCoche
+            </th>
+            <th>
+                Tipo
+            </th>
+            <th>
+                Imagen
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.IdCoche
+            </td>
+            <td>
+                @item.Marca @item.Modelo
+            </td>
+            <td>
+                <img src="@item.Imagen" style="width: 150px; height: 100px;"/>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,19 @@
+<div>
+    <h1>Librería Component</h1>
+    <h1 style="color: red">{{ mensaje }}</h1>
+    <form #comicForm="ngForm">
+        <label>Título</label>
+        <input type="text" name="cajatitulo" #cajatitulo /><br />
+        <label>Imagen</label>
+        <input type="text" name="cajaimagen" #cajaimagen /><br />
+        <label>Pie de Imagen</label>
+        <input type="text" name="cajapie" #cajapie /><br />
+        <button (click)="crearComic()">Crear nuevo cómic</button>
+    </form>
+    <ul>
+        <li *ngFor="let comic of comics">
+            <app-comic [comic]="comic"
+                (seleccionarFavoritoPadre)="seleccionarFavoritoPadre($event)"></app-comic>
+        </li>
+    </ul>
+</div>

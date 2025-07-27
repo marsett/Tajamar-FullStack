@@ -1,0 +1,45 @@
+﻿@model DetalleZapatilla
+
+@{
+    int posicion = (int)ViewData["POSICION"];
+}
+
+<table class="table table-bordered">
+    <thead class="bg-secondary text-white text-center">
+        <tr>
+            <th>@Model.Zapatilla.Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p><strong>Descripción:</strong> @Model.Zapatilla.Descripcion</p>
+                <p><strong>Precio:</strong> @Model.Zapatilla.Precio €</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div id="contenedorimagenes">
+    <partial name="_PaginacionImagenes" model="@Model" />
+</div>
+
+<a asp-controller="Zapatillas" asp-action="Index">Volver a Index</a>
+
+@section Scripts {
+    <script>
+        function cargarPagina(idproducto, posicion){
+            $.ajax({
+                url: '@Url.Action("_PaginacionImagenes", "Zapatillas")',
+                data: { idproducto: idproducto, posicion: posicion },
+                type: "GET",
+                success: function(data) {
+                    $("#contenedorimagenes").html(data);
+                },
+                error: function(){
+                    alert("Error al cargar las imágenes");
+                }
+            });
+        }
+    </script>
+}

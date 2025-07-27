@@ -1,0 +1,40 @@
+﻿@model List<VistaCompra>
+
+<h1>Compras Realizadas</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Nombre del Cubo</th>
+                <th>Precio Individual</th>
+                <th>Cantidad Comprada</th>
+                <th>Precio Final</th>
+                <th>Fecha de Compra</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var compra in Model)
+            {
+                <tr>
+                    <td>@compra.NombreCubo</td>
+                    <td>@compra.PrecioIndividual €</td>
+                    <td>@compra.CantidadComprada</td>
+                    <td>@compra.PrecioFinal €</td>
+                    <td>@compra.FechaPedido.ToString("dd/MM/yyyy HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3 style="color: red;">
+        Total Pagado: @Model.Sum(c => c.PrecioFinal) €
+    </h3>
+
+    <a asp-action="Index" asp-controller="Cubos" class="btn btn-primary">Volver a Inicio</a>
+}
+else
+{
+    <h2 style="color: red;">No se encontraron compras realizadas.</h2>
+}

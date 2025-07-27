@@ -1,0 +1,12 @@
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\bin\Debug\net9.0\ProyectoClases.deps.json
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\bin\Debug\net9.0\ProyectoClases.dll
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\bin\Debug\net9.0\ProyectoClases.pdb
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\obj\Debug\net9.0\ProyectoClases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\obj\Debug\net9.0\ProyectoClases.AssemblyInfoInputs.cache
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\obj\Debug\net9.0\ProyectoClases.AssemblyInfo.cs
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\obj\Debug\net9.0\ProyectoClases.csproj.CoreCompileInputs.cache
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\obj\Debug\net9.0\ProyectoClases.sourcelink.json
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\obj\Debug\net9.0\ProyectoClases.dll
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\obj\Debug\net9.0\refint\ProyectoClases.dll
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\obj\Debug\net9.0\ProyectoClases.pdb
+C:\Users\jimen\source\repos\marsett\Tajamar-FullStack\aspnetcore\ProyectoClases\obj\Debug\net9.0\ref\ProyectoClases.dll

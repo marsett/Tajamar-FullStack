@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "CubosFavoritos";
+    List<Cubo> favoritos = memoryCache.Get<List<Cubo>>("FAVORITOS");
+}
+
+<h1 style="color:blue">Cubos Favoritos</h1>
+
+@if (favoritos == null)
+{
+    <h2 style="color:red">
+        No existen cubos favoritos
+    </h2>
+}else{
+    <div class="row">
+        @foreach (Cubo cubo in favoritos)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="~/cubos/@cubo.Imagen" class="card-img-top" alt="@cubo.Nombre" style="height: 300px; object-fit: cover;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">@cubo.Nombre</h5>
+                        <a asp-action="Details" asp-controller="Cubos" asp-route-id="@cubo.IdCubo" class="btn btn-info">Details</a>
+                        <a asp-controller="Cubos"
+                           asp-action="CubosFavoritos"
+                           asp-route-ideliminar="@cubo.IdCubo"
+                           class="btn btn-danger">
+                            Eliminar de favoritos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

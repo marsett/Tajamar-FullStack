@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Maestro detalle empleados departamento</h1>
+    <ul id="departamentos"></ul>
+    <table border='1' id='tabla'>
+        <thead>
+            <tr>
+                <th>Apellido</th>
+                <th>Oficio</th>
+                <th>Salario</th>
+                <th>Departamento</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script>
+        var urlDepartamentos = "https://apicruddepartamentoscore.azurewebsites.net/";
+        var urlEmpleados = "https://apiempleadosspgs.azurewebsites.net/";
+        $(document).ready(function () {
+            cargarDepartamentos();
+            $("#departamentos").on('click', 'a', function (e) {
+                var id = $(this).data('id');
+                mostrarEmpleados(id);
+            });
+        });
+        function cargarDepartamentos() {
+            var request = "api/Departamentos";
+            $.getJSON(urlDepartamentos + request, function (data) {
+                console.log("Leyendo...");
+                var html = "";
+                $.each(data, function (index, departamento) {
+                    html += "<li>" + departamento.nombre +
+                        " <a href='#' data-id='" +
+                        departamento.numero + "'>Empleados</a></li>";
+                });
+                $("#departamentos").html(html);
+            });
+        }
+        function mostrarEmpleados(id) {
+            var request = "api/Empleados";
+            $.ajax({
+                url: urlEmpleados + request,
+                type: "GET",
+                success: function (data) {
+                    var html = "";
+                    $.each(data, function (index, detalle) {
+                        if (detalle.departamento == id) {
+                            html += "<tr>";
+                            html += "<th>" + detalle.apellido + "</th>";
+                            html += "<th>" + detalle.oficio + "</th>";
+                            html += "<th>" + detalle.salario + "</th>";
+                            html += "<th>" + detalle.departamento + "</th>";
+                            html += "</tr>";
+                        }
+                    });
+                    $("#tabla tbody").html(html);
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

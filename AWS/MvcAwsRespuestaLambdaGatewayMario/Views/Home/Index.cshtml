@@ -1,0 +1,18 @@
+﻿@model MvcAwsRespuestaLambdaGatewayMario.Models.Pregunta
+
+<h2>Pregunta a la IA (via Lambda)</h2>
+
+<form method="post">
+    <div>
+        <label for="Question">Introduce tu pregunta:</label>
+        <input type="text" id="Question" name="Question" value="@Model.Question" style="width: 400px;" />
+    </div>
+    <br />
+    <button type="submit">Enviar</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Respuesta))
+{
+    <h3>Respuesta:</h3>
+    <pre>@Model.Respuesta</pre>
+}

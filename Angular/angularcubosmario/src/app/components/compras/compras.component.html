@@ -1,0 +1,21 @@
+<div>
+    <h1>Tus compras</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Núm. Pedido</th>
+          <th>ID Cubo</th>
+          <th>Fecha</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let compra of compras" [attr.key]="compra.idPedido">
+          <td>{{ compra.idPedido }}</td>
+          <td>{{ compra.idCubo }}</td>
+          <td>{{ compra.fechaPedido }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <a routerLink="/perfil" class="btn btn-primary">Volver al perfil</a>
+    <a routerLink="/pedido" class="btn btn-primary">Realizar pedido</a>
+  </div>  

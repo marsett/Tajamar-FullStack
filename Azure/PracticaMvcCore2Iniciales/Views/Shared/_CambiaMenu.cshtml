@@ -1,0 +1,19 @@
+﻿<partial name="_CountLibros" />
+@if(!Context.User.Identity.IsAuthenticated){
+    <li class="nav-item">
+        <a asp-controller="Libros" asp-action="Inicio"
+            class="nav-link">Login</a>
+    </li>
+}else{
+    <li class="nav-item">
+        <a asp-controller="Libros" asp-action="Inicio"
+           class="nav-link">
+            <img style="width: 25px; height: 25px;" src="~/images/@Context.User.FindFirst("Foto").Value" />
+            @Context.User.FindFirst("Nombre").Value
+       </a>
+    </li>
+    <li class="nav-item">
+        <a asp-controller="Managed" asp-action="Logout"
+           class="nav-link">Logout</a>
+    </li>
+}

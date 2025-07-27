@@ -1,0 +1,11 @@
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\ApiAWSPersonas.deps.json
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\ApiAWSPersonas.runtimeconfig.json
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\ApiAWSPersonas.pdb
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\Amazon.Lambda.Annotations.dll
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\Amazon.Lambda.Core.dll
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\Newtonsoft.Json.dll
+C:\Users\mvrset\source\repos\marsett\ApiAWSPersonas\bin\Release\net8.0\publish\ApiAWSPersonas.dll

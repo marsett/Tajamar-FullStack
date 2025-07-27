@@ -1,0 +1,15 @@
+﻿<h1 style="color: blue;">
+    Suma Números POST
+</h1>
+
+<form method="post">
+    <label>Número 1</label>
+    <input type="text" name="numeroUno" class="form-control" value="@ViewData["NUMEROUNO"]"/><br />
+    <label>Número 2</label>
+    <input type="text" name="numeroDos" class="form-control" value="@ViewData["NUMERODOS"]" /><br />
+    <button class="btn btn-info">
+        Mostrar Suma
+    </button>
+</form>
+
+<h1 style="color: red;">@ViewData["RESULTADO"]</h1>

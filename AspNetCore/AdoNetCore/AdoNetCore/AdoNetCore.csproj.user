@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form01PrimerAdo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form02BuscadorEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form03EliminarEnfermos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form04EliminarPlantilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form05UpdateSalas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form06UpdateSalasClases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form07DepartamentosEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form08CrudDepartamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form09CrudHospitales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form10UpdateEmpleadosOficios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form11UpdatePlantillaProcedures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form12MensajesServidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form13ParametrosSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form14Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿@section imagenhome {
+    <img src="~/images/paco.jpg" style="width: 100px; height: 100px;"/>
+}
+
+@section styles {
+    <style>
+        h2 {
+            background-color: green;
+        }
+    </style>
+}
+
+@section scripts {
+    <script>
+        $(document).ready(function() {
+            $("#botonlayout").click(function() {
+                $("#mensaje").text("Botón pulsado en Layout!!!");
+            })
+        })
+        $(document).ready(function() {
+            $("#botonindex").click(function() {
+                $("#message").text("Bárbara es amiga de Yolanda Díaz");
+            })
+        })
+    </script>
+}
+
+<h2 style="color: fuchsia;">
+    Estás en casa...
+</h2>
+<h1 class="mt-5" id="message">Mensaje que cambia</h1>
+<button class="btn btn-danger" id="botonindex">
+    Botón Layout
+</button>

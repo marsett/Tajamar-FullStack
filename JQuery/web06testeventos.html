@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Controles dinámicos</h1>
+    <button>Pulsar para hacer algo....</button>
+    <div id="prueba"></div>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                alert("Botón pulsado");
+                $("#prueba").html("<button id='miboton' onclick='mostrarMensaje()'>Botón nuevo</button>");
+            });
+            $("#miboton").click(function () {
+                alert("Botón nuevo pulsado!!!");
+            });
+        });
+        function mostrarMensaje() {
+            alert("Botón nuevo pulsado!!!");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+<div>
+    <h1>Personas</h1>
+    <ul class="list-group" *ngIf="personas.length > 0">
+        <li *ngFor="let persona of personas" class="list-group-item">
+            {{ persona.Nombre }}
+        </li>
+    </ul>
+</div>

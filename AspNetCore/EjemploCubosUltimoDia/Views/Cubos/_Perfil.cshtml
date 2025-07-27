@@ -1,0 +1,11 @@
+﻿<div class="row">
+    <div class="col-7">
+        <h3>Nombre: @Context.User.FindFirst("NOMBRE").Value</h3>
+        <h3>Email: @Context.User.Identity.Name</h3>
+        <a asp-controller="Cubos" asp-action="ComprasUsuario"
+           class="btn btn-primary mt-3 w-100">
+            Ver mis compras
+        </a>
+    </div>
+
+</div>

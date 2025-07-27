@@ -1,0 +1,81 @@
+﻿@model List<Empleado>
+
+@{
+    List<int> idsEnSesion = Context.Session.GetObject<List<int>>("IDSEMPLEADOS");
+
+    // Necesitamos memory cache para los dibujos
+    List<Empleado> favoritos = memoryCache.Get<List<Empleado>>("FAVORITOS"); 
+}
+
+<h1 style="color: fuchsia;">Session Empleados V5</h1>
+
+@if(favoritos != null){
+    <h3 style="background-color: lightgreen; color: white;">
+        Favoritos almacenados: @favoritos.Count
+    </h3>
+}
+
+@if(idsEnSesion != null){
+    <h3 style="background-color: white; color: black;">
+        Empleados Session: @idsEnSesion.Count
+    </h3>
+}
+
+<p>
+    <a asp-controller="Empleados"
+    asp-action="EmpleadosAlmacenadosV5">
+        Empleados Almacenados V5
+    </a>
+</p>
+
+<h4>@ViewData["MENSAJE"]</h4>
+
+<ul class="list-group">
+    @foreach (Empleado empleado in Model)
+    {
+        bool estaEnSesion = false;
+
+        if (idsEnSesion != null && idsEnSesion.Contains(empleado.IdEmpleado))
+        {
+            estaEnSesion = true;
+        }
+
+        <li class="list-group-item list-group-item-success">
+            @empleado.Apellido
+
+            @if(favoritos == null){
+                <a asp-controller="Empleados"
+                asp-action="SessionEmpleadosV5"
+                asp-route-idfavorito="@empleado.IdEmpleado">
+                    <img src="~/images/blanco.png" style="width: 30px; height: 30px;" />
+                </a>
+            }else{
+                // Debemos preguntar si existe nuestro empleado
+                // con el id que estamos recorriendo dentro de la colección
+                Empleado empFavorito = favoritos.Find(x => x.IdEmpleado == empleado.IdEmpleado);
+                if(empFavorito != null){
+                    <img src="~/images/rojo.png" style="width: 30px; height: 30px;" />
+                }else{
+                    <a asp-controller="Empleados"
+                       asp-action="SessionEmpleadosV5"
+                       asp-route-idfavorito="@empleado.IdEmpleado">
+                        <img src="~/images/blanco.png" style="width: 30px; height: 30px;" />
+                    </a>
+                }
+            }
+
+            @if (estaEnSesion)
+            {
+                <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" width="20" title="En sesión" />
+            }
+            else
+            {
+                <a asp-controller="Empleados"
+                   asp-action="SessionEmpleadosV5"
+                   asp-route-idempleado="@empleado.IdEmpleado">
+                    Almacenar empleado
+                </a>
+            }
+        </li>
+    }
+</ul>

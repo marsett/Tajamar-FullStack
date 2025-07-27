@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Departamentos XML</h1>
+    <button id="botoncargar">Cargar departamentos</button>
+    <table id="tabladepartamentos"></table>
+    <script>
+        $(document).ready(function () {
+            $("#botoncargar").click(function () {
+                $.get("documents/departamentos.xml", function (data) {
+                    console.log("Leyendo...");
+                    var html = "";
+                    $(data).find("DEPT").each(function () {
+                        html += "<tr>";
+                        var numero = $(this).attr("DEPT_NO");
+                        var nombre = $(this).find("DNOMBRE").first().text();
+                        var localidad = $(this).find("LOC").first().text();
+                        html += "<td>" + numero + "</td>";
+                        html += "<td>" + nombre + "</td>";
+                        html += "<td>" + localidad + "</td>";
+                        html += "</tr>";
+                    });
+                    $("#tabladepartamentos").html(html);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

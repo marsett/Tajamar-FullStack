@@ -1,0 +1,58 @@
+<div class="container mt-5">
+    <div class="card w-100 mb-4">
+      <div class="card-header text-center">
+        <h1 class="mb-0" style="font-size: 2.5rem;">{{ cubo.nombre }}</h1>
+      </div>
+  
+      <img
+        [src]="cubo.imagen"
+        class="card-img-top"
+        alt="Imagen del producto"
+        style="max-height: 200px; object-fit: contain;"
+      />
+  
+      <div class="card-body">
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th>Marca</th>
+              <td>{{ cubo.marca }}</td>
+            </tr>
+            <tr>
+              <th>Modelo</th>
+              <td>{{ cubo.modelo }}</td>
+            </tr>
+            <tr>
+              <th>Precio</th>
+              <td>{{ cubo.precio }} €</td>
+            </tr>
+            <tr>
+              <th>Valoración</th>
+              <td>{{ cubo.valoracion }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  
+    <a routerLink="/" class="btn btn-warning mt-3">Volver</a>
+  
+    <div class="mt-4">
+      <h1 *ngIf="comentarios.length === 0" style="color: blue">Sin comentarios</h1>
+      <table *ngIf="comentarios.length > 0" class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Usuario</th>
+            <th>Comentarios</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let coment of comentarios">
+            <td>Usuario {{ coment.idUsuario }}</td>
+            <td>{{ coment.comentario }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

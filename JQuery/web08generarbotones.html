@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Generar botones</h1>
+    <h1 style="color:blue" id="suma">0</h1>
+    <div id="contenedor"></div>
+    <script>
+        // Crear una página para generar botones dinámicamente.
+        // Al iniciar la página dichos botones tendrán un número generado
+        // mediante random. Al pulsar cada botón, se irá sumando su valor
+        // dentro de un h1
+        $(document).ready(function () {
+            for (var i = 1; i <= 10; i++) {
+                var aleatorio = Math.floor(Math.random() * 11);
+                var boton = $("<button>").text(aleatorio).val(aleatorio);
+                $("#contenedor").append(boton);
+                boton.click(function () {
+                    var valorBoton = parseInt($(this).val());
+                    var valorH1 = parseInt($("#suma").text());
+                    var nuevoValor = valorH1 + valorBoton;
+                    $("#suma").text(nuevoValor);
+                });
+            }
+
+            // Código Paco
+            /*for (var i = 1; i <= 10; i++) {
+                var aleatorio = parseInt(Math.random() * 100) + 1;
+                var boton = $("<button>");
+                boton.text("Número " + aleatorio);
+                boton.val(aleatorio);
+                $("#contenedor").append(boton);
+                boton.click(function () {
+                    var numero = parseInt($(this).val());
+                    var suma = parseInt($("#suma").text());
+                    suma += numero;
+                    $("#suma").text(suma);
+                });
+            }*/
+        });
+    </script>
+</body>
+
+</html>

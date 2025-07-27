@@ -1,0 +1,12 @@
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\bin\Debug\net9.0\NugetApiModelsMJM.deps.json
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\bin\Debug\net9.0\NugetApiModelsMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\bin\Debug\net9.0\NugetApiModelsMJM.pdb
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\obj\Debug\net9.0\NugetApiModelsMJM.csproj.AssemblyReference.cache
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\obj\Debug\net9.0\NugetApiModelsMJM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\obj\Debug\net9.0\NugetApiModelsMJM.AssemblyInfoInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\obj\Debug\net9.0\NugetApiModelsMJM.AssemblyInfo.cs
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\obj\Debug\net9.0\NugetApiModelsMJM.csproj.CoreCompileInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\obj\Debug\net9.0\NugetApiModelsMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\obj\Debug\net9.0\refint\NugetApiModelsMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\obj\Debug\net9.0\NugetApiModelsMJM.pdb
+C:\Users\mvrset\source\repos\marsett\NugetApiModelsMJM\obj\Debug\net9.0\ref\NugetApiModelsMJM.dll

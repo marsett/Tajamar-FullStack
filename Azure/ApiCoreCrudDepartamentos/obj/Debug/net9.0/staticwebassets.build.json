@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3xpALG2VZXbVkOtWq4E/H//awUA4ANljLhwKwqQYfCk=",
+  "Source": "ApiCoreCrudDepartamentos",
+  "BasePath": "_content/ApiCoreCrudDepartamentos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

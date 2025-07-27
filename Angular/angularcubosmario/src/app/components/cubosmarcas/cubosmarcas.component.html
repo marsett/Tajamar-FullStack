@@ -1,0 +1,24 @@
+<div class="container mt-5">
+    <h1>
+      Cubos de la marca <span style="color: red">{{ marca }}</span>
+    </h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <div class="col" *ngFor="let cubo of cubos">
+        <div class="card" style="width: 18rem">
+          <img
+            [src]="cubo.imagen"
+            class="card-img-top"
+            alt="Imagen del producto"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ cubo.nombre }}</h5>
+            <p class="card-text">{{ cubo.precio }} €</p>
+            <a class="btn btn-primary" [routerLink]="'/detalles/' + cubo.idCubo">
+              Detalles
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

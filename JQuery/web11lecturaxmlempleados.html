@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Servicio XML Empleados</h1>
+    <button id="botonleer">Leer XML</button>
+    <ul id="listaempleados"></ul>
+    <script>
+        $(document).ready(function () {
+            $("#botonleer").click(function () {
+                console.log("Antes del servicio");
+                $.get("documents/empleados.xml", function (data) {
+                    console.log("Leyendo el servicio");
+                    var html = "";
+                    // Debemos buscar todas las etiquetas <APELLIDO>
+                    $(data).find("APELLIDO").each(function () {
+                        // Como el contenido de la etiqueta es lo
+                        // que buscamos leemos directamente el contenido
+                        var apellido = $(this).text();
+                        html += "<li>" + apellido + "</li>";
+                    });
+                    $("#listaempleados").html(html);
+                });
+                console.log("Después del servicio");
+            });
+        });
+    </script>
+</body>
+
+</html>

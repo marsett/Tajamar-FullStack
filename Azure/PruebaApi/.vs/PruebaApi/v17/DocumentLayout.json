@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\pruebaapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\pruebaapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\services\\serviceblobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\services\\serviceblobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\controllers\\cuboscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\controllers\\cuboscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\data\\cuboscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\data\\cuboscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\helpers\\helperactionservicesoauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\helpers\\helperactionservicesoauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\models\\usuarioscubomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\models\\usuarioscubomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\repositories\\repositorycubos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\repositories\\repositorycubos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\models\\compracubosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\models\\compracubosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\models\\cubomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\models\\cubomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\pruebaapi\\pruebaapi\\models\\blobmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB85020E-4EDB-44F6-BE69-B7C4928FF88B}|PruebaApi\\PruebaApi.csproj|solutionrelative:pruebaapi\\models\\blobmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PruebaApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PruebaApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T16:35:23.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HelperActionServicesOAuth.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Helpers\\HelperActionServicesOAuth.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Helpers\\HelperActionServicesOAuth.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Helpers\\HelperActionServicesOAuth.cs",
+              "RelativeToolTip": "PruebaApi\\Helpers\\HelperActionServicesOAuth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:40:19.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Program.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Program.cs",
+              "RelativeToolTip": "PruebaApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T18:23:19.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuariosCuboModel.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\UsuariosCuboModel.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Models\\UsuariosCuboModel.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\UsuariosCuboModel.cs",
+              "RelativeToolTip": "PruebaApi\\Models\\UsuariosCuboModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:28:07.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CubosContext.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Data\\CubosContext.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Data\\CubosContext.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Data\\CubosContext.cs",
+              "RelativeToolTip": "PruebaApi\\Data\\CubosContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:31:09.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "PruebaApi\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAhwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:38:58.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\appsettings.json",
+              "RelativeDocumentMoniker": "PruebaApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\appsettings.json",
+              "RelativeToolTip": "PruebaApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T15:23:06.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PruebaApi",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\PruebaApi.csproj",
+              "RelativeDocumentMoniker": "PruebaApi\\PruebaApi.csproj",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\PruebaApi.csproj",
+              "RelativeToolTip": "PruebaApi\\PruebaApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-23T16:54:55.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CubosController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Controllers\\CubosController.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Controllers\\CubosController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Controllers\\CubosController.cs",
+              "RelativeToolTip": "PruebaApi\\Controllers\\CubosController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:38:33.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PruebaApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:37:49.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceBlobs.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Services\\ServiceBlobs.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Services\\ServiceBlobs.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Services\\ServiceBlobs.cs",
+              "RelativeToolTip": "PruebaApi\\Services\\ServiceBlobs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:14:55.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RepositoryCubos.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Repositories\\RepositoryCubos.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Repositories\\RepositoryCubos.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Repositories\\RepositoryCubos.cs",
+              "RelativeToolTip": "PruebaApi\\Repositories\\RepositoryCubos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:43:24.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Models\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\LoginDTO.cs",
+              "RelativeToolTip": "PruebaApi\\Models\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:30:30.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompraCubosModel.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\CompraCubosModel.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Models\\CompraCubosModel.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\CompraCubosModel.cs",
+              "RelativeToolTip": "PruebaApi\\Models\\CompraCubosModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:30:03.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CuboModel.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\CuboModel.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Models\\CuboModel.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\CuboModel.cs",
+              "RelativeToolTip": "PruebaApi\\Models\\CuboModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:27:50.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BlobModel.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\BlobModel.cs",
+              "RelativeDocumentMoniker": "PruebaApi\\Models\\BlobModel.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\PruebaApi\\PruebaApi\\Models\\BlobModel.cs",
+              "RelativeToolTip": "PruebaApi\\Models\\BlobModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:15:29.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

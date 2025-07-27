@@ -1,0 +1,32 @@
+﻿@model List<Hospital>
+
+<h1 style="color: red;">
+    Hospitales SQL Server
+</h1>
+
+<table class="table table-danger">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Hospital hospital in Model){
+            <tr>
+                <td>@hospital.Nombre</td>
+                <td>@hospital.Direccion</td>
+                <td>@hospital.Telefono</td>
+                <td>
+                    <a asp-controller="Hospitales" asp-action="Details" 
+                    asp-route-id="@hospital.IdHospital" class="btn btn-bd-primary">Details</a>
+                    @Html.ActionLink("Details", "Details", "Hospitales", new { id = hospital.IdHospital })
+                    @Html.ActionLink("Edit", "Update", "Hospitales", new { id = hospital.IdHospital })
+                    @Html.ActionLink("Delete", "Delete", "Hospitales", new { id = hospital.IdHospital })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

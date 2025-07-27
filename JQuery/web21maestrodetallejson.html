@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Maestro detalle Jugadores JSON</h1>
+    <select id="selectjugador"></select><br />
+    <div id="datosjugador"></div>
+    <script>
+        $(document).ready(function () {
+            $.getJSON("documents/jugadores.json", function (data) {
+                $.each(data.jugadores, function (index, jugador) {
+                    var nombre = jugador.nombre;
+                    var option = $("<option>", { "text": nombre });
+                    $("#selectjugador").append(option);
+                });
+            });
+            $("#selectjugador").change(function () {
+                var name = $(this).val();
+                $.ajax({
+                    url: "documents/jugadores.json",
+                    type: "GET",
+                    success: function (data) {
+                        var html = "";
+                        $.each(data.jugadores, function (index, player) {
+                            var playerName = player.nombre;
+                            if (playerName == name) {
+                                var position = player.posicion;
+                                var edad = player.edad;
+                                var imagen = player.imagen;
+                                html += "<h1 style='color:blue'>" + name + "</h1>";
+                                html += "<h3>Posición: " + position + ", Edad: " + edad + "</h3>";
+                                html += "<img src='" + imagen + "' style='width: 150px; height: 150px'/>";
+                            }
+                        });
+                        $("#datosjugador").html(html);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NugetCarsMJM</id>
+    <version>1.0.0</version>
+    <title>Nuget Linq to XML Coches</title>
+    <authors>Mario Jiménez Marset</authors>
+    <icon>21.jpg</icon>
+    <description>Esto es la prueba de Assembly y Cars XML</description>
+    <tags>lluvia, lunes, coches, linq</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\bin\Release\net9.0\NugetCarsMJM.dll" target="lib\net9.0\NugetCarsMJM.dll" />
+    <file src="C:\Users\mvrset\Pictures\Fondos\21.jpg" target="\21.jpg" />
+  </files>
+</package>

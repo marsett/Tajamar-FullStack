@@ -1,0 +1,72 @@
+﻿@model IEnumerable<PracticaCubos.Models.Cubo>
+
+@{
+    ViewData["Title"] = "Cubos de Rubik";
+    List<int> idsEnSesion = Context.Session.GetObject<List<int>>("IDSCUBOS");
+    List<Cubo> favoritos = memoryCache.Get<List<Cubo>>("FAVORITOS");
+}
+
+<h1>Cubos de Rubik</h1>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        bool estaEnSesion = false;
+
+        if (idsEnSesion != null && idsEnSesion.Contains(item.IdCubo))
+        {
+            estaEnSesion = true;
+        }
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="~/cubos/@item.Imagen" class="card-img-top" alt="@item.Nombre" style="height: 300px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Nombre</h5>
+                    <a asp-action="Details" asp-controller="Cubos" asp-route-id="@item.IdCubo" class="btn btn-info">Details</a>
+                    <a asp-action="Edit" asp-controller="Cubos" asp-route-id="@item.IdCubo" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-controller="Cubos" asp-route-id="@item.IdCubo" class="btn btn-danger">Delete</a>
+
+                    @if (favoritos == null)
+                    {
+                        <a asp-controller="Cubos"
+                           asp-action="Index"
+                           asp-route-idfavorito="@item.IdCubo">
+                            <img src="~/images/blanco.png" style="width: 30px; height: 30px;" />
+                        </a>
+                    }
+                    else
+                    {
+                        Cubo cuboFavorito = favoritos.Find(x => x.IdCubo == item.IdCubo);
+                        if (cuboFavorito != null)
+                        {
+                            <img src="~/images/rojo.png" style="width: 30px; height: 30px;" />
+                        }
+                        else
+                        {
+                            <a asp-controller="Cubos"
+                               asp-action="Index"
+                               asp-route-idfavorito="@item.IdCubo">
+                                <img src="~/images/blanco.png" style="width: 30px; height: 30px;" />
+                            </a>
+                        }
+                    }
+
+                    @if (estaEnSesion)
+                    {
+                        <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" width="20" title="En sesión" />
+                    }
+                    else
+                    {
+                        <a asp-controller="Cubos"
+                           asp-action="Index"
+                           asp-route-idcubo="@item.IdCubo"
+                            class="btn btn-dark">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

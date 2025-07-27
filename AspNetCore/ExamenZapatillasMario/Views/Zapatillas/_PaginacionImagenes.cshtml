@@ -1,0 +1,43 @@
+﻿@model DetalleZapatilla
+
+@{
+    int posicion = (int)ViewData["POSICION"];
+    int idproducto = (int)ViewData["IDPRODUCTO"];
+
+    int registros = Model.RegistrosPorPagina;
+    int numImagenes = Model.NumeroTotalImagenes;
+
+    int paginaActual = (posicion / registros) + 1;
+    if (posicion % registros == 0)
+    {
+        paginaActual = posicion / registros;
+    }
+
+    int totalPaginas = (numImagenes / registros);
+    if (numImagenes % registros > 0)
+    {
+        totalPaginas += 1;
+    }
+
+    int primeraPosicion = 1;
+    int ultimaPosicion = numImagenes;
+    int anteriorPosicion = posicion - registros;
+    int siguientePosicion = posicion + registros;
+}
+
+<div class="text-center">
+    <p class="mt-2">Imagen @paginaActual de @totalPaginas</p>
+
+    <div class="mt-3">
+        <button class="btn btn-primary" onclick="cargarPagina(@idproducto, @primeraPosicion)" )>Primero</button>
+        <button class="btn btn-secondary" onclick="cargarPagina(@idproducto, @anteriorPosicion)" )>Anterior</button>
+        <button class="btn btn-secondary" onclick="cargarPagina(@idproducto, @siguientePosicion)" )>Siguiente</button>
+        <button class="btn btn-primary" onclick="cargarPagina(@idproducto, @ultimaPosicion)" )>Último</button>
+    </div>
+
+    <hr />
+
+    @if(Model.Imagenes != null && Model.Imagenes.Count > 0){
+        <img src="@Model.Imagenes[0].Imagen" style="width: 300px; height: 300px;" />
+    }
+</div>

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Z90GZIEfPpicN5kMcRa2qz/85eicEbLZHP0cWdbR6YU=",
+  "Source": "ApiEmpleadosMultiplesRutas",
+  "BasePath": "_content/ApiEmpleadosMultiplesRutas",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Maestro detalle Jugadores JSON</h1>
+    <select id="selectjugador"></select><br />
+    <div id="datosjugador"></div>
+    <script>
+        $(document).ready(function () {
+            $.getJSON("documents/jugadores.json", function (data) {
+                var i = 0;
+                $.each(data.jugadores, function (index, jugador) {
+                    var nombre = jugador.nombre;
+                    var option = $("<option>", { "text": nombre, "value": i });
+                    $("#selectjugador").append(option);
+                    i += 1;
+                });
+            });
+            $("#selectjugador").change(function () {
+                // Existe una propiedad que accede al índice del elemento
+                // seleccionado de un select selectedIndex.
+                // Es una propiedad de Javascript del control.
+                // Si necesitamos una propiedad de js desde un código jQuery
+                // se utiliza la palabra clave prop
+                var index = $("#selectjugador").prop("selectedIndex");
+                // var name = $(this).val();
+                $.ajax({
+                    url: "documents/jugadores.json",
+                    type: "GET",
+                    success: function (data) {
+                        var html = "";
+                        var player = data.jugadores[index];
+                        var position = player.posicion;
+                        var edad = player.edad;
+                        var imagen = player.imagen;
+                        html += "<h1 style='color:blue'>" + name + "</h1>";
+                        html += "<h3>Posición: " + position + ", Edad: " + edad + "</h3>";
+                        html += "<img src='" + imagen + "' style='width: 150px; height: 150px'/>";
+                        $("#datosjugador").html(html);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

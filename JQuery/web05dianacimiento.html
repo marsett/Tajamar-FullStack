@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <p>Introduce el día</p>
+    <input type="text" id="dia" /><br />
+    <p>Introduce el mes</p>
+    <input type="text" id="mes" /><br />
+    <p>Introduce el año</p>
+    <input type="text" id="ano" /><br /><br />
+    <button id="calcular">Calcular</button>
+    <p id="parrafo"></p>
+    <script>
+        // Calcular día de nacimiento de la semana.
+        // Pedir una fecha al usuario para calcular el día de la semana que nació.
+        // Hay que tener en cuenta el mes para realizar el cálculo. Si el mes
+        // es Enero, será 13 y restaremos uno al año. Si es Febrero, será 14 y
+        // restaremos uno al año. Para poder calcular el número final de la semana
+        // se deben seguir los siguientes pasos:
+        // 1. Multiplicar el mes más 1 por 3 y dividirlo entre 5.
+        // 2. Dividir el año entre 4.
+        // 3. Dividir el año entre 100.
+        // 4. Dividir el año entre 400.
+        // 5. Sumar el día, el doble del mes, el año, el resultado de la operación 1,
+        // el resultado de la operación 2, menos el resultado de la operación 3 más
+        // la operación 4 más 2.
+        // 6. Dividir el resultado anterior entre 7.
+        // 7. Restar el número del paso 5 con el número del paso 6 por 7.
+        $(document).ready(function () {
+            $("#calcular").click(function () {
+                var dia = parseInt($("#dia").val());
+                var mes = parseInt($("#mes").val());
+                var ano = parseInt($("#ano").val());
+
+                if (mes == 1) {
+                    mes = 13;
+                    ano--;
+                } else if (mes == 2) {
+                    mes = 14;
+                    ano -= 1;
+                }
+
+                var operacion1 = Math.trunc(((mes + 1) * 3) / 5);
+                console.log(operacion1);
+                var operacion2 = Math.trunc(ano / 4);
+                console.log(operacion2);
+                var operacion3 = Math.trunc(ano / 100);
+                console.log(operacion3);
+                var operacion4 = Math.trunc(ano / 400);
+                console.log(operacion4);
+                var operacion5 = dia + (mes * 2) + ano + operacion1 + operacion2 - operacion3 + operacion4 + 2;
+                console.log(operacion5);
+                var operacion6 = Math.trunc(operacion5 / 7);
+                console.log(operacion6);
+                var resultado = Math.trunc(operacion5 - (operacion6 * 7));
+                console.log(resultado);
+
+                var diaSemana = "";
+                if (resultado == 0) {
+                    diaSemana = "Sabado";
+                } else if (resultado == 1) {
+                    diaSemana = "Domingo";
+                } else if (resultado == 2) {
+                    diaSemana = "Lunes";
+                } else if (resultado == 3) {
+                    diaSemana = "Martes";
+                } else if (resultado == 4) {
+                    diaSemana = "Miercoles";
+                } else if (resultado == 5) {
+                    diaSemana = "Jueves";
+                } else if (resultado == 6) {
+                    diaSemana = "Viernes";
+                }
+
+                $("#parrafo").text(diaSemana);
+
+                /*switch(resultado){
+                    case 0:
+                        $("#parrafo").text("Sábado");
+                    break;
+                    case 1:
+                        $("#parrafo").text("Domingo");
+                    break;
+                    case 2:
+                        $("#parrafo").text("Lunes");
+                    break;
+                    case 3:
+                        $("#parrafo").text("Martes");
+                    break;
+                    case 4:
+                        $("#parrafo").text("Miércoles");
+                    break;
+                    case 5:
+                        $("#parrafo").text("Jueves");
+                    break;
+                    case 6:
+                        $("#parrafo").text("Viernes");
+                    break;
+                }*/
+
+            });
+        });
+    </script>
+</body>
+
+</html>

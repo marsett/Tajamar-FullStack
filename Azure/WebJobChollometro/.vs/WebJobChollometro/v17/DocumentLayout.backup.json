@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\WebJobChollometro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD029064-7924-4062-B051-4983827EA949}|WebJobChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\webjobchollometro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD029064-7924-4062-B051-4983827EA949}|WebJobChollometro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47957AE-A782-48DB-8D53-C6FA76E73E68}|..\\MvcNetCoreChollometro\\MvcNetCoreChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcnetcorechollometro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47957AE-A782-48DB-8D53-C6FA76E73E68}|..\\MvcNetCoreChollometro\\MvcNetCoreChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcnetcorechollometro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47957AE-A782-48DB-8D53-C6FA76E73E68}|..\\MvcNetCoreChollometro\\MvcNetCoreChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcnetcorechollometro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47957AE-A782-48DB-8D53-C6FA76E73E68}|..\\MvcNetCoreChollometro\\MvcNetCoreChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcnetcorechollometro\\views\\chollos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47957AE-A782-48DB-8D53-C6FA76E73E68}|..\\MvcNetCoreChollometro\\MvcNetCoreChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcnetcorechollometro\\controllers\\cholloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47957AE-A782-48DB-8D53-C6FA76E73E68}|..\\MvcNetCoreChollometro\\MvcNetCoreChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcnetcorechollometro\\repositories\\repositorychollometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD029064-7924-4062-B051-4983827EA949}|WebJobChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\webjobchollometro\\repositories\\repositorychollometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD029064-7924-4062-B051-4983827EA949}|WebJobChollometro.csproj|solutionrelative:repositories\\repositorychollometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47957AE-A782-48DB-8D53-C6FA76E73E68}|..\\MvcNetCoreChollometro\\MvcNetCoreChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcnetcorechollometro\\data\\chollometrocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD029064-7924-4062-B051-4983827EA949}|WebJobChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\webjobchollometro\\data\\chollometrocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD029064-7924-4062-B051-4983827EA949}|WebJobChollometro.csproj|solutionrelative:data\\chollometrocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47957AE-A782-48DB-8D53-C6FA76E73E68}|..\\MvcNetCoreChollometro\\MvcNetCoreChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\mvcnetcorechollometro\\models\\chollo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD029064-7924-4062-B051-4983827EA949}|WebJobChollometro.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\webjobchollometro\\models\\chollo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD029064-7924-4062-B051-4983827EA949}|WebJobChollometro.csproj|solutionrelative:models\\chollo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\WebJobChollometro\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\WebJobChollometro\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:48:46.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MvcNetCoreChollometro\\Program.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Program.cs",
+              "RelativeToolTip": "..\\MvcNetCoreChollometro\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:47:35.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\MvcNetCoreChollometro\\appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\appsettings.json",
+              "RelativeToolTip": "..\\MvcNetCoreChollometro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-19T10:46:22.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\MvcNetCoreChollometro\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\MvcNetCoreChollometro\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T10:49:19.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Views\\Chollos\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\MvcNetCoreChollometro\\Views\\Chollos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Views\\Chollos\\Index.cshtml",
+              "RelativeToolTip": "..\\MvcNetCoreChollometro\\Views\\Chollos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T10:42:56.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChollosController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Controllers\\ChollosController.cs",
+              "RelativeDocumentMoniker": "..\\MvcNetCoreChollometro\\Controllers\\ChollosController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Controllers\\ChollosController.cs",
+              "RelativeToolTip": "..\\MvcNetCoreChollometro\\Controllers\\ChollosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:40:47.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepositoryChollometro.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Repositories\\RepositoryChollometro.cs",
+              "RelativeDocumentMoniker": "..\\MvcNetCoreChollometro\\Repositories\\RepositoryChollometro.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Repositories\\RepositoryChollometro.cs",
+              "RelativeToolTip": "..\\MvcNetCoreChollometro\\Repositories\\RepositoryChollometro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:38:08.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChollometroContext.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Data\\ChollometroContext.cs",
+              "RelativeDocumentMoniker": "..\\MvcNetCoreChollometro\\Data\\ChollometroContext.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Data\\ChollometroContext.cs",
+              "RelativeToolTip": "..\\MvcNetCoreChollometro\\Data\\ChollometroContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:36:53.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Chollo.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Models\\Chollo.cs",
+              "RelativeDocumentMoniker": "..\\MvcNetCoreChollometro\\Models\\Chollo.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\MvcNetCoreChollometro\\Models\\Chollo.cs",
+              "RelativeToolTip": "..\\MvcNetCoreChollometro\\Models\\Chollo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:36:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositoryChollometro.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\WebJobChollometro\\Repositories\\RepositoryChollometro.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryChollometro.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\WebJobChollometro\\Repositories\\RepositoryChollometro.cs",
+              "RelativeToolTip": "Repositories\\RepositoryChollometro.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:37:32.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChollometroContext.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\WebJobChollometro\\Data\\ChollometroContext.cs",
+              "RelativeDocumentMoniker": "Data\\ChollometroContext.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\WebJobChollometro\\Data\\ChollometroContext.cs",
+              "RelativeToolTip": "Data\\ChollometroContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:34:02.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Chollo.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\WebJobChollometro\\Models\\Chollo.cs",
+              "RelativeDocumentMoniker": "Models\\Chollo.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\WebJobChollometro\\Models\\Chollo.cs",
+              "RelativeToolTip": "Models\\Chollo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:29:16.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

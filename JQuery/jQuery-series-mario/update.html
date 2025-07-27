@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Series</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/customstyles.css" rel="stylesheet">
+    <link href="css/navbar-fixed.css" rel="stylesheet">
+    <link href="css/sweetalert2.min.css" rel="stylesheet">
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <style>
+        .bg-custom {
+            background-color: rgba(13, 110, 253, 1) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+        <div class="container-fluid">
+            <img src="https://appseries.azurewebsites.net/static/media/logo1.1408c71b2c87ca1fb473.png"
+                style="width: 80px;" />
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars text-light"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link active" aria-current="page" href="/">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="create.html">
+                            Nuevo personaje
+                        </a>
+                    </li>
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="update.html">
+                            Modificar personaje
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown text-center mx-2 mx-lg-1">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Series
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown" id="listaSeries">
+                            <!-- Aquí se cargan las series dinámicamente -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="contenido" class="container mt-4">
+        <h1>Modificar Personaje</h1>
+        <form id="formModificarPersonaje">
+            <div class="mb-3">
+                <label for="serie" class="form-label">Serie</label>
+                <select class="form-select" id="serie" required onchange="mostrarDetallesSerie()">
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="personaje" class="form-label">Personaje</label>
+                <select class="form-select" id="personaje" required onchange="mostrarDetalles()">
+                </select>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="modificarPersonaje()">Modificar Personaje</button>
+            <div class="d-flex justify-content-between mt-4" id="detallesContainer">
+                <div id="detallesSerie" class="mt-4"></div>
+                <div id="detallesPersonaje" class="mt-4"></div>
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            cargarSeriesModificar();
+            cargarPersonajes();
+        })
+        function cargarSeriesModificar() {
+            let urlApi = "https://apiseriespersonajes.azurewebsites.net/api/Series";
+            $.ajax({
+                url: urlApi,
+                type: "GET",
+                contentType: "application/json",
+                success: function (data) {
+                    var html = "";
+                    let seriesSelect = $("#serie");
+                    $.each(data, function (index, serie) {
+                        html += '<option value="' + serie.idSerie + '">' + serie.nombre + '</option>';
+                    });
+                    $(seriesSelect).append(html);
+                }
+            });
+        }
+        function cargarPersonajes() {
+            let urlApi = "https://apiseriespersonajes.azurewebsites.net/api/Personajes/";
+            $.ajax({
+                url: urlApi,
+                type: "GET",
+                contentType: "application/json",
+                success: function (data) {
+                    var html = "";
+                    let personajeSelect = $("#personaje");
+                    $.each(data, function (index, personaje) {
+                        html += '<option value="' + personaje.idPersonaje + '">' + personaje.nombre + '</option>';
+                    });
+                    $(personajeSelect).append(html);
+                }
+            });
+        }
+        function mostrarDetalles() {
+            let idPersonaje = $("#personaje").val();
+            let urlApi = "https://apiseriespersonajes.azurewebsites.net/api/Personajes/";
+            var html = "";
+            $.ajax({
+                url: urlApi + idPersonaje,
+                type: "GET",
+                contentType: "application/json",
+                success: function (data) {
+                    html += "<div class='mb-3' id='detallesPersonaje'>";
+                    html += "<h5>" + data.nombre + "</h5>";
+                    html += "<img src='" + data.imagen + "' class='img-fluid' style='width: 250px; height: 250px;' />";
+                    html += "</div>";
+                    $("#detallesPersonaje").html(html);
+                }
+
+            });
+        }
+        function mostrarDetallesSerie() {
+            let idSerie = $("#serie").val();
+            let urlApi = "https://apiseriespersonajes.azurewebsites.net/api/Series/";
+            var html = "";
+            $.ajax({
+                url: urlApi + idSerie,
+                type: "GET",
+                contentType: "application/json",
+                success: function (data) {
+                    html += "<div class='mb-3' id='detallesSerie'>";
+                    html += "<h5>" + data.nombre + "</h5>";
+                    html += "<img src='" + data.imagen + "' class='img-fluid' style='width: 250px; height: 250px;' />";
+                    html += "</div>";
+                    $("#detallesSerie").html(html);
+                }
+            });
+        }
+        function modificarPersonaje() {
+            let idPersonaje = parseInt($("#personaje").val());
+            let idSerie = parseInt($("#serie").val());
+            let nombre = $("#detallesPersonaje h5").text();
+            let imagen = $("#detallesPersonaje img").attr("src");
+
+            let nuevoPersonaje = {
+                idPersonaje: idPersonaje,
+                nombre: nombre,
+                imagen: imagen,
+                idSerie: idSerie
+            }
+
+            let urlApi = "https://apiseriespersonajes.azurewebsites.net/api/Personajes/";
+
+            $.ajax({
+                url: urlApi,
+                type: "PUT",
+                contentType: "application/json",
+                data: JSON.stringify(nuevoPersonaje),
+                success: function (data) {
+                    console.log("Personaje modificado");
+                    window.location.href = "personajes.html?idSerie=" + idSerie;
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

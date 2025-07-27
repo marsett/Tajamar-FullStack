@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear Cubo</h1>
+<hr />
+
+<form method="post" enctype="multipart/form-data">
+    <label>Nombre: </label>
+    <input type="text" name="nombre" class="form-control" />
+    <label>Modelo: </label>
+    <input type="text" name="modelo" class="form-control" />
+    <label>Marca: </label>
+    <input type="text" name="marca" class="form-control" />
+    <label>Selecciona una imagen: </label>
+    <input type="file" name="imagen" class="form-control" />
+    <label>Precio: </label>
+    <input type="text" name="precio" class="form-control" />
+    <button class="btn btn-success">
+        Insertar Cubo
+    </button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>

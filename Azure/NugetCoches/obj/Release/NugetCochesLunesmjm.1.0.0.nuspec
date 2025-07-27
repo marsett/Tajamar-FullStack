@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NugetCochesLunesmjm</id>
+    <version>1.0.0</version>
+    <title>Nuget de lunes Mario</title>
+    <authors>Mario Jiménez Marset</authors>
+    <icon>a-plague-tale-requiem.jpg</icon>
+    <description>Esta es una prueba de paquetes Nuget de Coches de Lunes</description>
+    <tags>lluvia, lunes, carros, delorean</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\mvrset\source\repos\marsett\NugetCoches\bin\Release\net9.0\NugetCoches.dll" target="lib\net9.0\NugetCoches.dll" />
+    <file src="C:\Users\mvrset\Pictures\Fondos\a-plague-tale-requiem.jpg" target="\a-plague-tale-requiem.jpg" />
+  </files>
+</package>

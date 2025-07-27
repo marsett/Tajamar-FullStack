@@ -1,0 +1,75 @@
+﻿@model List<Mascota>
+
+@{
+    // string data = Context.Session.GetString("MASCOTA");
+    Mascota mascota = Context.Session.GetObject<Mascota>("MASCOTAOBJECT");
+    // if(data != null){
+    //     mascota = HelperJsonSession.DeserializeObject<Mascota>(data);
+    // }
+}
+
+<h1>Ejemplos Session</h1>
+
+@if(Model != null){
+    <h1 style="color: magenta;">Mascotas recuperadas: @Model.Count</h1>
+}else{
+    <h1 style="color: darkred;">No tenemos mascotas del Helper</h1>
+}
+
+<h2 style="color: blue;">
+    @Context.Session.GetString("nombre")
+</h2>
+
+<h2 style="color: red;">
+    @Context.Session.GetString("hora")
+</h2>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        <a asp-controller="EjemploSession"
+            asp-action="SessionSimple">
+            Session simple
+        </a>
+    </li>
+    <li class="list-group-item">
+        <a asp-controller="EjemploSession"
+           asp-action="SessionMascota">
+            Session mascota
+        </a>
+    </li>
+    <li class="list-group-item">
+        <a asp-controller="EjemploSession"
+           asp-action="SessionCollection">
+            Session collection
+        </a>
+    </li>
+    <li class="list-group-item">
+        <a asp-controller="EjemploSession"
+           asp-action="SessionMascotaJson">
+            Session mascota Json
+        </a>
+    </li>
+    <li class="list-group-item list-group-item-warning">
+        <a asp-controller="EjemploSession"
+           asp-action="SessionMascotaObject">
+            Session mascota Object
+        </a>
+    </li>
+    <li class="list-group-item">
+        <a asp-controller="EjemploSession"
+           asp-action="SessionMascotaCollection">
+            Session collection Mascota
+        </a>
+    </li>
+</ul>
+
+@if (mascota != null)
+{
+    <h1 style="color: blueviolet">
+        @mascota.Nombre, Raza: @mascota.Raza, Edad: @mascota.Edad
+    </h1>
+}
+else
+{
+    <h1>No hay mascota en sesión.</h1>
+}

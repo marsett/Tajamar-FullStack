@@ -1,0 +1,545 @@
+SELECT * FROM DEPT
+SELECT * FROM EMP
+SELECT * FROM DOCTOR
+SELECT * FROM HOSPITAL
+SELECT * FROM ENFERMO
+
+SELECT * FROM SALA
+SELECT * FROM OCUPACION
+SELECT * FROM PLANTILLA
+
+
+--Número 1
+SELECT EMP.APELLIDO, EMP.OFICIO,
+EMP.SALARIO, EMP.DEPT_NO, DEPT.DNOMBRE
+FROM EMP
+left join DEPT
+on EMP.DEPT_NO = DEPT.DEPT_NO
+where EMP.SALARIO > 300000
+
+--Número 2
+SELECT SALA.NOMBRE, HOSPITAL.NOMBRE
+FROM HOSPITAL
+inner join SALA
+on HOSPITAL.HOSPITAL_COD = SALA.HOSPITAL_COD
+
+--Número 3
+--SELECT DEPT.DNOMBRE, COUNT(EMP.DEPT_NO)as NUMEROPERSONAS,
+-- EMP.OFICIO
+--FROM EMP
+--right join DEPT
+--on EMP.DEPT_NO = DEPT.DEPT_NO
+--GROUP BY DEPT.DNOMBRE, EMP.OFICIO
+--ORDER BY DEPT.DNOMBRE
+SELECT DEPT.LOC, COUNT(DEPT.DNOMBRE) as NUMEROPERSONAS
+FROM DEPT
+inner join EMP
+on DEPT.DEPT_NO = EMP.DEPT_NO
+GROUP BY DEPT.LOC
+having COUNT(DEPT.DEPT_NO) >= 4
+
+--Número 4
+--SELECT COUNT(SALA.HOSPITAL_COD) as NUMEROSALAS, 
+--SALA.NOMBRE, HOSPITAL.NOMBRE
+--FROM SALA
+--LEFT JOIN HOSPITAL
+--on SALA.HOSPITAL_COD = HOSPITAL.HOSPITAL_COD
+--GROUP BY SALA.NOMBRE, HOSPITAL.NOMBRE
+--ORDER BY SALA.NOMBRE
+SELECT DOCTOR.APELLIDO, HOSPITAL.NOMBRE,
+HOSPITAL.DIRECCION, HOSPITAL.TELEFONO
+FROM DOCTOR
+inner join HOSPITAL
+on DOCTOR.HOSPITAL_COD = HOSPITAL.HOSPITAL_COD
+
+--Número 5
+INSERT into DEPT values
+(50, 'RRHH', 'BURGOS')
+INSERT into DEPT values
+(60, 'INFORMATICA', 'ALICANTE')
+
+--Número 6
+UPDATE DEPT set LOC='TABARNIA'
+where DNOMBRE='VENTAS'
+
+--Número 7
+INSERT into EMP values
+((SELECT max(EMP_NO) + 1 FROM EMP), 'ROMERAL', 'EMPLEADO', 7902, '2025-01-10', 80000, 80000*0.15, (SELECT DEPT_NO from DEPT where DNOMBRE = 'VENTAS')),
+((SELECT max(EMP_NO) + 1 FROM EMP), 'CAMPAYO', 'EMPLEADO', 7902, '2025-01-10', 80000, 80000*0.15, (SELECT DEPT_NO from DEPT where DNOMBRE = 'VENTAS'))
+
+--Número 8
+UPDATE EMP set SALARIO = ROUND(SALARIO / 166.386, 0)
+
+--Número 9
+UPDATE PLANTILLA set SALARIO = SALARIO + 10000 where FUNCION = 'Interino' AND T = 'N'
+
+--Número 10
+INSERT INTO DOCTOR values
+((SELECT HOSPITAL_COD FROM HOSPITAL WHERE NOMBRE = 'La Paz'), (SELECT max(DOCTOR_NO) + 1 FROM DOCTOR), 'HOUSE', 'Diagnostico', 210000)
+
+--Número 11
+UPDATE EMP set SALARIO = SALARIO + 5000 + (SELECT MIN(SALARIO) FROM EMP WHERE OFICIO = 'EMPLEADO') WHERE DEPT_NO = (SELECT DEPT_NO FROM DEPT WHERE DNOMBRE = 'VENTAS')
+
+--Número 12
+DELETE FROM EMP WHERE DEPT_NO =(
+	SELECT DEPT_NO FROM DEPT WHERE DNOMBRE = 'I+D'
+)
+
+--EJEMPLO DE UNA VISTA DE EMPLEADOS
+create view V_EMPLEADOS_SIMPLE
+as
+	select EMP_NO, APELLIDO, OFICIO,
+	DIR, FECHA_ALT, DEPT_NO
+	from EMP
+go
+--UNA VISTA ES UNA TABLA
+--LA VISTA NUNCA TIENE DATOS, LOS DATOS ESTARÁN
+--SIEMPRE EN LA TABLA
+select * from V_EMPLEADOS_SIMPLE order by EMP_NO
+select * from EMP order by EMP_NO
+--INSERTAMOS EN LA VISTA
+insert into V_EMPLEADOS_SIMPLE values
+(1112, 'VISTA', 'WORKER', 7839, GETDATE(), 10)
+--MODIFICAMOS ALGO
+update V_EMPLEADOS_SIMPLE set OFICIO='VIERNES'
+where EMP_NO=1112
+--DELETE
+delete from V_EMPLEADOS_SIMPLE where EMP_NO=1112
+--VAMOS A CREAR UNA VISTA PARA SIMPLIFICAR CONSULTAS
+--TENDREMOS LOS DATOS DE EMPLEADOS Y LOS DATOS DE DEPARTAMENTOS
+create view V_EMPLEADOS_DEPARTAMENTOS
+as
+	select EMP.EMP_NO, EMP.APELLIDO, EMP.OFICIO,
+	EMP.SALARIO, DEPT.DNOMBRE as DEPARTAMENTO, DEPT.LOC as LOCALIDAD, DEPT.DEPT_NO
+	from EMP
+	inner join DEPT
+	on EMP.DEPT_NO = DEPT.DEPT_NO
+go
+select * from V_EMPLEADOS_DEPARTAMENTOS
+where LOCALIDAD='ELCHE'
+--SUBIR EL SALARIO DE LOS EMPLEADOS DE ELCHE EN 1
+update V_EMPLEADOS_DEPARTAMENTOS set SALARIO=SALARIO+1
+where LOCALIDAD='ELCHE'
+--MODIFICAR EL NOMBRE DE DEPARTAMENTO DE VENTAS POR I+D
+update V_EMPLEADOS_DEPARTAMENTOS set DEPARTAMENTO='I+D'
+where DEPARTAMENTO='VENTAS'
+--VOLVEMOS A DEJAR EL DEPARTAMENTO DE I+D COMO VENTAS Y
+--SUBIMOS EL SALARIO A SUS EMPLEADOS COMO REDENCIÓN
+--SI LA CONSULTA AFECTA A VARIAS TABLAS, NO PUEDE REALIZAR
+--LA MODIFICACIÓN
+update V_EMPLEADOS_DEPARTAMENTOS set DEPARTAMENTO='VENTAS',
+SALARIO=SALARIO+1
+where DEPARTAMENTO='I+D'
+--ELIMINAMOS LOS EMPLEADOS DE MADRID
+delete from V_EMPLEADOS_DEPARTAMENTOS where LOCALIDAD='MADRID'
+delete from V_EMPLEADOS_DEPARTAMENTOS where EMP_NO='1111'
+--PROCEDIMIENTO PARA BUSCAR EMPLEADOS
+--POR SU SALARIO
+create procedure SP_BUSCADOR_EMP_SALARIOS
+(@salario int)
+as
+	select * from EMP
+	where SALARIO > @salario
+go
+exec SP_BUSCADOR_EMP_SALARIOS 250000
+--PROCEDIMIENTO PARA INSERTAR UN DEPARTAMENTO
+--EN LOS TIPOS DE DATO TEXTO (nvarchar)
+--TENEMOS QUE INCLUIR SU LONGITUD
+alter procedure SP_INSERTAR_DEPARTAMENTO
+(@num int, @nombre nvarchar(30), @localidad nvarchar(30))
+as
+	insert into DEPT values (@num, @nombre, @localidad)
+go
+execute SP_INSERTAR_DEPARTAMENTO 73, 'STORED', 'PROCEDURE'
+select * from DEPT
+
+exec SP_UPDATESALARIO_EMP_APELLIDO 'SANCHA'
+
+create procedure SP_UPDATESALARIO_EMP_APELLIDO
+(@apellido nvarchar(50))
+as
+	declare @sueldo int
+	select @sueldo=SALARIO from EMP
+	where APELLIDO=@apellido
+	if (@sueldo > 150000)
+	begin
+		update EMP set SALARIO=SALARIO - 2000
+		where APELLIDO=@apellido
+		print 'Bajamos sueldo' + cast(@sueldo as nvarchar)
+	end
+	else
+	begin
+		update EMP set SALARIO=SALARIO + 2000
+		where APELLIDO=@apellido
+		print 'Subimos sueldo' + cast(@sueldo as nvarchar)
+	end
+go
+
+--TRANSACT SQL
+--ESTE CÓDIGO SE EJECUTA EN BLOQUE
+declare @numero int 
+declare @fecha datetime
+declare @mensaje nvarchar(50)
+--ASIGNAMOS VALORES ESTÁTICOS
+set @numero=15
+set @mensaje='hoy es viernes'
+--VALORES MEDIANTE FUNCIONES
+set @fecha = getdate()
+--REPRESENTAR LOS VALORES POR UNA PANTALLA
+--1) SELECT: UN SELECT REPRESENTA LAS VARIABLES
+--Y PODRÍAMOS RECUPERARLO EN CUALQUIER APP. (ADO NET)
+--select @numero as NUMERO, @fecha as FECHA, @mensaje as MENSAJE
+--2) PRINT: SE UTILIZA PARA MOSTRAR MENSAJE EN EL SERVIDOR DE BASE
+--DE DATOS. SOLAMENTE SE PUEDEN RECUPERAR EN BASES DE DATOS.
+--DE CUALQUIER IF DE TRANSACT, DEBERÍAMOS INCLUIRLOS COMO BUENA PRAXIS
+--EN ESTE LENGUAJE DEBEMOS UTILIZAR CASTING PARA LAS CONVERSIONES
+--cast(@variable as type)
+print @mensaje + ', @numero: '
++ cast(@numero as nvarchar) 
++ ', @fecha: ' + 
+cast(@fecha as nvarchar)
+--ALMACENAR LOS VALORES DE LAS VARIABLES A PARTIR
+--DE UN SELECT
+--MOSTRAR LOS DATOS DEL EMPLEADO MÁS ANTIGUO DE LA EMPRESA
+select * from EMP where FECHA_ALT=
+(select min(FECHA_ALT) from EMP)
+--EN LUGAR DE UTILIZAR UNA SUBCONSULTA, PODEMOS
+--UTILIZAR UNA VARIABLE Y ALMACENAR LA FECHA EN DICHA VARIABLE
+declare @fechaalt datetime
+select @fechaalt=min(FECHA_ALT) from EMP
+print @fechaalt
+select * from EMP where FECHA_ALT=@fechaalt
+--LA UTILIZACIÓN DE SELECT ES O PARA ALMACENAR O PARA MOSTRAR
+--NO SE PUEDEN COMBINAR:
+--select @fechaalt=min(FECHA_ALT), APELLIDO from EMP
+--CONDICIONALES DENTRO DE TRANSACT SQL
+--PARA LAS CONDICIONES SE UTILIZAN LOS MISMOS OPERADORES QUE WHERE
+--IN, OR, AND, =, <>
+--if (condición)
+--begin
+	--CONDICIONES TRUE
+--end
+--else if (otra condición)
+--begin
+	--OTRA CONDICIÓN
+--end
+--else
+--begin
+	--ELSE
+--end
+--VAMOS A COMPROBAR SI ES UN NÚMERO ES POSITIVO, NEGATIVO O CERO
+declare @num int
+set @num=5
+if (@num > 0)
+begin
+	print 'positivo'
+end
+else if (@num < 0)
+begin
+	print 'negativo'
+end
+else
+begin
+	print 'cero'
+end
+--MOSTRAR LOS EMPLEADOS DEL DEPARTAMENTO DE VENTAS
+--SI NO EXISTE EL DEPARTAMENTO, MOSTRAMOS UN MENSAJE
+--SI EXISTE, MOSTRAMOS LOS EMPLEADOS
+exec SP_EXISTE_DEPARTAMENTO 'CONTABILIDAD'
+create procedure SP_EXISTE_DEPARTAMENTO
+(@nombre nvarchar(50))
+as
+	declare @deptno int
+	select @deptno=DEPT_NO from DEPT
+	where DNOMBRE='CONTABILIDAD'
+	if (@deptno is null)
+	begin
+		print 'No existe el departamento'
+	end
+	else
+	begin
+		select * from EMP
+		where DEPT_NO=@deptno
+	end
+go
+--MODIFICAR EL SALARIO DE UN EMPLEADO POR SU APELLIDO (SANCHA)
+--SI COBRA MENOS DE 150.000, SUBIMOS EL SALARIO EN 2.000
+--SI COBRA MÁS DE 150.000, BAJAMOS EL SALARIO EN 2.000
+
+--MOSTRAR EL SALARIO DE LOS EMPLEADOS DE LA PLANTILLA DE LA PAZ
+--SI LA SUMA SALARIAL SUPERA 1.000.000, BAJAMOS EL SALARIO A TODOS EN 10.000
+--DE LO CONTRARIO, SUBIMOS EL SALARIO en 10.000
+declare @codigo int
+select @codigo=HOSPITAL_COD from HOSPITAL where NOMBRE='La Paz'
+declare @sueldoPlantilla int
+select @sueldoPlantilla=SUM(SALARIO) from PLANTILLA
+where HOSPITAL_COD = @codigo
+print @sueldoPlantilla
+print @codigo
+
+if (@sueldoPlantilla >= 1000000)
+begin
+	update PLANTILLA set SALARIO=SALARIO - 10000 where HOSPITAL_COD = @codigo
+	print 'Bajamos sueldo: ' + cast(@sumasalarial as nvarchar)
+end
+else
+begin
+	update PLANTILLA set SALARIO=SALARIO + 10000 where HOSPITAL_COD = @codigo
+	print 'Subimos sueldo: ' + cast(@sumasalarial as nvarchar)
+end
+--SINTAXIS DE BUCLES 
+--LOS BUCLES NO SE LLEVAN BIEN CON LAS BASES DE DATOS
+--NO SUELEN SER UNA HERRAMIENTA FUNCIONAL AUNQUE SE PUEDEN REALIZAR.
+--SÓLO SE UTILIZAN BUCLES CON CURSORES
+declare @contador int
+set @contador = 1
+while (@contador <= 10)
+begin
+	print 'Contador: ' +cast(@contador as nvarchar)
+	set @contador = @contador + 1
+end
+--LOS BUCLES SE UTILIZAN EN CURSORES
+--QUEREMOS ALMACENAR EL APELLIDO DE LOS EMPLEADOS
+declare @ape nvarchar(50)
+select @ape = APELLIDO from EMP
+print @ape --ALMACENA UNO A UNO Y SE QUEDA EL ÚLTIMO
+--SI QUEREMOS RECORRER CADA ELEMENTO DE FORMA INDIVIDUAL
+--NECESITAMOS UNA VARIABLE LLAMADA CURSOR EN LA QUE SE ALMACENA
+--UNA CONSULTA Y SE PUEDE RECORRER CON while
+--VAMOS A RECORRER UNO A UNO CADA APELLIDO Y OFICIO DE LOS EMPLEADOS
+declare @apellido nvarchar(50)
+declare @oficio nvarchar(50)
+--1) DECLARAR EL CURSOR COMO VARIABLE DE UNA CONSULTA
+--LAS VARIABLES CRUSOR NO LLEVAN @
+declare QUERY cursor for
+select APELLIDO, OFICIO from EMP
+--2) ABRIR CURSOR
+open QUERY
+--3) LEER LA PRIMERA FILA Y SE REALIZA CON fetch
+fetch next from QUERY into @apellido, @oficio
+--UNA VEZ QUE ESTAMOS EN LA PRIMERA FILA, EXISTE UNA
+--VARIABLE LLAMADA @@fetch_status QUE INDICA SI HA TERMINADO DE
+--LEER EL CURSOR O NO
+--SI @@fetch_status = 0 EXISTEN REGISTROS
+--4) BUCLE CON @@fetch_status
+while (@@FETCH_STATUS = 0)
+begin
+	print @apellido + ' - ' + @oficio
+	--DEBEMOS INDICAR QUE VAYA MOVIÉNDOSE DE FILA EN FILA
+	fetch next from QUERY into @apellido, @oficio
+end
+--5) CERRAR EL CURSOR
+close QUERY
+--6) LIBERAR LA MEMORIA DEL CURSOR
+deallocate QUERY
+--NECESITAMOS INCREMENTAR EL SALARIO DE LOS DOCTORES
+--EN UN VALOR ALEATORIO HASTA 1000
+--rand() * 1000
+
+--NECESITO QUE CADA DOCTOR TENGA UN INCREMENTO INDIVIDUAL
+exec SP_RANDOM_SALARIO_DOCTORES 'Psiquiatría', 50
+create procedure SP_RANDOM_SALARIO_DOCTORES
+(@especialidad nvarchar(50), @valorincremento int)
+as
+	declare @salario int
+	declare @doctorno int
+
+	declare QUERY cursor for
+	select SALARIO, DOCTOR_NO from DOCTOR where ESPECIALIDAD = @especialidad
+	open QUERY
+	fetch next from QUERY into @salario, @doctorno
+	while (@@FETCH_STATUS = 0)
+	begin
+		print 'Salario: ' + cast(@salario as nvarchar)
+		--select rand() * 1000 as aleatorio
+		declare @incremento int
+		set @incremento = rand() * @valorincremento
+		print 'Incremento: ' + cast(@incremento as nvarchar)
+		update DOCTOR set SALARIO = SALARIO + @incremento where DOCTOR_NO = @doctorno
+		fetch next from QUERY into @salario, @doctorno
+	end
+	close QUERY
+	deallocate QUERY
+
+go
+
+create procedure SP_ALL_HOSPITALES
+as
+	select * from HOSPITAL
+go
+create procedure SP_UPDATEPLANTILLA_HOSPITAL
+(@nombre nvarchar(50), @incremento int)
+as
+	declare @hospitalcod int
+	select @hospitalcod = HOSPITAL_COD from HOSPITAL
+	where NOMBRE=@nombre
+	update PLANTILLA set SALARIO=SALARIO + @incremento
+	where HOSPITAL_COD=@hospitalcod
+	select * from PLANTILLA
+	where HOSPITAL_COD=@hospitalcod
+go
+
+create procedure SP_PLANTILLAPORHOSPITAL
+(@nombreHospital nvarchar(50))
+as
+	declare @hospitalcod int
+	select @hospitalcod = HOSPITAL_COD from HOSPITAL
+	where NOMBRE=@nombreHospital
+	select * from PLANTILLA
+	where HOSPITAL_COD = @hospitalcod
+go
+
+select * from HOSPITAL
+select * from PLANTILLA
+
+create procedure SP_GETPLANTILLA_HOSPITAL
+(@nombre nvarchar(50))
+as
+	declare @hospitalcod int
+	select @hospitalcod = HOSPITAL_COD from HOSPITAL
+	where NOMBRE=@nombre
+	select * from PLANTILLA 
+	where HOSPITAL_COD=@hospitalcod
+go
+alter procedure SP_UPDATEPLANTILLA_HOSPITAL
+(@nombre nvarchar(50), @incremento int)
+as
+	declare @hospitalcod int
+	select @hospitalcod = HOSPITAL_COD from HOSPITAL
+	where NOMBRE=@nombre
+	update PLANTILLA set SALARIO=SALARIO + @incremento
+	where HOSPITAL_COD=@hospitalcod
+go
+
+create procedure SP_ALL_DEPARTAMENTOS
+as
+	select * from DEPT
+go
+
+create procedure SP_INSERT_DEPARTAMENTO
+(@numero int, @nombre nvarchar(50), @localidad nvarchar(50))
+as
+	insert into DEPT values (@numero, @nombre, @localidad)
+go
+
+alter procedure SP_INSERT_DEPARTAMENTO
+(@numero int, @nombre nvarchar(50), @localidad nvarchar(50))
+as
+	--NO QUEREMOS LA LOCALIDAD DE TERUEL
+	if(@localidad = 'TERUEL')
+	begin
+		print 'TERUEL NO EXISTE'
+	end
+	else
+	begin
+		insert into DEPT values (@numero, @nombre, @localidad)
+	end
+go
+
+create procedure SP_INSERT_DEPARTAMENTO_OUT
+(@nombre nvarchar(50), @localidad nvarchar(50), @maxid int OUT)
+as
+	--DENTRO DEL PROCEDIMIENTO, DEBEMOS DAR VALOR
+	--AL PARÁMETRO DE SALIDA
+	select @maxid = max(DEPT_NO) + 1 from DEPT
+	insert into DEPT values (@maxid, @nombre, @localidad)
+go
+
+declare @respuesta int
+exec SP_INSERT_DEPARTAMENTO_OUT 'LUNES', 'MADRID', @respuesta OUTPUT
+--MOSTRAMOS EL VALOR DEVUELTO
+print @respuesta
+
+create procedure SP_EMPLEADOS_DEPT_OUT
+(@nombre nvarchar(50), @suma int OUT, @media int OUT, @personas int OUT)
+as
+	declare @id int
+	select @id = DEPT_NO from DEPT
+	where DNOMBRE = @nombre
+	select * from EMP where DEPT_NO = @id
+	select @suma = SUM(SALARIO), @media = AVG(SALARIO),
+	@personas = COUNT(EMP_NO) from EMP
+	where DEPT_NO = @id
+go
+
+create procedure SP_ALLHOSPITALES
+as
+	select NOMBRE from HOSPITAL
+go
+
+create procedure SP_ALLEMPLEADOS_HOSPITAL
+(@nombre nvarchar(50), @suma int OUT, @media int OUT, @personas int OUT)
+as
+	select * from V_EMPLEADOS_HOSPITAL
+	where NOMBRE = @nombre
+	select @suma = sum(salario), @media = avg(salario),
+	@personas = COUNT(apellido) from V_EMPLEADOS_HOSPITAL
+	where NOMBRE = @nombre
+go
+
+create view V_EMPLEADOS_HOSPITAL
+as
+	select DOCTOR.APELLIDO, DOCTOR.ESPECIALIDAD, DOCTOR.SALARIO
+	, HOSPITAL.HOSPITAL_COD, HOSPITAL.NOMBRE
+	from DOCTOR
+	INNER JOIN HOSPITAL
+	on DOCTOR.HOSPITAL_COD = HOSPITAL.HOSPITAL_COD
+	UNION
+	select PLANTILLA.APELLIDO, PLANTILLA.FUNCION, PLANTILLA.SALARIO
+	, HOSPITAL.HOSPITAL_COD, HOSPITAL.NOMBRE
+	from PLANTILLA
+	INNER JOIN HOSPITAL
+	on PLANTILLA.HOSPITAL_COD = HOSPITAL.HOSPITAL_COD
+go
+
+
+create procedure SP_ALLDEPARTAMENTOS
+as
+	select *  from DEPT
+go
+
+create procedure SP_EMPLEADOSDEPARTAMENTO
+(@nombreDepartamento nvarchar(50))
+as
+	select * from V_EMPLEADOS_DEPARTAMENTOS
+	where DNOMBRE = @nombreDepartamento
+go
+
+create view V_EMPLEADOS_DEPARTAMENTOS
+as
+	SELECT 
+        DEPT.DEPT_NO, DEPT.DNOMBRE, DEPT.LOC,
+        EMP.APELLIDO, EMP.OFICIO, EMP.SALARIO
+	from DEPT
+	LEFT JOIN EMP
+	on DEPT.DEPT_NO = EMP.DEPT_NO 
+go
+
+create procedure SP_INSERTARDEPARTAMENTO
+(@id int, @nombre nvarchar(50), @localidad nvarchar(50))
+as
+	insert into DEPT values (@id, @nombre, @localidad)
+go
+
+create procedure SP_OBTENEREMPLEADO
+(@apellido nvarchar(50))
+as
+    select * from V_EMPLEADOS_DEPARTAMENTOS
+    where APELLIDO = @apellido
+go
+
+create procedure SP_ACTUALIZAREMPLEADO
+(
+    @apellidoAntiguo nvarchar(50),
+    @apellidoNuevo nvarchar(50),
+    @oficio nvarchar(50),
+    @salario int
+)
+as
+    update EMP
+    set 
+        APELLIDO = @apellidoNuevo, 
+        OFICIO = @oficio, 
+        SALARIO = @salario
+    where APELLIDO = @apellidoAntiguo
+go

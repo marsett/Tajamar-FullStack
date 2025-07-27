@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+    <style>
+        img {
+            width: 20%;
+            height: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Clientes XML</h1>
+    <div id="contenedor"></div>
+    <div id="contenedorID"></div>
+    <script>
+        $(document).ready(function () {
+            // URL general: https://apiclientesxml.azurewebsites.net/index.html
+            // Este es /api/Clientes/GetClientesXML
+            var url = "https://apiclientesxml.azurewebsites.net/api/Clientes/GetClientesXML";
+            $.get(url, function (data) {
+                console.log("Leyendo el servicio");
+                var numeroElementos = $(data).find("Cliente").length;
+                console.log("Elementos: " + numeroElementos);
+
+                $(data).find("Cliente").each(function () {
+                    var idCliente = $(this).attr("IDCLIENTE");
+                    var nombre = $(this).find("Nombre").text();
+
+                    var boton = $("<button>", { "text": nombre });
+                    boton.attr("data-id", idCliente);
+
+                    $("#contenedor").append(boton);
+
+                    boton.click(function () {
+                        var clienteId = $(this).attr("data-id");
+
+                        $("#contenedorID").html("");
+
+                        // Buscar el cliente con el ID correspondiente
+                        $(data).find("Cliente").each(function () {
+                            var id = $(this).attr("IDCLIENTE");
+                            if (id === clienteId) {
+                                var nombre = $(this).find("Nombre").text();
+                                var direccion = $(this).find("Direccion").text();
+                                var email = $(this).find("Email").text();
+                                var codigopostal = $(this).find("CodigoPostal").text();
+                                var paginaweb = $(this).find("PaginaWeb").text();
+                                var ruta = $(this).find("ImagenCliente").text();
+
+                                var html = '';
+                                html += "<li>Nombre: " + nombre + "</li>";
+                                html += "<li>Dirección: " + direccion + "</li>";
+                                html += "<li>Email: " + email + "</li>";
+                                html += "<li>Código Postal: " + codigopostal + "</li>";
+                                html += "<li>Página Web: " + paginaweb + "</li>";
+
+                                $("#contenedorID").append(html);
+
+                                // Comprobar si la ruta está vacía o no existe
+                                if (ruta && ruta.trim() !== "") {
+                                    var imagen = $("<img>", { "src": ruta, "alt": nombre });
+                                    $("#contenedorID").append(imagen);
+                                } else {
+                                    $("#contenedorID").append("<p>No existe una imagen para este personaje.</p>");
+                                }
+                            }
+                        });
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

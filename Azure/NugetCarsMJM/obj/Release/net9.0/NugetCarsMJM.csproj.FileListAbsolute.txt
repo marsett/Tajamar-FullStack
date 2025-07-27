@@ -1,0 +1,11 @@
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\bin\Release\net9.0\NugetCarsMJM.deps.json
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\bin\Release\net9.0\NugetCarsMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\bin\Release\net9.0\NugetCarsMJM.pdb
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\obj\Release\net9.0\NugetCarsMJM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\obj\Release\net9.0\NugetCarsMJM.AssemblyInfoInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\obj\Release\net9.0\NugetCarsMJM.AssemblyInfo.cs
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\obj\Release\net9.0\NugetCarsMJM.csproj.CoreCompileInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\obj\Release\net9.0\NugetCarsMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\obj\Release\net9.0\refint\NugetCarsMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\obj\Release\net9.0\NugetCarsMJM.pdb
+C:\Users\mvrset\source\repos\marsett\NugetCarsMJM\obj\Release\net9.0\ref\NugetCarsMJM.dll

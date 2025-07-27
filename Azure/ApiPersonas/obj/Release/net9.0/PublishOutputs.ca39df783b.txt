@@ -1,0 +1,12 @@
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\ApiPersonas.exe
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\appsettings.json
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\ApiPersonas.dll
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\ApiPersonas.deps.json
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\ApiPersonas.runtimeconfig.json
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\ApiPersonas.pdb
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mvrset\source\repos\marsett\ApiPersonas\obj\Release\net9.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>NugetCochesLunesmjm</PackageId>
+    <Title>Nuget de lunes Mario</Title>
+    <Authors>Mario Jiménez Marset</Authors>
+    <Description>Esta es una prueba de paquetes Nuget de Coches de Lunes</Description>
+    <PackageIcon>a-plague-tale-requiem.jpg</PackageIcon>
+    <PackageTags>lluvia, lunes, carros, delorean</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\Fondos\a-plague-tale-requiem.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

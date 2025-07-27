@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form01SumarNumeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form02PosicionColores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form03DiaNacimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form04DateTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form05Char.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form06ValidarMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form07SumarNumerosString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form08StringBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form09Isbn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form09ValidarDni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form11ColeccionGrafica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form12ColeccionMultiple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form13ColeccionNumeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form14TiendaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form15Metodos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form16ArrayList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form17ListDelegados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form18SumarBotones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form19SumarCheckbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form20TestClases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form21Files.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form22ClasesMascota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form23ObjetoXMLMascota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form24ColeccionXMLMascotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form25ColeccionMascotasJSON.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

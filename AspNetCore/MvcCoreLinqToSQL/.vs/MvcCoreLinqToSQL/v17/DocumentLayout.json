@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccorelinqtosql\\mvccorelinqtosql\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|solutionrelative:mvccorelinqtosql\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccorelinqtosql\\mvccorelinqtosql\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|solutionrelative:mvccorelinqtosql\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccorelinqtosql\\mvccorelinqtosql\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|solutionrelative:mvccorelinqtosql\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccorelinqtosql\\mvccorelinqtosql\\repositories\\repositoryempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|solutionrelative:mvccorelinqtosql\\repositories\\repositoryempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccorelinqtosql\\mvccorelinqtosql\\models\\resumenempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|solutionrelative:mvccorelinqtosql\\models\\resumenempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccorelinqtosql\\mvccorelinqtosql\\views\\empleados\\empleadosoficio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|solutionrelative:mvccorelinqtosql\\views\\empleados\\empleadosoficio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|c:\\users\\mvrset\\source\\repos\\marsett\\tajamar-fullstack\\aspnetcore\\mvccorelinqtosql\\mvccorelinqtosql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29A16025-D47E-44B4-BF98-ED15EE65D99E}|MvcCoreLinqToSQL\\MvcCoreLinqToSQL.csproj|solutionrelative:mvccorelinqtosql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MvcCoreLinqToSQL\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\appsettings.Development.json",
+              "RelativeToolTip": "MvcCoreLinqToSQL\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-11T18:34:40.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\appsettings.json",
+              "RelativeDocumentMoniker": "MvcCoreLinqToSQL\\appsettings.json",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\appsettings.json",
+              "RelativeToolTip": "MvcCoreLinqToSQL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-11T18:34:37.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "MvcCoreLinqToSQL\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "MvcCoreLinqToSQL\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T08:33:06.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Repositories\\RepositoryEmpleados.cs",
+              "RelativeDocumentMoniker": "MvcCoreLinqToSQL\\Repositories\\RepositoryEmpleados.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Repositories\\RepositoryEmpleados.cs",
+              "RelativeToolTip": "MvcCoreLinqToSQL\\Repositories\\RepositoryEmpleados.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAASwIIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T08:21:51.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResumenEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Models\\ResumenEmpleados.cs",
+              "RelativeDocumentMoniker": "MvcCoreLinqToSQL\\Models\\ResumenEmpleados.cs",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Models\\ResumenEmpleados.cs",
+              "RelativeToolTip": "MvcCoreLinqToSQL\\Models\\ResumenEmpleados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T08:17:35.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpleadosOficio.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Views\\Empleados\\EmpleadosOficio.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreLinqToSQL\\Views\\Empleados\\EmpleadosOficio.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Views\\Empleados\\EmpleadosOficio.cshtml",
+              "RelativeToolTip": "MvcCoreLinqToSQL\\Views\\Empleados\\EmpleadosOficio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T08:37:10.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcCoreLinqToSQL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mvrset\\source\\repos\\marsett\\Tajamar-FullStack\\aspnetcore\\MvcCoreLinqToSQL\\MvcCoreLinqToSQL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcCoreLinqToSQL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T08:44:45.616Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

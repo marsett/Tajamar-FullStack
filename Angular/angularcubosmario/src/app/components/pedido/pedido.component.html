@@ -1,0 +1,13 @@
+<div>
+    <h1>Realizar pedido</h1>
+    <p>Elige un cubo</p>
+    <select class="form-control" [(ngModel)]="idSeleccionado">
+      <option *ngFor="let cubo of cubos" [value]="cubo.idCubo">
+        {{ cubo.nombre }}
+      </option>
+    </select>
+    <button class="btn btn-primary" (click)="insertPedido()">
+      Comprar cubo
+    </button>
+  </div>
+  

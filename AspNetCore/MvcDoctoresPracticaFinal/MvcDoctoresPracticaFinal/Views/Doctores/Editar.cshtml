@@ -1,0 +1,23 @@
+﻿@model Doctor
+
+<h1>Editar Doctor</h1>
+
+<p>
+    <a asp-controller="Doctores"
+       asp-action="Index"
+       class="btn btn-secondary">
+        Volver
+    </a>
+</p>
+
+<form method="post">
+    <input type="hidden" name="hospital_cod" value="@Model.Hospital_Cod" />
+    <input type="hidden" name="doctor_no" value="@Model.Doctor_No" />
+    <label>Doctor: </label>
+    <input type="text" name="apellido" value="@Model.Apellido" class="form-control" />
+    <input type="text" name="especialidad" value="@Model.Especialidad" class="form-control" />
+    <input type="text" name="salario" value="@Model.Salario" class="form-control" />
+    <button class="btn btn-warning">
+        Actualizar
+    </button>
+</form>

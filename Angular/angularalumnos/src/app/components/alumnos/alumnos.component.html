@@ -1,0 +1,35 @@
+<app-menu></app-menu>
+<div>
+    <h1>Alumnos</h1>
+    <button class="btn btn-primary" (click)="cerrarSesion()">Cerrar Sesión</button>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id Alumno</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Imagen</th>
+                <th>Activo</th>
+                <th>Id Curso</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let alumno of alumnos">
+                <td>{{ alumno.idAlumno }}</td>
+                <td>{{ alumno.nombre }}</td>
+                <td>{{ alumno.apellidos }}</td>
+                <td>
+                    <img [src]="alumno.imagen" style="width: 150px; height: 150px" />
+                </td>
+                <td>{{ alumno.activo }}</td>
+                <td>{{ alumno.idCurso }}</td>
+                <td>
+                    <button class="btn btn-info" [routerLink]="['/updatealumno', alumno.idAlumno]">Edit</button>
+                    <button class="btn btn-danger" [routerLink]="['/deletealumno', alumno.idAlumno]">Delete</button>
+                    <button class="btn btn-info" [routerLink]="['/updatestate', alumno.idAlumno, alumno.activo]">Edit state</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

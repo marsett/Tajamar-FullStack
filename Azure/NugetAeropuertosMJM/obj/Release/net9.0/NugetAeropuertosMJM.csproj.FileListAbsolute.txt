@@ -1,0 +1,12 @@
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\bin\Release\net9.0\NugetAeropuertosMJM.deps.json
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\bin\Release\net9.0\NugetAeropuertosMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\bin\Release\net9.0\NugetAeropuertosMJM.pdb
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\obj\Release\net9.0\NugetAeropuertosMJM.csproj.AssemblyReference.cache
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\obj\Release\net9.0\NugetAeropuertosMJM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\obj\Release\net9.0\NugetAeropuertosMJM.AssemblyInfoInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\obj\Release\net9.0\NugetAeropuertosMJM.AssemblyInfo.cs
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\obj\Release\net9.0\NugetAeropuertosMJM.csproj.CoreCompileInputs.cache
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\obj\Release\net9.0\NugetAeropuertosMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\obj\Release\net9.0\refint\NugetAeropuertosMJM.dll
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\obj\Release\net9.0\NugetAeropuertosMJM.pdb
+C:\Users\mvrset\source\repos\marsett\NugetAeropuertosMJM\obj\Release\net9.0\ref\NugetAeropuertosMJM.dll

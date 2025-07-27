@@ -1,0 +1,29 @@
+﻿@model List<VistaCompra>
+
+<h1>Compras del Usuario</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre Cubo</th>
+            <th>Modelo</th>
+            <th>Marca</th>
+            <th>Fecha Compra</th>
+            <th>Precio</th>
+            <th>PrecioFinal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (VistaCompra compra in Model)
+        {
+            <tr>
+                <td>@compra.NombreCubo</td>
+                <td><img class="w-25" src="@compra.Imagen" />@compra.Modelo</td>
+                <td>@compra.Marca</td>
+                <td>@compra.FechaCompra</td>
+                <td>@compra.Precio</td>
+                <td>@compra.PrecioFinal</td>
+            </tr>
+        }
+    </tbody>
+</table>

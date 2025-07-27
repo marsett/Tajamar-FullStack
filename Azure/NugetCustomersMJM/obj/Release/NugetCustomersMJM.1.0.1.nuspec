@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NugetCustomersMJM</id>
+    <version>1.0.1</version>
+    <title>Nuget NorthWind Customers Service JSON</title>
+    <authors>Mario Jiménez Marset</authors>
+    <icon>72.png</icon>
+    <description>El Nuget de Customers de Mario</description>
+    <tags>lluvia, clientes, norhwind, customers, lunes</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\mvrset\source\repos\marsett\NugetCustomersMJM\bin\Release\net9.0\NugetCustomersMJM.dll" target="lib\net9.0\NugetCustomersMJM.dll" />
+    <file src="C:\Users\mvrset\Pictures\Fondos\72.png" target="\72.png" />
+  </files>
+</package>
