@@ -1,6 +1,6 @@
 # Tajamar-FullStack - Portafolio Completo de Desarrollo
 
-## � Descripción
+## 🚀 Descripción
 
 Repositorio completo que documenta mi formación como Full Stack Developer en Tajamar Tech. Contiene más de 50 proyectos desarrollados en múltiples tecnologías: Angular, React, Vue.js, ASP.NET Core, AWS, Azure y Power Platform. Desde aplicaciones CRUD básicas hasta sistemas complejos con autenticación, APIs en la nube y arquitecturas serverless.
 
@@ -47,9 +47,9 @@ Desarrollo de interfaces modernas con Angular, React y Vue.js. Implementación d
 APIs RESTful con .NET Core MVC, Entity Framework para persistencia de datos, implementación de seguridad, autenticación JWT y arquitecturas escalables.
 
 ### ☁️ Cloud Computing
-Desarrollo serverless con AWS Lambda, gestión de servicios en Azure, integración de APIs cloud, y implementación de soluciones escalables en la nube.
+Desarrollo serverless con AWS Lambda, gestión de servicios en Azure, integración de APIs cloud, e implementación de soluciones escalables en la nube.
 
-### � Security & Authentication
+### 🔐 Security & Authentication
 Sistemas de autenticación personalizados, protección CSRF, criptografía, gestión de secretos y buenas prácticas de seguridad web.
 
 ## 🏗️ Estructura del Repositorio
@@ -99,7 +99,7 @@ Los proyectos incluyen integración con múltiples servicios y APIs:
 - 🔄 **API Integration** - Consumo y desarrollo de servicios web
 - 🗄️ **Database Management** - Diseño y optimización de bases de datos
 
-## � Evolución del Aprendizaje
+## 🔄 Evolución del Aprendizaje
 
 **Fundamentos** → **Frameworks** → **Cloud** → **Proyectos Complejos**
 
@@ -112,6 +112,11 @@ Los proyectos incluyen integración con múltiples servicios y APIs:
 ## 🎯 Autor
 
 **Mario Jiménez Marset**
-- 💼 **[Email](jimenezmarset@gmail.com)**
-- 💼 **[LinkedIn](www.linkedin.com/in/mario-jimenez-marset)**
+- 📧 **Email:** [jimenezmarset@gmail.com](mailto:jimenezmarset@gmail.com)
+- 💼 **LinkedIn:** [mario-jimenez-marset](https://www.linkedin.com/in/mario-jimenez-marset)
+
 ---
+
+## 📄 Licencia
+
+Este proyecto está disponible únicamente para visualización y evaluación profesional. Ver el archivo [LICENSE](LICENSE) para más detalles sobre términos de uso y restricciones.
