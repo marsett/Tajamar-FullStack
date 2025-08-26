@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+    <!-- Incluye el script para manejar los modos de color -->
+    <script src="js/color-modes.js"></script>
+
+    <!-- Establece el conjunto de caracteres y la información de la página -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mario Jiménez Marset">
+    <title>Crear Libros</title>
+
+    <!-- Enlaces a las hojas de estilo CSS de Bootstrap y personalizados -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="theme-color" content="#712cf9">
+
+    <!-- Hojas de estilo para la barra de navegación y SweetAlert2 -->
+    <link href="css/navbar-fixed.css" rel="stylesheet">
+    <link href="css/sweetalert2.min.css" rel="stylesheet">
+
+    <!-- Inclusión de bibliotecas JavaScript -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <!-- Barra de navegación superior -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <!-- Enlace a la página principal que muestra un mensaje de bienvenida al hacer clic -->
+            <a class="navbar-brand" href="#" onclick="mostrarMensajeBienvenida()">Biblioteca API Localhost</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="iniciobiblioteca.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="crearlibro.html">Nuevo libro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal de la página -->
+    <main class="container mt-5">
+        <div class="bg-light rounded">
+            <h1 class="fw-bold">Crear Libro</h1>
+            <!-- Campos para ingresar los datos del libro -->
+            <label>Título</label>
+            <input type="text" id="cajatitulo" class="form-control">
+            <label>Autor</label>
+            <input type="text" id="cajaautor" class="form-control">
+            <label>Año de publicación</label>
+            <input type="text" id="cajaanopublicacion" class="form-control">
+            <label>Género</label>
+            <input type="text" id="cajagenero" class="form-control"><br />
+            <!-- Botón para insertar el libro -->
+            <button id="botoninsert" class="btn btn-danger">Insertar libro</button>
+        </div>
+    </main>
+
+    <script>
+        let urlLocalhost = "https://localhost:44372/";
+
+        // Cuando el documento está listo, se asigna un evento click al botón de insertar
+        $(document).ready(function () {
+            $('#botoninsert').click(function () {
+                crearLibro(); // Llama a la función para crear un libro
+            });
+        });
+
+        // Función para crear un nuevo libro
+        function crearLibro() {
+            // Obtiene los valores de los campos de entrada
+            var titulo = $('#cajatitulo').val();
+            var autor = $('#cajaautor').val();
+            var anoPublicacion = $('#cajaanopublicacion').val();
+            var genero = $('#cajagenero').val();
+
+            // Valida que todos los campos estén llenos
+            if (!titulo || !autor || !anoPublicacion || !genero) {
+                Swal.fire({
+                    title: "Error",
+                    text: "Todos los campos son obligatorios.",
+                    icon: "error"
+                });
+                return; // Sale de la función si hay un error
+            }
+
+            // Valida que el año de publicación sea un número positivo
+            if (isNaN(anoPublicacion) || parseInt(anoPublicacion) <= 0) {
+                Swal.fire({
+                    title: "Error",
+                    text: "El año de publicación debe ser un número positivo.",
+                    icon: "error"
+                });
+                return; // Sale de la función si hay un error
+            }
+
+            // Realiza una solicitud a la API para crear el libro
+            $.ajax({
+                url: urlLocalhost + "api/Libros",
+                type: "GET", // Método HTTP para verificar la conexión
+                success: function (data) {
+                    // Crea un objeto nuevo libro con los datos ingresados
+                    let nuevoLibro = {
+                        titulo: titulo,
+                        autor: autor,
+                        anoPublicacion: parseInt(anoPublicacion),
+                        genero: genero
+                    };
+                    // Realiza la solicitud para insertar el libro
+                    $.ajax({
+                        url: urlLocalhost + "api/Libros",
+                        type: "POST", // Método HTTP para crear un nuevo libro
+                        contentType: "application/json", // Tipo de contenido que se envía
+                        data: JSON.stringify(nuevoLibro), // Convierte el objeto a JSON
+                        success: function () {
+                            // Muestra un mensaje de éxito si se crea el libro
+                            Swal.fire({
+                                title: "Libro creado",
+                                text: "El libro ha sido insertado correctamente.",
+                                icon: "success"
+                            });
+                            // Redirige a la página de inicio de la biblioteca
+                            window.location.href = "iniciobiblioteca.html";
+                        }
+                    });
+                }
+            });
+        }
+
+        // Función para mostrar un mensaje de bienvenida
+        function mostrarMensajeBienvenida() {
+            Swal.fire({
+                title: 'Bienvenido a la<br><b>Biblioteca API Localhost</b>',
+                html: 'Sigue estos pasos para usar el proyecto:<br>1. Visualiza la lista de libros.<br>2. Agrega un nuevo libro.<br>3. Edita o elimina libros existentes.',
+                icon: 'info',
+                confirmButtonText: 'Entendido'
+            });
+        }
+    </script>
+</body>
+
+</html>

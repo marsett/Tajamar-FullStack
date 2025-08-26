@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+    <!-- Incluye el script para manejar los modos de color -->
+    <script src="js/color-modes.js"></script>
+
+    <!-- Establece el conjunto de caracteres y la información de la página -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mario Jiménez Marset">
+    <title>CRUD Libros</title>
+
+    <!-- Enlaces a las hojas de estilo CSS de Bootstrap y personalizados -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="theme-color" content="#712cf9">
+
+    <!-- Hojas de estilo para la barra de navegación y SweetAlert2 -->
+    <link href="css/navbar-fixed.css" rel="stylesheet">
+    <link href="css/sweetalert2.min.css" rel="stylesheet">
+
+    <!-- Inclusión de bibliotecas JavaScript -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <!-- Barra de navegación superior -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <!-- Enlace a la página principal que muestra un mensaje de bienvenida al hacer clic -->
+            <a class="navbar-brand" href="#" onclick="mostrarMensajeBienvenida()">Biblioteca API Localhost</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="iniciobiblioteca.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="crearlibro.html">Nuevo libro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal de la página -->
+    <main class="container mt-5">
+        <div class="bg-light rounded">
+            <h1 class="fw-bold">CRUD Libros</h1>
+            <div class="table-responsive">
+                <!-- Tabla para mostrar la lista de libros -->
+                <table id="tablalibros" class="table table-hover table-striped table-bordered">
+                    <thead class="table-dark text-center">
+                        <tr>
+                            <th>Título</th>
+                            <th>Autor</th>
+                            <th>Año de publicación</th>
+                            <th>Género</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center"></tbody> <!-- El cuerpo de la tabla se llenará dinámicamente -->
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let urlLocalhost = "https://localhost:44372/";
+
+        // Cuando el documento está listo, se cargan los libros
+        $(document).ready(function () {
+            cargarLibros();
+        });
+
+        // Función para mostrar un mensaje de bienvenida
+        function mostrarMensajeBienvenida() {
+            Swal.fire({
+                title: 'Bienvenido a la<br><b>Biblioteca API Localhost</b>',
+                html: 'Sigue estos pasos para usar el proyecto:<br>1. Visualiza la lista de libros.<br>2. Agrega un nuevo libro.<br>3. Edita o elimina libros existentes.',
+                icon: 'info',
+                confirmButtonText: 'Entendido'
+            });
+        }
+
+        // Función para cargar la lista de libros desde la API
+        function cargarLibros() {
+            var request = "api/Libros";
+
+            $.ajax({
+                url: urlLocalhost + request, // URL de la API para obtener libros
+                type: "GET", // Método HTTP a usar
+                contentType: "application/json", // Tipo de contenido que se espera
+                success: function (data) {
+                    var html = ""; // Inicializa la variable HTML para almacenar los datos de los libros
+                    $.each(data, function (index, libro) {
+                        // Para cada libro, se crea una fila en la tabla
+                        html += "<tr>";
+                        html += "<td>" + libro.titulo + "</td>"; // Título del libro
+                        html += "<td>" + libro.autor + "</td>"; // Autor del libro
+                        html += "<td>" + libro.anoPublicacion + "</td>"; // Año de publicación
+                        html += "<td>" + libro.genero + "</td>"; // Género del libro
+                        html += "<td>"; // Comienza la columna de acciones
+                        html += "<div class='d-grid gap-2 d-md-flex justify-content-md-center'>";
+                        // Botón para editar el libro que redirige a la página de edición
+                        html += "<button class='btn btn-primary btn-sm me-2' onclick=\"window.location.href='editarlibro.html?id=" + libro.id + "'\">Editar</button>";
+                        // Botón para eliminar el libro
+                        html += "<button class='btn btn-danger btn-sm' onclick='borrarLibro(" + libro.id + ")'>Eliminar</button>";
+                        html += "</div>";
+                        html += "</td>";
+                        html += "</tr>";
+                    });
+                    $("#tablalibros tbody").html(html); // Inserta el HTML generado en el cuerpo de la tabla
+                }
+            });
+        }
+
+        // Función para eliminar un libro
+        function borrarLibro(id) {
+            // Muestra una alerta de confirmación antes de eliminar
+            Swal.fire({
+                title: "¿Estás seguro?",
+                html: "¡No podrás revertir esta acción!",
+                icon: "warning",
+                showCancelButton: true, // Muestra el botón de cancelar
+                confirmButtonColor: "#7066e0",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Sí",
+                cancelButtonText: "No"
+            }).then((result) => {
+                // Si el usuario confirma la eliminación
+                if (result.isConfirmed) {
+                    var requestDelete = "api/Libros/" + id; // Construye la URL para la eliminación
+                    $.ajax({
+                        url: urlLocalhost + requestDelete,
+                        type: "DELETE", // Método HTTP para eliminar
+                        success: function () {
+                            cargarLibros(); // Recarga la lista de libros después de eliminar
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
